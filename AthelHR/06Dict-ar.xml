@@ -1,0 +1,4856 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<corporate>
+  <AppSetting>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+
+    <strscreenName>شاشة إعدادات النظام</strscreenName>
+    <strscreenDataName>بيانات اعدادات النظام</strscreenDataName>
+
+    <strGeneralsettings>الاعدادات العامة</strGeneralsettings>
+    <strEmployeewhowillbenotified>الموظف الذى سيتلقى اخطار</strEmployeewhowillbenotified>
+    <strCalculationbyusinggrade>حساب باستخدام الدرجة</strCalculationbyusinggrade>
+    <strEmployeecontract>عقد الموظف</strEmployeecontract>
+
+    <strTransferrequesttonextmanagerafterdays>نقل الطلب إلى المدير التالي بعد (...) أيام</strTransferrequesttonextmanagerafterdays>
+    <strPutperioddays>ضع الفترة (بالايام)</strPutperioddays>
+    <strWorkinghoursperday>ساعات العمل يوميا</strWorkinghoursperday>
+    <strPutworkinghours>ضع ساعات العمل</strPutworkinghours>
+    <strApplypermissionsdiscount>تطبيق خصم الأذونات</strApplypermissionsdiscount>
+    <strApply>تطبيق</strApply>
+    <strPeriodtonotifybeforecontractfinishingbydays>فترة الإخطار قبل انتهاء العقد (بالأيام)</strPeriodtonotifybeforecontractfinishingbydays>
+    <strPutperioddays>ضع الفترة (بالايام)</strPutperioddays>
+    <strEnterpayday>أدخل يوم الدفع</strEnterpayday>
+    <strPutadayforpreparingofthepayroll>وضع يوم لإعداد الرواتب</strPutadayforpreparingofthepayroll>
+    <strEntertheallowedperiodforstoppingrequesteffects>أدخل الفترة المسموح بها لإيقاف تأثيرات الطلب</strEntertheallowedperiodforstoppingrequesteffects>
+    <strPuttheallowedperiodforstoppingrequesteffectsduesAnddeductions>وضع الفترة المسموح بها لوقف الآثار طلب (المستحقات وخصم)</strPuttheallowedperiodforstoppingrequesteffectsduesAnddeductions>
+
+    <strAbsencesettings>إعدادات الغياب</strAbsencesettings>
+    <strCalculatingabsencefrom>حساب الغياب من</strCalculatingabsencefrom>
+    <strDailyPackage>المستحقات اليومية</strDailyPackage>
+    <strChooseemploymentitems>اختيار بند وظيفي</strChooseemploymentitems>
+
+    <strDeductionsettings>إعدادات الخصم</strDeductionsettings>
+    <strCalculatingdeductionfrom>حساب الخصم من</strCalculatingdeductionfrom>
+
+
+    <strBorrowsettings>إعدادات السلفة</strBorrowsettings>
+    <strCalculatingborrowfrom>حساب السلفة من</strCalculatingborrowfrom>
+    <strMonthlyPackage>المستحقات الشهرية</strMonthlyPackage>
+
+    <strOvertimesettings>إعدادات الوقت الاضافي</strOvertimesettings>
+    <strCalculatingOvertimefrom>حساب الوقت الاضافي من</strCalculatingOvertimefrom>
+
+
+    <strVacationallowancesettings>إعدادات بدل الاجازات</strVacationallowancesettings>
+    <strCalculatingVacationallowancefrom>حساب بدل الاجازات من</strCalculatingVacationallowancefrom>
+
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+    <strUsetimetotransferrequest1>استخدام الوقت لنقل الطلب؟</strUsetimetotransferrequest1>
+    <strUsetimetotransferrequest2>استخدام الوقت لنقل الطلب</strUsetimetotransferrequest2>
+    <strHireItemId>معرف البند الوظيفي</strHireItemId>
+    <strHireItemName>اسم البند الوظيفي</strHireItemName>
+    <strChoose>اختر</strChoose>
+    <btnSave>حفظ</btnSave>
+
+  </AppSetting>
+
+  <Countries>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة البلدان</strscreenName>
+    <strscreenDataName>بيانات البلدان</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+    <strCountry>البلد</strCountry>
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+  </Countries>
+  <Cities>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة المدن</strscreenName>
+    <strscreenDataName>بيانات المدن</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+    <strCountry>المدينة</strCountry>
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+  </Cities>
+
+  <Religions>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة الديانات</strscreenName>
+    <strscreenDataName>بيانات الديانات</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+    <strCountry>العاصمة</strCountry>
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+  </Religions>
+
+  <Nationalities>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة الجنسيات</strscreenName>
+    <strscreenDataName>بيانات الجنسيات</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+  </Nationalities>
+  <Qualifications>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة المؤهلات</strscreenName>
+    <strscreenDataName>بيانات المؤهلات</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+
+  </Qualifications>
+  <GradeJobGroups>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+
+  </GradeJobGroups>
+  <Jobs>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة المؤهلات</strscreenName>
+    <strscreenDataName>بيانات المؤهلات</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+    <strjobGrade>درجة الوظيفة</strjobGrade>
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+
+
+
+  </Jobs>
+  <Grades>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة الدرجات الوظيفية</strscreenName>
+    <strscreenDataName>بيانات الدرجات الوظيفية</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+
+  </Grades>
+  <GradeHiringItem>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+
+    <strscreenName>الدرجات الوظيفية، شاشة المستحقات</strscreenName>
+    <strscreenDataName>الدرجات الوظيفية، بيانات المستحقات</strscreenDataName>
+
+    <strJobGrade>الدرجة الوظيفية</strJobGrade>
+    <strJobgradedetails>تفاصيل الدرجة الوظيفية</strJobgradedetails>
+    <strGrade>الدرجة</strGrade>
+    <strEmploymentitem>البند الوظيفي</strEmploymentitem>
+    <strCalculationmethod>طريقة الحساب</strCalculationmethod>
+    <strEmploymentitemvalue>قيمة البند الوظيفي</strEmploymentitemvalue>
+    <strFillinemploymentitemvalue>ادخل قيمة البند الوظيفي</strFillinemploymentitemvalue>
+    <strnextvaluesofallowancesandannualvacationarerelatedtojobgrade>يرجى ملاحظة أن القيم التالية للبدلات والإجازات السنوية تتعلق بالرتبة الوظيفية</strnextvaluesofallowancesandannualvacationarerelatedtojobgrade>
+    <strAllowancesdetails>تفاصيل البدلات</strAllowancesdetails>
+    <strEmploymentitem>البند الوظيفي</strEmploymentitem>
+    <strCalculationmethod>طريقة الحساب</strCalculationmethod>
+    <strPeriod>المدة</strPeriod>
+    <strMonthly>شهريا</strMonthly>
+    <strEmploymentitemvalue>قيمة البند الوظيفي</strEmploymentitemvalue>
+    <strFillinemploymentitemvalue>ادخل قيمة البند الوظيفي</strFillinemploymentitemvalue>
+    <strAnnualvacationdetails>تفاصيل العطلة السنوية</strAnnualvacationdetails>
+    <strAnnualvactionperiod>مدة العطلة السنوية</strAnnualvactionperiod>
+    <strFillinannualvactionperiod>ادخل مدة العطلة السنوية</strFillinannualvactionperiod>
+    <strVacationtravelticketclass>درجة تذكرة سفر العطلة السنوية</strVacationtravelticketclass>
+    <strInternalworktravelticketclass>درجة تذكرة سفر العمل الداخلي</strInternalworktravelticketclass>
+    <strExternalworktravelticketclass>درجة تذكرة سفر العمل الخارجي</strExternalworktravelticketclass>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strAddRow>اضافة صف</strAddRow>
+    <strBtnUpdate>تحديث</strBtnUpdate>
+    <strBtnDelete>حذف</strBtnDelete>
+    <strbtnSave>حفظ</strbtnSave>
+
+  </GradeHiringItem>
+  <Currencies>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة العملات</strscreenName>
+    <strscreenDataName>بيانات العملات</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+
+  </Currencies>
+  <Banks>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة البنوك</strscreenName>
+    <strscreenDataName>بيانات البنوك</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+    <strAddress>العنوان</strAddress>
+    <strSpanPopAddress>من فضلك أدخل العنوان</strSpanPopAddress>
+    <strCurrency>العملة</strCurrency>
+    <strCountry>العاصمة</strCountry>
+    <strCity>المدينة</strCity>
+    <strPhone1>هاتف 1</strPhone1>
+    <strSpanPopPhone1>من فضلك ادخل رقم الهاتف 1</strSpanPopPhone1>
+    <strPhone2>هاتف 2</strPhone2>
+    <strSpanPopPhone2>من فضلك ادخل رقم الهاتف 2</strSpanPopPhone2>
+    <strSwiftCode>كود الإيبان</strSwiftCode>
+    <strSpanPopSwiftCode>من فضلك أخل كود الإيبان</strSpanPopSwiftCode>
+    <strMobile1>جوال 1</strMobile1>
+    <strSpanPopMobile1>من فضلك أدخل رقم الجوال 1</strSpanPopMobile1>
+    <strMobile2>جوال 2 </strMobile2>
+    <strSpanPopMobile2>من فضلك أدخل رقم الجوال 2</strSpanPopMobile2>
+    <strFax>الفاكس</strFax>
+    <strSpanPopFax>من فضلك أدخل رقم الفاكس </strSpanPopFax>
+
+  </Banks>
+  <DocumentTypes>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة انواع الوثائق</strscreenName>
+    <strscreenDataName>بيانات انواع الوثائق</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+  </DocumentTypes>
+  <ExperienceCategories>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة فئات الخبرات</strscreenName>
+    <strscreenDataName>بيانات فئات الخبرات</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+  </ExperienceCategories>
+  <Experiences>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة الدرجات الوظيفية</strscreenName>
+    <strscreenDataName>بيانات الدرجات الوظيفية</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+    <strExperiencesCategory>فئة الخبرة</strExperiencesCategory>
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+
+  </Experiences>
+  <RewardReasons>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة أسباب المكافأة</strscreenName>
+    <strscreenDataName>بيانات أسباب المكافأة</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+  </RewardReasons>
+
+  <DisciplinaryProcedures>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة الإجراءات التأديبية</strscreenName>
+    <strscreenDataName>بيانات الإجراءات التأديبية</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+
+  </DisciplinaryProcedures>
+  <DismissalReasons>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة أسباب الإقالة</strscreenName>
+    <strscreenDataName>بيانات أسباب الإقالة</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+  </DismissalReasons>
+  <DeductionReasons>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة أسباب الخصم</strscreenName>
+    <strscreenDataName>بيانات أسباب الخصم</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+  </DeductionReasons>
+
+  <AlternativeEmployeesTrans>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>اغلاق</strbtnClose>
+
+    <strscreenName>شاشة الموظف البديل</strscreenName>
+    <strscreenDataName>بيانات الموظف البديل</strscreenDataName>
+
+    <strAlternativeemployeescreen>شاشة الموظف البديل</strAlternativeemployeescreen>
+    <strAlternativeemployeedata>بيانات الموظف البديل</strAlternativeemployeedata>
+    <strAssignauthorizedemployee>تحديد موظف بديل</strAssignauthorizedemployee>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strAuthorizedemployee>الموظف البديل</strAuthorizedemployee>
+
+
+    <strAssign>تحديد</strAssign>
+    <strBtnUpdate>تحديث</strBtnUpdate>
+    <strBtnSave>حفظ</strBtnSave>
+
+
+
+  </AlternativeEmployeesTrans>
+  <Companies>
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة  الشركات</strscreenName>
+    <strscreenDataName>بيانات  الشركات</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+    <strArabicField>مجال الشركة</strArabicField>
+    <strEngField>مجال الشركة بالانجليزى</strEngField>
+    <strResponsPerson>الشخص المسئول</strResponsPerson>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+    <strSpanPopArabicField>من فضلك أدخل مجال الشركة</strSpanPopArabicField>
+    <strSpanPopEngField>من فضلك ادخل مجال الشركة بالانجليزى</strSpanPopEngField>
+    <strCompanyLogo>لوجو الشركة</strCompanyLogo>
+
+  </Companies>
+  <Branches>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة  الفروع </strscreenName>
+    <strscreenDataName>بيانات  الفروع</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+    <strCompanyname>الشركة</strCompanyname>
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+    <strCompany>الشركة</strCompany>
+    <strCurrency>العملة</strCurrency>
+    <strResponsible>اسم المسئول</strResponsible>
+    <strStreetName>اسم الشارع</strStreetName>
+    <strSpanPopStreetName>من فضلك ادخل اسم الشارع</strSpanPopStreetName>
+    <strBuildingNo>رقم البناية</strBuildingNo>
+    <strSpanPopBuildingNo>من فضلك ادخل رقم البناية</strSpanPopBuildingNo>
+    <strPoBox>رقم صندوق البريد</strPoBox>
+    <strSpanPopPoBox>من فضلك ادخل رقم صندوق البريد</strSpanPopPoBox>
+    <strPostalCode>الرمز البريدي</strPostalCode>
+    <strSpanPopPostalCode>من فضلك ادخل الرمز البريدي</strSpanPopPostalCode>
+    <strFax>رقم الفاكس</strFax>
+    <strSpanPopFax>من فضلك ادخل رقم الفاكس</strSpanPopFax>
+    <strEmail>الايميل</strEmail>
+    <strSpanPopEmail>من فضلك ادخل الايميل</strSpanPopEmail>
+    <strPhone1>رقم التليفون1</strPhone1>
+    <strSpanPopPhone1>من فضلك ادخل رقم التليفون1</strSpanPopPhone1>
+    <strPhone2>رقم التليفون2</strPhone2>
+    <strSpanPopPhone2>من فضلك ادخل رقم التليفون2</strSpanPopPhone2>
+    <strPhone3>رقم التليفون3</strPhone3>
+    <strSpanPopPhone3>من فضلك ادخل رقم التليفون3</strSpanPopPhone3>
+    <strExtensTel1>امتداد التليفون1</strExtensTel1>
+    <strSpanPopExtensTel1>من فضلك ادخل امتداد التليفون1</strSpanPopExtensTel1>
+    <strExtensTel2>امتداد التليفون2</strExtensTel2>
+    <strSpanPopExtensTel2>من فضلك ادخل امتداد التيلفون2</strSpanPopExtensTel2>
+    <strExtensTel3>امتداد التليفون3</strExtensTel3>
+    <strSpanPopExtensTel3>من فضلك ادخل امتداد التيلفون3</strSpanPopExtensTel3>
+
+
+
+  </Branches>
+  <BranchAccounts>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>اغلاق</strbtnClose>
+
+    <strscreenName>شاشة الحسابات البنكية للفروع</strscreenName>
+    <strscreenDataName>بيانات الحسابات البنكية للفروع</strscreenDataName>
+
+    <strCompanyname>اسم الشركة</strCompanyname>
+    <strBranchname>اسم الفرع</strBranchname>
+    <strDetailsofbankaccounts>تفاصيل الحسابات المصرفية</strDetailsofbankaccounts>
+    <strBankname>اسم البنك</strBankname>
+    <strAccounttype>نوع الحساب</strAccounttype>
+    <strAccountno.>رقم الحساب</strAccountno.>
+
+
+  </BranchAccounts>
+  <Administrations>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة  الإدارات</strscreenName>
+    <strscreenDataName>بيانات  الإدارات</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+    <strIsParent>رئيسى</strIsParent>
+    <strHasParent>لديه اداراة رئيسية</strHasParent>
+    <strParentAdmin>الاداراة الرئيسية</strParentAdmin>
+    
+
+  </Administrations>
+  <Departments>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة  الأقسام</strscreenName>
+    <strscreenDataName>بيانات  الأقسام</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+    <strAdministration>الإداراة</strAdministration>
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+  </Departments>
+  <Projects>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة  المشاريع</strscreenName>
+    <strscreenDataName>بيانات  المشاريع</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+  </Projects>
+  <AddEmployees>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اضافة معلومات موظف</strscreenName>
+    <strscreenDataName>بيانات اضافة معلومات موظف</strscreenDataName>
+
+    <strEmployeeserialno>الرقم التسلسلي للموظف</strEmployeeserialno>
+    <strEmployeeCode>رمز الموظف</strEmployeeCode>
+    <strArabicfirstname>الاسم الاول باللغة العربية</strArabicfirstname>
+    <strArabicfathername>اسم الاب باللغة العربية</strArabicfathername>
+    <strArabicgrandfathername>اسم الجد باللغة العربية</strArabicgrandfathername>
+    <strArabicfamilynam>اسم العائلة باللغة العربية</strArabicfamilynam>
+    <strEnglishfirstname>الاسم الاول باللغة الانجليزية</strEnglishfirstname>
+    <strEnglishfathername>اسم الاب باللغة الانجليزية</strEnglishfathername>
+    <strEnglishgrandfathername>اسم الجد باللغة الانجليزية</strEnglishgrandfathername>
+    <strEnglishfamilynam>اسم العائلة باللغة الانجليزية</strEnglishfamilynam>
+    <strBirthdate>تاريخ الميلاد</strBirthdate>
+    <strHiringdate>تاريخ التوظيف</strHiringdate>
+    <strBirthplace>مكان الميلاد</strBirthplace>
+    <strMaritalstatus>الحالة الاجتماعية</strMaritalstatus>
+    <strMilitarystatus>الموقف من التجنيد</strMilitarystatus>
+    <strGender>الجنس</strGender>
+    <strReligion>الديانة</strReligion>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strNationality>الجنسية</strNationality>
+    <strProject>المشروع</strProject>
+    <strContracttype>نوع العقد</strContracttype>
+    <strAdministration>الادارة</strAdministration>
+    <strDepartment>القسم</strDepartment>
+    <strShift>المناوبة</strShift>
+    <strClassificationofcontract>تصنيف العقد</strClassificationofcontract>
+    <strHasmanager>لديه مدير؟</strHasmanager>
+    <strManager>مدير الموظف</strManager>
+    <strIsmanager>هل هو مدير؟</strIsmanager>
+    <strIscommissioner>يعمل بالعمولة؟</strIscommissioner>
+    <strNeedsamandate>يحتاج مفوض؟</strNeedsamandate>
+    <strCommissioner>يعمل بالعمولة؟</strCommissioner>
+
+    <strEmployeephoto>صورة الموظف</strEmployeephoto>
+    <strEmployeedata>بيانات الموظف</strEmployeedata>
+    <strEmployeeNationality>جنسية الموظف</strEmployeeNationality>
+    <strIdentityno>رقم تحقيق الشخصية</strIdentityno>
+    <strPassportno>رقم جواز السفر</strPassportno>
+    <strMedicalinsurance>التأمين الطبي</strMedicalinsurance>
+    <strHasmedicalinsurance>لديه تأمين طبي؟</strHasmedicalinsurance>
+    <strMedicalInsuranceno>رقم التأمين الطبي</strMedicalInsuranceno>
+    <strSocialinsuranceno>رقم التأمين الاجتماعي</strSocialinsuranceno>
+    <strEmployeestatus>حالة الموظف</strEmployeestatus>
+    <strPrivilege>امتيازات</strPrivilege>
+    <strHasfingerprint>لديه بصمة</strHasfingerprint>
+    <strHasabsence>لديه غياب</strHasabsence>
+    <strHasovertime>لديه وقت اضافى</strHasovertime>
+    <strHasdelay>لديه تأخير</strHasdelay>
+    <strHaspermission>لديه اذن</strHaspermission>
+    <strNotes>ملاحظات</strNotes>
+
+    <strContractstartdate>تاريخ بداية العقد</strContractstartdate>
+    <strContractenddate>تاريخ نهاية العقد</strContractenddate>
+    <strDurationofcontract>مدة العقد (بالشهر)</strDurationofcontract>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strJobgrade>الدرجة الوظيفية</strJobgrade>
+    <strGrade>الدرجة</strGrade>
+    <strJob>الوظيفة</strJob>
+    <strJobtitle>المسمى الوظيفي</strJobtitle>
+    <strContractitemsdetails>تفاصيل بنود العقد</strContractitemsdetails>
+    <strEmploymentitem>البند الوظيفي</strEmploymentitem>
+    <strCalculationmethod>طريقة الحساب</strCalculationmethod>
+    <strEmploymentitemvalue>قيمة البند الوظيفي</strEmploymentitemvalue>
+    <strAnnualvacationvaluesarerelatedtojobgrade>قيم الاجازة السنوية ترتبط بالدرجة الوظيفية</strAnnualvacationvaluesarerelatedtojobgrade>
+    <strAnnualvacationdetails>تفاصيل الاجازة السنوية</strAnnualvacationdetails>
+    <strAnnualvacationperiod>مدة الاجازة السنوية (باليوم)</strAnnualvacationperiod>
+    <strTickettype>	</strTickettype>
+    <strInternalworktraveltickettype>نوع تذكرة سفر العمل الداخلي</strInternalworktraveltickettype>
+    <strExternalworktraveltickettype>نوع تذكرة سفر العمل الخارجي</strExternalworktraveltickettype>
+
+    <strSaudilandlinephone>رقم ارضي داخل السعودية</strSaudilandlinephone>
+    <strSaudimobilephone1>جوال الموظف داخل السعودية1</strSaudimobilephone1>
+    <strSaudimobilephone2>جوال الموظف داخل السعودية2</strSaudimobilephone2>
+    <strForeignlandlinephone>رقم ارضي خارج السعودية</strForeignlandlinephone>
+    <strForeignmobilephone1>جوال الموظف خارج السعودية1</strForeignmobilephone1>
+    <strForeignmobilephone2>جوال الموظف خارج السعودية2</strForeignmobilephone2>
+    <strFax>رقم الفاكس</strFax>
+    <strBusinesse-mail>البريد الالكتروني للعمل</strBusinesse-mail>
+    <strPersonale-mail>البريد الالكتروني الشخصي</strPersonale-mail>
+    <strSaudiaddress1>عنوان الموظف داخل السعودية1</strSaudiaddress1>
+    <strSaudiaddress2>عنوان الموظف داخل السعودية2</strSaudiaddress2>
+    <strForeignaddress1>عنوان الموظف خارج السعودية1</strForeignaddress1>
+    <strForeignaddress2>عنوان الموظف خارج السعودية2</strForeignaddress2>
+    <strBankname1>اسم البنك1</strBankname1>
+    <strBankname2>اسم البنك2</strBankname2>
+    <strAccountbankno1>رقم الحساب البنكي1</strAccountbankno1>
+    <strAccountbankno2>رقم الحساب البنكي2</strAccountbankno2>
+    <strIBANno1>رقم الايبان1</strIBANno1>
+    <strIBANno2>رقم الايبان2</strIBANno2>
+    <strBacktohome>العودة الى الرئيسية</strBacktohome>
+
+
+    
+    <strgeneralTab>عام</strgeneralTab>
+    <strIdTab>بيانات شخصية</strIdTab>
+    <strContractTab>تفاصيل العقد</strContractTab>
+    <strContactTab>تفاصيل الاتصال</strContactTab>
+
+    <strEmployeeserialnofollow>من فضلك ادخل Serial رقم</strEmployeeserialnofollow>
+    <strEmployeeCodefollow>من فضلك ادخل كود الموظف</strEmployeeCodefollow>
+    <strArabicfirstnamefollow>من فضلك ادخل الاسم الاول باللغة العربية</strArabicfirstnamefollow>
+    <strArabicfathernamefollow>من فضلك ادخل اسم الاب باللغة العربية</strArabicfathernamefollow>
+    <strArabicgrandfathernamefollow>من فضلك ادخل اسم الجد باللغة العربية</strArabicgrandfathernamefollow>
+    <strArabicfamilynamfollow>من فضلك ادخل اسم العائلة باللغة العربية</strArabicfamilynamfollow>
+    <strEnglishfirstnamefollow>من فضلك ادخل الاسم الاول باللغة الانجليزية</strEnglishfirstnamefollow>
+    <strEnglishfathernamefollow>من فضلك ادخل اسم الاب باللغة الانجليزية</strEnglishfathernamefollow>
+    <strEnglishgrandfathernamefollow>من فضلك ادخل اسم الجد باللغة الانجليزية</strEnglishgrandfathernamefollow>
+    <strEnglishfamilynamfollow>من فضلك ادخل اسم العائلة باللغة الانجليزية</strEnglishfamilynamfollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBirthdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strBirthdatefollow>
+    <strHiringdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strHiringdatefollow>
+    <strSaudilandlinephonefollow>من فضلك ادخل رقم ارضي داخل السعودية</strSaudilandlinephonefollow>
+    <strSaudimobilephone1follow>من فضلك ادخل جوال الموظف داخل السعودية1</strSaudimobilephone1follow>
+    <strSaudimobilephone2follow>من فضلك ادخل جوال الموظف داخل السعودية2</strSaudimobilephone2follow>
+    <strForeignlandlinephonefollow>من فضلك ادخل رقم ارضي خارج السعودية</strForeignlandlinephonefollow>
+    <strForeignmobilephone1follow>من فضلك ادخل جوال الموظف خارج السعودية1</strForeignmobilephone1follow>
+    <strForeignmobilephone2follow>من فضلك ادخل جوال الموظف خارج السعودية2</strForeignmobilephone2follow>
+    <strFaxfollow>من فضلك ادخل رقم الفاكس</strFaxfollow>
+    <strBusinesse-mailfollow>من فضلك ادخل البريد الالكتروني للعمل</strBusinesse-mailfollow>
+    <strPersonale-mailfollow>من فضلك ادخل البريد الالكتروني الشخصي</strPersonale-mailfollow>
+    <strSaudiaddress1follow>من فضلك ادخل عنوان الموظف داخل السعودية1</strSaudiaddress1follow>
+    <strSaudiaddress2follow>من فضلك ادخل عنوان الموظف داخل السعودية2</strSaudiaddress2follow>
+    <strForeignaddress1follow>من فضلك ادخل عنوان الموظف خارج السعودية1</strForeignaddress1follow>
+    <strForeignaddress2follow>من فضلك ادخل عنوان الموظف خارج السعودية2</strForeignaddress2follow>
+    <strAccountbankno1follow>من فضلك ادخل الحساب البنكي رقم 1</strAccountbankno1follow>
+    <strIBANno1follow>من فضلك ادخل ايبان رقم 1</strIBANno1follow>
+    <strIBANno1confirm>تأكيد ايبان رقم 1</strIBANno1confirm>
+    <strIBANno1confirmfollow>من فضلك ادخل ايبان No1</strIBANno1confirmfollow>
+    <strAccountbankno2follow>من فضلك ادخل الحساب البنكي رقم 2</strAccountbankno2follow>
+    <strIBANno2follow>من فضلك ادخل ايبان رقم 2</strIBANno2follow>
+    <strIBANno2confirm>تأكيد ايبان رقم 2</strIBANno2confirm>
+    <strIBANno2confirmfollow>من فضلك ادخل ايبان رقم 2</strIBANno2confirmfollow>
+    <strIdentitynofollow>من فضلك ادخل رقم تحقيق الشخصية</strIdentitynofollow>
+    <strPassportnofollow>من فضلك ادخل رقم جواز السفر</strPassportnofollow>
+    <strMedicalInsurancenofollow>من فضلك ادخل التأمين الطبي رقم</strMedicalInsurancenofollow>
+    <strSocialinsurancenofollow>من فضلك ادخل التأمين الاجتماعي رقم</strSocialinsurancenofollow>
+    <strNotesfollow>من فضلك ادخل الملاحظات</strNotesfollow>
+    <strContractstartdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strContractstartdatefollow>
+    <strContractenddatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strContractenddatefollow>
+    <strDurationofcontractfollow>من فضلك ادخل المدة شهرياً</strDurationofcontractfollow>
+    <strEmploymentitemvaluefollow>ادخل قيمة البند الوظيفي</strEmploymentitemvaluefollow>
+    <strAddrow>اضف حقل</strAddrow>
+    <strbtnUpdate>تحديث</strbtnUpdate>
+    <strbtnDel>حذف</strbtnDel>
+    <strAnnualvacationperiodfollow>ادخل مدة العطلة السنوية</strAnnualvacationperiodfollow>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+
+
+
+  </AddEmployees>
+  <UpdateEmployees>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة تحديث معلومات الموظف</strscreenName>
+    <strscreenDataName>بيانات تحديث معلومات الموظف</strscreenDataName>
+
+    <strEmployeeserialno>الرقم التسلسلي للموظف</strEmployeeserialno>
+    <strEmployeeCode>رمز الموظف</strEmployeeCode>
+    <strArabicfirstname>الاسم الاول باللغة العربية</strArabicfirstname>
+    <strArabicfathername>اسم الاب باللغة العربية</strArabicfathername>
+    <strArabicgrandfathername>اسم الجد باللغة العربية</strArabicgrandfathername>
+    <strArabicfamilynam>اسم العائلة باللغة العربية</strArabicfamilynam>
+    <strEnglishfirstname>الاسم الاول باللغة الانجليزية</strEnglishfirstname>
+    <strEnglishfathername>اسم الاب باللغة الانجليزية</strEnglishfathername>
+    <strEnglishgrandfathername>اسم الجد باللغة الانجليزية</strEnglishgrandfathername>
+    <strEnglishfamilynam>اسم العائلة باللغة الانجليزية</strEnglishfamilynam>
+    <strBirthdate>تاريخ الميلاد</strBirthdate>
+    <strHiringdate>تاريخ التوظيف</strHiringdate>
+    <strBirthplace>مكان الميلاد</strBirthplace>
+    <strMaritalstatus>الحالة الاجتماعية</strMaritalstatus>
+    <strMilitarystatus>الموقف من التجنيد</strMilitarystatus>
+    <strGender>الجنس</strGender>
+    <strReligion>الديانة</strReligion>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strNationality>الجنسية</strNationality>
+    <strProject>المشروع</strProject>
+    <strContracttype>نوع العقد</strContracttype>
+    <strAdministration>الادارة</strAdministration>
+    <strDepartment>القسم</strDepartment>
+    <strShift>المناوبة</strShift>
+    <strClassificationofcontract>تصنيف العقد</strClassificationofcontract>
+    <strHasmanager>لديه مدير؟</strHasmanager>
+    <strManager>مدير الموظف</strManager>
+    <strIsmanager>هل هو مدير؟</strIsmanager>
+    <strIscommissioner>يعمل بالعمولة؟</strIscommissioner>
+    <strNeedsamandate>يحتاج مفوض؟</strNeedsamandate>
+    <strCommissioner>يعمل بالعمولة</strCommissioner>
+
+    <strEmployeephoto>صورة الموظف</strEmployeephoto>
+    <strEmployeedata>بيانات الموظف</strEmployeedata>
+    <strEmployeeNationality>جنسية الموظف</strEmployeeNationality>
+    <strIdentityno>رقم تحقيق الشخصية</strIdentityno>
+    <strPassportno>رقم جواز السفر</strPassportno>
+    <strMedicalinsurance>التأمين الطبي</strMedicalinsurance>
+    <strHasmedicalinsurance>لديه تأمين طبي؟</strHasmedicalinsurance>
+    <strMedicalInsuranceno>رقم التأمين الطبي</strMedicalInsuranceno>
+    <strSocialinsuranceno>رقم التأمين الاجتماعي</strSocialinsuranceno>
+    <strEmployeestatus>حالة الموظف</strEmployeestatus>
+    <strPrivilege>امتيازات</strPrivilege>
+    <strHasfingerprint>لديه بصمة</strHasfingerprint>
+    <strHasabsence>لديه غياب</strHasabsence>
+    <strHasovertime>لديه وقت اضافى</strHasovertime>
+    <strHasdelay>لديه تأخير</strHasdelay>
+    <strHaspermission>لديه اذن</strHaspermission>
+    <strNotes>ملاحظات</strNotes>
+
+    <strContractstartdate>تاريخ بداية العقد</strContractstartdate>
+    <strContractenddate>تاريخ نهاية العقد</strContractenddate>
+    <strDurationofcontract>مدة العقد (بالشهر)</strDurationofcontract>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strJobgrade>Job grade</strJobgrade>
+    <strGrade>Grade</strGrade>
+    <strJob>Job</strJob>
+    <strJobtitle>المسمى الوظيفي</strJobtitle>
+    <strContractitemsdetails>تفاصيل بنود العقد</strContractitemsdetails>
+    <strEmploymentitem>البند الوظيفي</strEmploymentitem>
+    <strCalculationmethod>طريقة الحساب</strCalculationmethod>
+    <strEmploymentitemvalue>قيمة البند الوظيفي</strEmploymentitemvalue>
+    <strAnnualvacationvaluesarerelatedtojobgrade>قيم الاجازة السنوية ترتبط بالدرجة الوظيفية</strAnnualvacationvaluesarerelatedtojobgrade>
+    <strAnnualvacationdetails>تفاصيل الاجازة السنوية</strAnnualvacationdetails>
+    <strAnnualvacationperiod>مدة الاجازة السنوية (باليوم)</strAnnualvacationperiod>
+    <strTickettype>نوع تذكرة السفر</strTickettype>
+    <strInternalworktraveltickettype>نوع تذكرة سفر العمل الداخلي</strInternalworktraveltickettype>
+    <strExternalworktraveltickettype>نوع تذكرة سفر العمل الخارجي</strExternalworktraveltickettype>
+
+    <strSaudilandlinephone>رقم ارضي داخل السعودية</strSaudilandlinephone>
+    <strSaudimobilephone1>جوال الموظف داخل السعودية1</strSaudimobilephone1>
+    <strSaudimobilephone2>جوال الموظف داخل السعودية2</strSaudimobilephone2>
+    <strForeignlandlinephone>رقم ارضي خارج السعودية</strForeignlandlinephone>
+    <strForeignmobilephone1>جوال الموظف خارج السعودية1</strForeignmobilephone1>
+    <strForeignmobilephone2>جوال الموظف خارج السعودية2</strForeignmobilephone2>
+    <strFax>رقم الفاكس</strFax>
+    <strBusinesse-mail>البريد الالكتروني للعمل</strBusinesse-mail>
+    <strPersonale-mail>البريد الالكتروني الشخصي</strPersonale-mail>
+    <strSaudiaddress1>عنوان الموظف داخل السعودية1</strSaudiaddress1>
+    <strSaudiaddress2>عنوان الموظف داخل السعودية2</strSaudiaddress2>
+    <strForeignaddress1>عنوان الموظف خارج السعودية1</strForeignaddress1>
+    <strForeignaddress2>عنوان الموظف خارج السعودية1</strForeignaddress2>
+    <strBankname1>اسم البنك1</strBankname1>
+    <strBankname2>اسم البنك2</strBankname2>
+    <strAccountbankno1>رقم الحساب البنكي1</strAccountbankno1>
+    <strAccountbankno2>رقم الحساب البنكي2</strAccountbankno2>
+    <strIBANno1>رقم الايبان1</strIBANno1>
+    <strIBANno2>رقم الايبان2</strIBANno2>
+    <strBacktohome>العودة الى الرئيسية</strBacktohome>
+
+
+
+    <strgeneralTab>البيانات الاساسية</strgeneralTab>
+    <strIdTab>بيانات تحقيق الشخصية</strIdTab>
+    <strContractTab>تفاصيل العقد</strContractTab>
+    <strContactTab>تفاصيل الاتصال</strContactTab>
+
+    <strEmployeeserialnofollow>من فضلك ادخل الرقم التسلسلي للموظف</strEmployeeserialnofollow>
+    <strEmployeeCodefollow>من فضلك ادخل كود الموظف</strEmployeeCodefollow>
+    <strArabicfirstnamefollow>من فضلك ادخل الاسم الاول باللغة العربية</strArabicfirstnamefollow>
+    <strArabicfathernamefollow>من فضلك ادخل اسم الاب باللغة العربية</strArabicfathernamefollow>
+    <strArabicgrandfathernamefollow>اسم الجد باللغة العربية</strArabicgrandfathernamefollow>
+    <strArabicfamilynamfollow>اسم العائلة باللغة العربية</strArabicfamilynamfollow>
+    <strEnglishfirstnamefollow>من فضلك ادخل الاسم الاول باللغة الانجليزية</strEnglishfirstnamefollow>
+    <strEnglishfathernamefollow>من فضلك ادخل اسم الاب باللغة الانجليزية</strEnglishfathernamefollow>
+    <strEnglishgrandfathernamefollow>اسم الجد باللغة الانجليزية</strEnglishgrandfathernamefollow>
+    <strEnglishfamilynamfollow>اسم العائلة باللغة الانجليزية</strEnglishfamilynamfollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBirthdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strBirthdatefollow>
+    <strHiringdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strHiringdatefollow>
+    <strSaudilandlinephonefollow>من فضلك ادخل رقم ارضي داخل السعودية</strSaudilandlinephonefollow>
+    <strSaudimobilephone1follow>من فضلك ادخل جوال الموظف داخل السعودية1</strSaudimobilephone1follow>
+    <strSaudimobilephone2follow>من فضلك ادخل جوال الموظف داخل السعودية2</strSaudimobilephone2follow>
+    <strForeignlandlinephonefollow>من فضلك ادخل رقم ارضي خارج السعودية</strForeignlandlinephonefollow>
+    <strForeignmobilephone1follow>من فضلك ادخل جوال الموظف خارج السعودية1</strForeignmobilephone1follow>
+    <strForeignmobilephone2follow>من فضلك ادخل جوال الموظف خارج السعودية2</strForeignmobilephone2follow>
+    <strFaxfollow>من فضلك ادخل رقم الفاكس</strFaxfollow>
+    <strBusinesse-mailfollow>من فضلك ادخل البريد الالكتروني للعمل</strBusinesse-mailfollow>
+    <strPersonale-mailfollow>من فضلك ادخل البريد الالكتروني الشخصي</strPersonale-mailfollow>
+    <strSaudiaddress1follow>من فضلك ادخل عنوان الموظف داخل السعودية1</strSaudiaddress1follow>
+    <strSaudiaddress2follow>من فضلك ادخل عنوان الموظف داخل السعودية2</strSaudiaddress2follow>
+    <strForeignaddress1follow>من فضلك ادخل عنوان الموظف خارج السعودية1</strForeignaddress1follow>
+    <strForeignaddress2follow>من فضلك ادخل عنوان الموظف خارج السعودية2</strForeignaddress2follow>
+    <strAccountbankno1follow>من فضلك ادخل الحساب البنكي رقم 1</strAccountbankno1follow>
+    <strIBANno1follow>من فضلك ادخل ايبان رقم 1</strIBANno1follow>
+    <strIBANno1confirm>تأكيد ايبان رقم 1</strIBANno1confirm>
+    <strIBANno1confirmfollow>من فضلك ادخل ايبان رقم1</strIBANno1confirmfollow>
+    <strAccountbankno2follow>من فضلك ادخل الحساب البنكي رقم 2</strAccountbankno2follow>
+    <strIBANno2follow>من فضلك ادخل ايبان رقم 2</strIBANno2follow>
+    <strIBANno2confirm>تأكيد ايبان رقم 2</strIBANno2confirm>
+    <strIBANno2confirmfollow>من فضلك ادخل ايبان رقم 2</strIBANno2confirmfollow>
+    <strIdentitynofollow>من فضلك ادخل رقم تحقيق الشخصية</strIdentitynofollow>
+    <strPassportnofollow>من فضلك ادخل رقم جواز السفر</strPassportnofollow>
+    <strMedicalInsurancenofollow>من فضلك ادخل التأمين الطبي رقم</strMedicalInsurancenofollow>
+    <strSocialinsurancenofollow>من فضلك ادخل التأمين الاجتماعي رقم</strSocialinsurancenofollow>
+    <strNotesfollow>من فضلك ادخل الملاحظات</strNotesfollow>
+    <strContractstartdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strContractstartdatefollow>
+    <strContractenddatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strContractenddatefollow>
+    <strDurationofcontractfollow>من فضلك ادخل الفترة بالشهر</strDurationofcontractfollow>
+    <strEmploymentitemvaluefollow>ادخل قيمة البند الوظيفي</strEmploymentitemvaluefollow>
+    <strAddrow>اضف حقل</strAddrow>
+    <strbtnUpdate>تحديث</strbtnUpdate>
+    <strbtnDel>حذف</strbtnDel>
+    <strAnnualvacationperiodfollow>ادخل مدة العطلة السنوية</strAnnualvacationperiodfollow>
+    <strbtnSave>حفظ</strbtnSave>
+
+  </UpdateEmployees>
+  <DeleteEmployees>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة معلومات الموظف</strscreenName>
+    <strscreenDataName>بيانات معلومات الموظف</strscreenDataName>
+
+    <strEmployeeserialno>الرقم التسلسلي للموظف</strEmployeeserialno>
+    <strEmployeeCode>رمز الموظف</strEmployeeCode>
+    <strArabicfirstname>الاسم الاول باللغة العربية</strArabicfirstname>
+    <strArabicfathername>اسم الاب باللغة العربية</strArabicfathername>
+    <strArabicgrandfathername>اسم الجد باللغة العربية</strArabicgrandfathername>
+    <strArabicfamilynam>اسم العائلة باللغة العربية</strArabicfamilynam>
+    <strEnglishfirstname>الاسم الاول باللغة الانجليزية</strEnglishfirstname>
+    <strEnglishfathername>اسم الاب باللغة الانجليزية</strEnglishfathername>
+    <strEnglishgrandfathername>اسم الجد باللغة الانجليزية</strEnglishgrandfathername>
+    <strEnglishfamilynam>اسم العائلة باللغة الانجليزية</strEnglishfamilynam>
+    <strBirthdate>تاريخ الميلاد</strBirthdate>
+    <strHiringdate>تاريخ التوظيف</strHiringdate>
+    <strBirthplace>مكان الميلاد</strBirthplace>
+    <strMaritalstatus>الحالة الاجتماعية</strMaritalstatus>
+    <strMilitarystatus>الموقف من التجنيد</strMilitarystatus>
+    <strGender>الجنس</strGender>
+    <strReligion>الديانة</strReligion>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strNationality>الجنسية</strNationality>
+    <strProject>المشروع</strProject>
+    <strContracttype>نوع العقد</strContracttype>
+    <strAdministration>الادارة</strAdministration>
+    <strDepartment>القسم</strDepartment>
+    <strShift>المناوبة</strShift>
+    <strClassificationofcontract>تصنيف العقد</strClassificationofcontract>
+    <strHasmanager>لديه مدير؟</strHasmanager>
+    <strManager>مدير الموظف</strManager>
+    <strIsmanager>هل هو مدير؟</strIsmanager>
+    <strIscommissioner>يعمل بالعمولة؟</strIscommissioner>
+    <strNeedsamandate>يحتاج مفوض؟</strNeedsamandate>
+    <strCommissioner>يعمل بالعمولة؟</strCommissioner>
+
+    <strEmployeephoto>صورة الموظف</strEmployeephoto>
+    <strEmployeedata>بيانات الموظف</strEmployeedata>
+    <strEmployeeNationality>جنسية الموظف</strEmployeeNationality>
+    <strIdentityno>رقم تحقيق الشخصية</strIdentityno>
+    <strPassportno>رقم جواز السفر</strPassportno>
+    <strMedicalinsurance>التأمين الطبي</strMedicalinsurance>
+    <strHasmedicalinsurance>لديه تأمين طبي؟</strHasmedicalinsurance>
+    <strMedicalInsuranceno>رقم التأمين الطبي</strMedicalInsuranceno>
+    <strSocialinsuranceno>رقم التأمين الاجتماعي</strSocialinsuranceno>
+    <strEmployeestatus>حالة الموظف</strEmployeestatus>
+    <strPrivilege>امتيازات</strPrivilege>
+    <strHasfingerprint>لديه بصمة</strHasfingerprint>
+    <strHasabsence>لديه غياب</strHasabsence>
+    <strHasovertime>لديه وقت اضافى</strHasovertime>
+    <strHasdelay>لديه تأخير</strHasdelay>
+    <strHaspermission>يمكنه الحصول على اذن</strHaspermission>
+    <strNotes>الملاحظات</strNotes>
+
+    <strContractstartdate>تاريخ بداية العقد</strContractstartdate>
+    <strContractenddate>تاريخ نهاية العقد</strContractenddate>
+    <strDurationofcontract>مدة العقد (بالشهر)</strDurationofcontract>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strJobgrade>الدرجة الوظيفية</strJobgrade>
+    <strGrade>الدرجة</strGrade>
+    <strJob>الوظيفة</strJob>
+    <strJobtitle>المسمى الوظيفي</strJobtitle>
+    <strContractitemsdetails>تفاصيل بنود العقد</strContractitemsdetails>
+    <strEmploymentitem>البند الوظيفي</strEmploymentitem>
+    <strCalculationmethod>طريقة الحساب</strCalculationmethod>
+    <strEmploymentitemvalue>قيمة البند الوظيفي</strEmploymentitemvalue>
+    <strAnnualvacationvaluesarerelatedtojobgrade>قيم الاجازة السنوية ترتبط بالدرجة الوظيفية</strAnnualvacationvaluesarerelatedtojobgrade>
+    <strAnnualvacationdetails>تفاصيل الاجازة السنوية</strAnnualvacationdetails>
+    <strAnnualvacationperiod>مدة الاجازة السنوية (باليوم)</strAnnualvacationperiod>
+    <strTickettype>نوع تذكرة السفر</strTickettype>
+    <strInternalworktraveltickettype>نوع تذكرة سفر العمل الداخلي</strInternalworktraveltickettype>
+    <strExternalworktraveltickettype>نوع تذكرة سفر العمل الخارجي</strExternalworktraveltickettype>
+
+    <strSaudilandlinephone>رقم ارضي داخل السعودية</strSaudilandlinephone>
+    <strSaudimobilephone1>جوال الموظف داخل السعودية1</strSaudimobilephone1>
+    <strSaudimobilephone2>جوال الموظف داخل السعودية2</strSaudimobilephone2>
+    <strForeignlandlinephone>رقم ارضي خارج السعودية</strForeignlandlinephone>
+    <strForeignmobilephone1>جوال الموظف خارج السعودية1</strForeignmobilephone1>
+    <strForeignmobilephone2>جوال الموظف خارج السعودية2</strForeignmobilephone2>
+    <strFax>رقم الفاكس</strFax>
+    <strBusinesse-mail>البريد الالكتروني للعمل</strBusinesse-mail>
+    <strPersonale-mail>البريد الالكتروني الشخصي</strPersonale-mail>
+    <strSaudiaddress1>عنوان الموظف داخل السعودية1</strSaudiaddress1>
+    <strSaudiaddress2>عنوان الموظف داخل السعودية2</strSaudiaddress2>
+    <strForeignaddress1>عنوان الموظف خارج السعودية1</strForeignaddress1>
+    <strForeignaddress2>عنوان الموظف خارج السعودية1</strForeignaddress2>
+    <strBankname1>اسم البنك1</strBankname1>
+    <strBankname2>اسم البنك2</strBankname2>
+    <strAccountbankno1>رقم الحساب البنكي1</strAccountbankno1>
+    <strAccountbankno2>رقم الحساب البنكي2</strAccountbankno2>
+    <strIBANno1>رقم الايبان1</strIBANno1>
+    <strIBANno2>رقم الايبان2</strIBANno2>
+    <strBacktohome>العودة الى الرئيسية</strBacktohome>
+
+
+
+    <strgeneralTab>البيانات الاساسية</strgeneralTab>
+    <strIdTab>بيانات تحقيق الشخصية</strIdTab>
+    <strContractTab>تفاصيل العقد</strContractTab>
+    <strContactTab>تفاصيل الاتصال</strContactTab>
+
+    <strEmployeeserialnofollow>من فضلك ادخل الرقم التسلسلي للموظف</strEmployeeserialnofollow>
+    <strEmployeeCodefollow>من فضلك ادخل كود الموظف</strEmployeeCodefollow>
+    <strArabicfirstnamefollow>ادخل الاسم الاول باللغة العربية</strArabicfirstnamefollow>
+    <strArabicfathernamefollow>ادخل اسم الاب باللغة العربية</strArabicfathernamefollow>
+    <strArabicgrandfathernamefollow>اسم الجد باللغة العربية</strArabicgrandfathernamefollow>
+    <strArabicfamilynamfollow>اسم العائلة باللغة العربية</strArabicfamilynamfollow>
+    <strEnglishfirstnamefollow>ادخل الاسم الاول باللغة الانجليزية</strEnglishfirstnamefollow>
+    <strEnglishfathernamefollow>ادخل اسم الاب باللغة الانجليزية</strEnglishfathernamefollow>
+    <strEnglishgrandfathernamefollow>اسم الجد باللغة الانجليزية</strEnglishgrandfathernamefollow>
+    <strEnglishfamilynamfollow>اسم العائلة باللغة الانجليزية</strEnglishfamilynamfollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBirthdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strBirthdatefollow>
+    <strHiringdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strHiringdatefollow>
+    <strSaudilandlinephonefollow>من فضلك ادخل رقم ارضي داخل السعودية</strSaudilandlinephonefollow>
+    <strSaudimobilephone1follow>من فضلك ادخل جوال الموظف داخل السعودية1</strSaudimobilephone1follow>
+    <strSaudimobilephone2follow>من فضلك ادخل جوال الموظف داخل السعودية2</strSaudimobilephone2follow>
+    <strForeignlandlinephonefollow>من فضلك ادخل رقم ارضي خارج السعودية</strForeignlandlinephonefollow>
+    <strForeignmobilephone1follow>من فضلك ادخل جوال الموظف خارج السعودية1</strForeignmobilephone1follow>
+    <strForeignmobilephone2follow>من فضلك ادخل جوال الموظف خارج السعودية2</strForeignmobilephone2follow>
+    <strFaxfollow>من فضلك ادخل رقم الفاكس</strFaxfollow>
+    <strBusinesse-mailfollow>من فضلك ادخل البريد الالكتروني للعمل</strBusinesse-mailfollow>
+    <strPersonale-mailfollow>من فضلك ادخل البريد الالكتروني الشخصي</strPersonale-mailfollow>
+    <strSaudiaddress1follow>من فضلك ادخل عنوان الموظف داخل السعودية1</strSaudiaddress1follow>
+    <strSaudiaddress2follow>من فضلك ادخل عنوان الموظف داخل السعودية2</strSaudiaddress2follow>
+    <strForeignaddress1follow>من فضلك ادخل عنوان الموظف خارج السعودية1</strForeignaddress1follow>
+    <strForeignaddress2follow>من فضلك ادخل عنوان الموظف خارج السعودية2</strForeignaddress2follow>
+    <strAccountbankno1follow>من فضلك ادخل الحساب البنكي رقم 1</strAccountbankno1follow>
+    <strIBANno1follow>من فضلك ادخل ايبان رقم 1</strIBANno1follow>
+    <strIBANno1confirm>تأكيد ايبان رقم 1</strIBANno1confirm>
+    <strIBANno1confirmfollow>من فضلك ادخل ايبان رقم1</strIBANno1confirmfollow>
+    <strAccountbankno2follow>من فضلك ادخل الحساب البنكي رقم 2</strAccountbankno2follow>
+    <strIBANno2follow>من فضلك ادخل ايبان رقم 2</strIBANno2follow>
+    <strIBANno2confirm>تأكيد ايبان رقم 2</strIBANno2confirm>
+    <strIBANno2confirmfollow>من فضلك ادخل ايبان رقم 2</strIBANno2confirmfollow>
+    <strIdentitynofollow>من فضلك ادخل رقم تحقيق الشخصية</strIdentitynofollow>
+    <strPassportnofollow>من فضلك ادخل رقم جواز السفر</strPassportnofollow>
+    <strMedicalInsurancenofollow>من فضلك ادخل التأمين الطبي رقم</strMedicalInsurancenofollow>
+    <strSocialinsurancenofollow>من فضلك ادخل التأمين الاجتماعي رقم</strSocialinsurancenofollow>
+    <strNotesfollow>من فضلك ادخل Notes</strNotesfollow>
+    <strContractstartdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strContractstartdatefollow>
+    <strContractenddatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strContractenddatefollow>
+    <strDurationofcontractfollow>من فضلك ادخل الفترة بالشهر</strDurationofcontractfollow>
+    <strEmploymentitemvaluefollow>ادخل قيمة البند الوظيفي</strEmploymentitemvaluefollow>
+    <strAddrow>اضف حقل</strAddrow>
+    <strbtnUpdate>تحديث</strbtnUpdate>
+    <strbtnDel>حذف</strbtnDel>
+    <strAnnualvacationperiodfollow>ادخل مدة العطلة السنوية</strAnnualvacationperiodfollow>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+  </DeleteEmployees>
+  <ShowEmployees>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة عرض معلومات الموظف</strscreenName>
+    <strscreenDataName>بيانات عرض معلومات الموظف</strscreenDataName>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strCode>رقم تحقيق الشخصية</strCode>
+    <strCodeFollow>من فضلك ادخل رقم تحقيق الشخصية للبحث</strCodeFollow>
+    <strName>الاسم</strName>
+    <strNameFollow>من فضلك ادخل الاسم للبحث</strNameFollow>
+    <strNameEn>الاسم باللغة الانجليزية</strNameEn>
+    <strNameEnFollow>من فضلك ادخل الاسم باللغة الانجليزية للبحث</strNameEnFollow>
+
+  </ShowEmployees>
+  <SearchEmployees>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة البحث عن معلومات موظف</strscreenName>
+    <strscreenDataName>بيانات البحث عن معلومات موظف</strscreenDataName>
+
+    <strEmployeeserialno>الرقم التسلسلي للموظف</strEmployeeserialno>
+    <strEmployeeCode>رمز الموظف</strEmployeeCode>
+    <strArabicfirstname>الاسم الاول باللغة العربية</strArabicfirstname>
+    <strArabicfathername>اسم الاب باللغة العربية</strArabicfathername>
+    <strArabicgrandfathername>اسم الجد باللغة العربية</strArabicgrandfathername>
+    <strArabicfamilynam>اسم العائلة باللغة العربية</strArabicfamilynam>
+    <strEnglishfirstname>الاسم الاول باللغة الانجليزية</strEnglishfirstname>
+    <strEnglishfathername>اسم الاب باللغة الانجليزية</strEnglishfathername>
+    <strEnglishgrandfathername>اسم الجد باللغة الانجليزية</strEnglishgrandfathername>
+    <strEnglishfamilynam>اسم العائلة باللغة الانجليزية</strEnglishfamilynam>
+    <strBirthdate>تاريخ الميلاد</strBirthdate>
+    <strHiringdate>تاريخ التوظيف</strHiringdate>
+    <strBirthplace>مكان الميلاد</strBirthplace>
+    <strMaritalstatus>الحالة الاجتماعية</strMaritalstatus>
+    <strMilitarystatus>الموقف من التجنيد</strMilitarystatus>
+    <strGender>الجنس</strGender>
+    <strReligion>الديانة</strReligion>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strNationality>الجنسية</strNationality>
+    <strProject>المشروع</strProject>
+    <strContracttype>نوع العقد</strContracttype>
+    <strAdministration>الادارة</strAdministration>
+    <strDepartment>القسم</strDepartment>
+    <strShift>المناوبة</strShift>
+    <strClassificationofcontract>تصنيف العقد</strClassificationofcontract>
+    <strHasmanager>لديه مدير؟</strHasmanager>
+    <strManager>مدير الموظف</strManager>
+    <strIsmanager>هل هو مدير؟</strIsmanager>
+    <strIscommissioner>يعمل بالعمولة؟</strIscommissioner>
+    <strNeedsamandate>يحتاج مفوض؟</strNeedsamandate>
+    <strCommissioner>يعمل بالعمولة؟</strCommissioner>
+
+    <strEmployeephoto>صورة الموظف</strEmployeephoto>
+    <strEmployeedata>بيانات الموظف</strEmployeedata>
+    <strEmployeeNationality>جنسية الموظف</strEmployeeNationality>
+    <strIdentityno>رقم تحقيق الشخصية</strIdentityno>
+    <strPassportno>رقم جواز السفر</strPassportno>
+    <strMedicalinsurance>التأمين الطبي</strMedicalinsurance>
+    <strHasmedicalinsurance>لديه تأمين طبي؟</strHasmedicalinsurance>
+    <strMedicalInsuranceno>رقم التأمين الطبي</strMedicalInsuranceno>
+    <strSocialinsuranceno>رقم التأمين الاجتماعي</strSocialinsuranceno>
+    <strEmployeestatus>حالة الموظف</strEmployeestatus>
+    <strPrivilege>امتيازات</strPrivilege>
+    <strHasfingerprint>لديه بصمة</strHasfingerprint>
+    <strHasabsence>لديه غياب</strHasabsence>
+    <strHasovertime>لديه وقت اضافى</strHasovertime>
+    <strHasdelay>لديه تأخير</strHasdelay>
+    <strHaspermission>يمكنه الحصول على اذن</strHaspermission>
+    <strNotes>Notes</strNotes>
+
+    <strContractstartdate>تاريخ بداية العقد</strContractstartdate>
+    <strContractenddate>تاريخ نهاية العقد</strContractenddate>
+    <strDurationofcontract>مدة العقد (بالشهر)</strDurationofcontract>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strJobgrade>الدرجة الوظيفية</strJobgrade>
+    <strGrade>الدرجة</strGrade>
+    <strJob>الوظيفة</strJob>
+    <strJobtitle>المسمى الوظيفي</strJobtitle>
+    <strContractitemsdetails>تفاصيل بنود العقد</strContractitemsdetails>
+    <strEmploymentitem>البند الوظيفي</strEmploymentitem>
+    <strCalculationmethod>طريقة الحساب</strCalculationmethod>
+    <strEmploymentitemvalue>قيمة البند الوظيفي</strEmploymentitemvalue>
+    <strAnnualvacationvaluesarerelatedtojobgrade>قيم الاجازة السنوية ترتبط بالدرجة الوظيفية</strAnnualvacationvaluesarerelatedtojobgrade>
+    <strAnnualvacationdetails>تفاصيل الاجازة السنوية</strAnnualvacationdetails>
+    <strAnnualvacationperiod>مدة الاجازة السنوية (باليوم)</strAnnualvacationperiod>
+    <strTickettype>نوع تذكرة السفر</strTickettype>
+    <strInternalworktraveltickettype>نوع تذكرة سفر العمل الداخلي</strInternalworktraveltickettype>
+    <strExternalworktraveltickettype>نوع تذكرة سفر العمل الخارجي</strExternalworktraveltickettype>
+
+    <strSaudilandlinephone>رقم ارضي داخل السعودية</strSaudilandlinephone>
+    <strSaudimobilephone1>جوال الموظف داخل السعودية1</strSaudimobilephone1>
+    <strSaudimobilephone2>جوال الموظف داخل السعودية2</strSaudimobilephone2>
+    <strForeignlandlinephone>رقم ارضي خارج السعودية</strForeignlandlinephone>
+    <strForeignmobilephone1>جوال الموظف خارج السعودية1</strForeignmobilephone1>
+    <strForeignmobilephone2>جوال الموظف خارج السعودية2</strForeignmobilephone2>
+    <strFax>رقم الفاكس</strFax>
+    <strBusinesse-mail>البريد الالكتروني للعمل</strBusinesse-mail>
+    <strPersonale-mail>البريد الالكتروني الشخصي</strPersonale-mail>
+    <strSaudiaddress1>عنوان الموظف داخل السعودية1</strSaudiaddress1>
+    <strSaudiaddress2>عنوان الموظف داخل السعودية2</strSaudiaddress2>
+    <strForeignaddress1>عنوان الموظف خارج السعودية1</strForeignaddress1>
+    <strForeignaddress2>عنوان الموظف خارج السعودية1</strForeignaddress2>
+    <strBankname1>اسم البنك1</strBankname1>
+    <strBankname2>اسم البنك2</strBankname2>
+    <strAccountbankno1>رقم الحساب البنكي1</strAccountbankno1>
+    <strAccountbankno2>رقم الحساب البنكي2</strAccountbankno2>
+    <strIBANno1>رقم الايبان1</strIBANno1>
+    <strIBANno2>رقم الايبان2</strIBANno2>
+    <strBacktohome>العودة الى الرئيسية</strBacktohome>
+
+
+
+    <strgeneralTab>البيانات الاساسية</strgeneralTab>
+    <strIdTab>بيانات تحقيق الشخصية</strIdTab>
+    <strContractTab>تفاصيل العقد</strContractTab>
+    <strContactTab>تفاصيل الاتصال</strContactTab>
+
+    <strEmployeeserialnofollow>من فضلك ادخل الرقم التسلسلي للموظف</strEmployeeserialnofollow>
+    <strEmployeeCodefollow>من فضلك ادخل كود الموظف</strEmployeeCodefollow>
+    <strArabicfirstnamefollow>من فضلك ادخل الاسم الاول باللغة العربية</strArabicfirstnamefollow>
+    <strArabicfathernamefollow>من فضلك ادخل اسم الاب باللغة العربية</strArabicfathernamefollow>
+    <strArabicgrandfathernamefollow>اسم الجد باللغة العربية</strArabicgrandfathernamefollow>
+    <strArabicfamilynamfollow>اسم العائلة باللغة العربية</strArabicfamilynamfollow>
+    <strEnglishfirstnamefollow>من فضلك ادخل الاسم الاول باللغة الانجليزية</strEnglishfirstnamefollow>
+    <strEnglishfathernamefollow>من فضلك ادخل اسم الاب باللغة الانجليزية</strEnglishfathernamefollow>
+    <strEnglishgrandfathernamefollow>اسم الجد باللغة الانجليزية</strEnglishgrandfathernamefollow>
+    <strEnglishfamilynamfollow>اسم العائلة باللغة الانجليزية</strEnglishfamilynamfollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBirthdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strBirthdatefollow>
+    <strHiringdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strHiringdatefollow>
+    <strSaudilandlinephonefollow>من فضلك ادخل رقم ارضي داخل السعودية</strSaudilandlinephonefollow>
+    <strSaudimobilephone1follow>من فضلك ادخل جوال الموظف داخل السعودية1</strSaudimobilephone1follow>
+    <strSaudimobilephone2follow>من فضلك ادخل جوال الموظف داخل السعودية2</strSaudimobilephone2follow>
+    <strForeignlandlinephonefollow>من فضلك ادخل رقم ارضي خارج السعودية</strForeignlandlinephonefollow>
+    <strForeignmobilephone1follow>من فضلك ادخل جوال الموظف خارج السعودية1</strForeignmobilephone1follow>
+    <strForeignmobilephone2follow>من فضلك ادخل جوال الموظف خارج السعودية2</strForeignmobilephone2follow>
+    <strFaxfollow>من فضلك ادخل رقم الفاكس</strFaxfollow>
+    <strBusinesse-mailfollow>من فضلك ادخل البريد الالكتروني للعمل</strBusinesse-mailfollow>
+    <strPersonale-mailfollow>من فضلك ادخل البريد الالكتروني الشخصي</strPersonale-mailfollow>
+    <strSaudiaddress1follow>من فضلك ادخل عنوان الموظف داخل السعودية1</strSaudiaddress1follow>
+    <strSaudiaddress2follow>من فضلك ادخل عنوان الموظف داخل السعودية2</strSaudiaddress2follow>
+    <strForeignaddress1follow>من فضلك ادخل عنوان الموظف خارج السعودية1</strForeignaddress1follow>
+    <strForeignaddress2follow>من فضلك ادخل عنوان الموظف خارج السعودية2</strForeignaddress2follow>
+    <strAccountbankno1follow>من فضلك ادخل الحساب البنكي رقم 1</strAccountbankno1follow>
+    <strIBANno1follow>من فضلك ادخل ايبان رقم 1</strIBANno1follow>
+    <strIBANno1confirm>تأكيد ايبان رقم 1</strIBANno1confirm>
+    <strIBANno1confirmfollow>من فضلك ادخل ايبان رقم1</strIBANno1confirmfollow>
+    <strAccountbankno2follow>من فضلك ادخل الحساب البنكي رقم 2</strAccountbankno2follow>
+    <strIBANno2follow>من فضلك ادخل ايبان رقم 2</strIBANno2follow>
+    <strIBANno2confirm>تأكيد ايبان رقم 2</strIBANno2confirm>
+    <strIBANno2confirmfollow>من فضلك ادخل ايبان رقم 2</strIBANno2confirmfollow>
+    <strIdentitynofollow>من فضلك ادخل رقم تحقيق الشخصية</strIdentitynofollow>
+    <strPassportnofollow>من فضلك ادخل رقم جواز السفر</strPassportnofollow>
+    <strMedicalInsurancenofollow>من فضلك ادخل التأمين الطبي رقم</strMedicalInsurancenofollow>
+    <strSocialinsurancenofollow>من فضلك ادخل التأمين الاجتماعي رقم</strSocialinsurancenofollow>
+    <strNotesfollow>من فضلك ادخل Notes</strNotesfollow>
+    <strContractstartdatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strContractstartdatefollow>
+    <strContractenddatefollow>التنسيق الصحيح ( يوم / شهر / سنة )</strContractenddatefollow>
+    <strDurationofcontractfollow>من فضلك ادخل الفترة بالشهر</strDurationofcontractfollow>
+    <strEmploymentitemvaluefollow>ادخل قيمة البند الوظيفي</strEmploymentitemvaluefollow>
+    <strAddrow>اضف حقل</strAddrow>
+    <strbtnUpdate>تحديث</strbtnUpdate>
+    <strbtnDel>حذف</strbtnDel>
+    <strAnnualvacationperiodfollow>ادخل مدة العطلة السنوية</strAnnualvacationperiodfollow>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+
+  </SearchEmployees>
+  <EmpSpouses>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة الزوجين</strscreenName>
+    <strscreenDataName>بيانات الزوجين</strscreenDataName>
+
+    <strArabicname>الاسم باللغة العربية</strArabicname>
+    <strEnglishname>الاسم باللغة الانجليزية</strEnglishname>
+    <strBirthdate>تاريخ الميلاد</strBirthdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strMarriagedate>تاريخ الزواج</strMarriagedate>
+    <strNationality>الجنسية</strNationality>
+    <strPleaseattachmarriagecontract>من فضلك ارفق عقد الزواج</strPleaseattachmarriagecontract>
+    <strPassportno>رقم جواز السفر</strPassportno>
+    <strIssuedate>تاريخ الاصدار</strIssuedate>
+    <strEnddate>تاريخ الانتهاء</strEnddate>
+    <strMedicalinsuranceno>رقم التأمين الطبي</strMedicalinsuranceno>
+    <strNationalno>الرقم القومي</strNationalno>
+    <strNotes>ملاحظات</strNotes>
+    <strAdd>اضافة</strAdd>
+    <strSave>حفظ</strSave>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBranchEmployee>الموظف</strBranchEmployee>
+    <strArabicnameFollow>من فضلك ادخل الاسم باللغة العربية</strArabicnameFollow>
+    <strEnglishnameFollow>من فضلك ادخل الاسم باللغة الانجليزية</strEnglishnameFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strPassportnoFollow>من فضلك ادخل رقم جواز السفر</strPassportnoFollow>
+    <strMedicalinsurancenoFollow>من فضلك ادخل رقم التأمين</strMedicalinsurancenoFollow>
+    <strNationalnoFollow>من فضلك ادخل الرقم القومي</strNationalnoFollow>
+    <strShowFile>عرض الملف</strShowFile>
+
+
+  </EmpSpouses>
+  <EmpSons>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة الابناء</strscreenName>
+    <strscreenDataName>بيانات الابناء</strscreenDataName>
+
+    <strArabicname>الاسم باللغة العربية</strArabicname>
+    <strEnglishname>الاسم باللغة الانجليزية</strEnglishname>
+    <strBirthdate>تاريخ الميلاد</strBirthdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strNationality>الجنسية</strNationality>
+    <strPleaseattachbirthcertificate>من فضلك ارفق شهادة الميلاد</strPleaseattachbirthcertificate>
+    <strPleaseattachphoto>من فضلك ارفق صورة</strPleaseattachphoto>
+    <strGender>الجنس</strGender>
+    <strMaritalstatus>الحالة الاجتماعية</strMaritalstatus>
+    <strEducationlevel>مستوى التعليم</strEducationlevel>
+    <strPassportno>رقم جواز السفر</strPassportno>
+    <strIssuedate>تاريخ الاصدار</strIssuedate>
+    <strEnddate>تاريخ الانتهاء</strEnddate>
+    <strMedicalinsuranceno>رقم التأمين الطبي</strMedicalinsuranceno>
+    <strNationalno>الرقم القومي</strNationalno>
+    <strNotes>ملاحظات</strNotes>
+    <strAdd>اضافة</strAdd>
+    <strSave>حفظ</strSave>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBranchEmployee>الموظف</strBranchEmployee>
+    <strArabicnameFollow>من فضلك ادخل الاسم باللغة العربية</strArabicnameFollow>
+    <strEnglishnameFollow>من فضلك ادخل الاسم باللغة الانجليزية</strEnglishnameFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strPassportnoFollow>من فضلك ادخل رقم جواز السفر</strPassportnoFollow>
+    <strMedicalinsurancenoFollow>من فضلك ادخل رقم التأمين</strMedicalinsurancenoFollow>
+    <strNationalnoFollow>من فضلك ادخل الرقم القومي</strNationalnoFollow>
+    <strShowFile>عرض الملف</strShowFile>
+
+
+
+  </EmpSons>
+
+
+  <EmpCertifications>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة شهادات الموظف</strscreenName>
+    <strscreenDataName>بيانات شهادات الموظف</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strCeritificationName>اسم الشهادة</strCeritificationName>
+    <strCertificationno>رقم الشهادة</strCertificationno>
+    <strSpecializationname>اسم التخصص</strSpecializationname>
+    <strPlaceofstudy>مكان الدراسة</strPlaceofstudy>
+    <strFinalgrade>الدرجة النهائية</strFinalgrade>
+    <strPleaseattachcertification>من فضلك ارفق الشهادة</strPleaseattachcertification>
+    <strNotes>ملاحظات</strNotes>
+    <strAdd>اضافة</strAdd>
+    <strSave>حفظ</strSave>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strShowFile>عرض الملف</strShowFile>
+    <strCeritificationNameFollow>من فضلك ادخل اسم الشهادة</strCeritificationNameFollow>
+    <strCertificationnoFollow>من فضلك ادخل رقم الشهادة</strCertificationnoFollow>
+    <strSpecializationnameFollow>من فضلك ادخل اسم التخصص</strSpecializationnameFollow>
+    <strPlaceofstudyFollow>من فضلك ادخل المكان</strPlaceofstudyFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strNotesFollow>ادخل ملاحظات</strNotesFollow>
+
+
+
+  </EmpCertifications>
+  <EmpExperiences>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة خبرات الموظف</strscreenName>
+    <strscreenDataName>بيانات خبرات الموظف</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strExperiencescategory>فئة الخبرة</strExperiencescategory>
+    <strExperience>الخبرة</strExperience>
+    <strExperiencename>اسم الخبرة</strExperiencename>
+    <strJobtitle>المسمى الوظيفي</strJobtitle>
+    <strPlace>المكان</strPlace>
+    <strReference>المرجع</strReference>
+    <strSelf-study>دراسة ذاتية</strSelf-study>
+    <strTrainning>تدريب</strTrainning>
+    <strPleaseattachexperiencecertificate>من فضلك ارفق شهادة الخبرة</strPleaseattachexperiencecertificate>
+    <strNotes>ملاحظات</strNotes>
+    <strAdd>اضافة</strAdd>
+    <strSave>حفظ</strSave>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strShowFile>عرض الملف</strShowFile>
+    <strExperiencenameFollow>من فضلك ادخل اسم الخبرة</strExperiencenameFollow>
+    <strJobtitleFollow>من فضلك ادخل  المسمى الوظيفي</strJobtitleFollow>
+    <strPlaceFollow>من فضلك ادخل المكان</strPlaceFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+  </EmpExperiences>
+  <EmpQualifications>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة مؤهلات الموظف</strscreenName>
+    <strscreenDataName>بيانات مؤهلات الموظف</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strUniversity>الجامعة</strUniversity>
+    <strFaculty>الكلية</strFaculty>
+    <strQualification>المؤهل</strQualification>
+    <strSpecialization>التخصص</strSpecialization>
+    <strFinalgrade>الدرجة النهائية</strFinalgrade>
+    <strPleaseattachqualificationcertificate>من فضلك ارفق شهادة المؤهل</strPleaseattachqualificationcertificate>
+    <strNotes>ملاحظات</strNotes>
+    <strAdd>اضافة</strAdd>
+    <strSave>حفظ</strSave>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strShowFile>عرض الملف</strShowFile>
+    <strUniversityFollow>من فضلك ادخل اسم الجامعة</strUniversityFollow>
+    <strFacultyFollow>من فضلك ادخل اسم الكلية</strFacultyFollow>
+    <strSpecializationFollow>من فضلك ادخل اسم التخصص</strSpecializationFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+
+
+  </EmpQualifications>
+
+  <BranchDocs>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة مستندات الفرع</strscreenName>
+    <strscreenDataName>بيانات مستندات الفرع</strscreenDataName>
+
+    <strCode>الكود</strCode>
+    <strFillinthesearchfield>املأ حقل البحث</strFillinthesearchfield>
+    <strDocumenttype>نوع المستند</strDocumenttype>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strResponsNotify>الموظف الذي سيتم إعلامه</strResponsNotify>
+    <strDocName>اسم المستند</strDocName>
+    <strEndDate>تاريخ الانتهاء</strEndDate>
+    <strShowfile>عرض الملف</strShowfile>
+    <strSelect>اختار</strSelect>
+    <strStartDay>بداية التاريخ (يوم)</strStartDay>
+
+    <strStartMonth>شهر البداية</strStartMonth>
+    <strStartYear>سنة البداية</strStartYear>
+    <strStartDayHijri>البداية</strStartDayHijri>
+    <strStartMonthHijri>بداية من الشهر الهجري</strStartMonthHijri>
+    <strStartYearHijri>بداية من السنة الهجرية</strStartYearHijri>
+    <strEndDay>تاريخ النهاية ( بالايام )</strEndDay>
+    <strEndMonth>شهر النهاية</strEndMonth>
+    <strEndYear>سنة النهاية</strEndYear>
+    <strEndDayHijri>تاريخ النهاية الهجري ( بالايام )</strEndDayHijri>
+    <strEndMonthHijri>شهر النهاية الهجري</strEndMonthHijri>
+    <strEndYearHijri>سنة النهاية الهجرية</strEndYearHijri>
+    <strFormatdd>التنسيق باليوم</strFormatdd>
+    <strFormatMM>التنسيق بالشهر</strFormatMM>
+    <strFormatYYYY>التنسيق بالسنة</strFormatYYYY>
+    <strDateTypeNotify>نوع التاريخ للاخطارات</strDateTypeNotify>
+    <strNeedNotifyBefore>تحتاج اخطار قبل</strNeedNotifyBefore>
+    <strNeedNotifyBefore>من فضلك ادخل  تحتاج اخطار قبل</strNeedNotifyBefore>
+    <strPeriodType>نوع المدة للاخطارات</strPeriodType>
+    <strResponsNotify>الموظف الذي سيتم اخطاره</strResponsNotify>
+    <strNotifyMessage>رسالة الاخطار</strNotifyMessage>
+    <strpopNotifyMessage>من فضلك ادخل رسالة الاخطار</strpopNotifyMessage>
+    <strNotifyMessageEn>رسالة الاخطار باللغة الانجليزية</strNotifyMessageEn>
+    <strpopNotifyMessageEn>من فضلك ادخل رسالة الاخطار باللغة الانجليزية</strpopNotifyMessageEn>
+    <strRegistrationNo>التسجيل رقم</strRegistrationNo>
+    <strPopRegistrationNo>من فضلك ادخل التسجيل رقم</strPopRegistrationNo>
+    <strIssuePlace>تاريخ الاصدار</strIssuePlace>
+    <strPopIssuePlace>من فضلك ادخل تاريخ الاصدار</strPopIssuePlace>
+    <strIssueRegion>بلد الاصدار</strIssueRegion>
+    <strPopIssueRegion>من فضلك ادخل بلد الاصدار</strPopIssueRegion>
+    <strAttachFile>من فضلك ارفق نسخة من المستند</strAttachFile>
+    <strDownloadFile>تحميل الملف</strDownloadFile>
+    <strNotes>ملاحظات</strNotes>
+    <strPopNotes>من فضلك ادخل ملاحظات</strPopNotes>
+
+
+  </BranchDocs>
+  <EmpDocs>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة مستندات الموظف</strscreenName>
+    <strscreenDataName>بيانات مستندات الموظف</strscreenDataName>
+
+    <strEmployeewhowillrecievenotification>الموظف الذى سيتلقى اخطار</strEmployeewhowillrecievenotification>
+    <strRegistrationno.>التسجيل رقم.</strRegistrationno.>
+    <strDocumenttype>نوع المستند</strDocumenttype>
+    <strDocumentbelongto>المستند خاص بالموظف</strDocumentbelongto>
+    <strShow>عرض</strShow>
+    <strAdd>اضافة</strAdd>
+    <strEdit>تعديل</strEdit>
+    <strDelete>حذف</strDelete>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strResponsNotify>الموظف الذي سيتم إعلامه</strResponsNotify>
+    <strDocName>اسم المستند</strDocName>
+    <strEndDate>تاريخ الانتهاء</strEndDate>
+    <strShowfile>عرض الملف</strShowfile>
+    <strSelect>اختار</strSelect>
+    <strStartDay>بداية التاريخ (يوم)</strStartDay>
+
+    <strStartMonth>شهر البداية</strStartMonth>
+    <strStartYear>سنة البداية</strStartYear>
+    <strStartDayHijri>Start</strStartDayHijri>
+    <strStartMonthHijri>بداية من الشهر الهجري</strStartMonthHijri>
+    <strStartYearHijri>بداية من السنة الهجرية</strStartYearHijri>
+    <strEndDay>تاريخ النهاية ( بالايام )</strEndDay>
+    <strEndMonth>شهر النهاية</strEndMonth>
+    <strEndYear>سنة النهاية</strEndYear>
+    <strEndDayHijri>تاريخ النهاية الهجري ( بالايام )</strEndDayHijri>
+    <strEndMonthHijri>شهر النهاية الهجري</strEndMonthHijri>
+    <strEndYearHijri>سنة النهاية الهجرية</strEndYearHijri>
+    <strFormatdd>التنسيق باليوم</strFormatdd>
+    <strFormatMM>التنسيق بالشهر</strFormatMM>
+    <strFormatYYYY>التنسيق بالسنة</strFormatYYYY>
+    <strDateTypeNotify>نوع التاريخ للاخطارات</strDateTypeNotify>
+    <strNeedNotifyBefore>تحتاج اخطار قبل</strNeedNotifyBefore>
+    <strNeedNotifyBefore>Enter تحتاج اخطار قبل</strNeedNotifyBefore>
+    <strPeriodType>نوع المدة للاخطارات</strPeriodType>
+    <strResponsNotify>الموظف الذي سيتم اخطاره</strResponsNotify>
+    <strNotifyMessage>رسالة الاخطار</strNotifyMessage>
+    <strpopNotifyMessage>من فضلك ادخل رسالة الاخطار</strpopNotifyMessage>
+    <strNotifyMessageEn>رسالة الاخطار باللغة الانجليزية</strNotifyMessageEn>
+    <strpopNotifyMessageEn>من فضلك ادخل رسالة الاخطار باللغة الانجليزية</strpopNotifyMessageEn>
+    <strRegistrationNo>التسجيل رقم</strRegistrationNo>
+    <strPopRegistrationNo>من فضلك ادخل التسجيل رقم</strPopRegistrationNo>
+    <strIssuePlace>تاريخ الاصدار</strIssuePlace>
+    <strPopIssuePlace>من فضلك ادخل تاريخ الاصدار</strPopIssuePlace>
+    <strIssueRegion>بلد الاصدار</strIssueRegion>
+    <strPopIssueRegion>من فضلك ادخل بلد الاصدار</strPopIssueRegion>
+    <strAttachFile>من فضلك ارفق نسخة من المستند</strAttachFile>
+    <strDownloadFile>تحميل الملف</strDownloadFile>
+    <strNotes>ملاحظات</strNotes>
+    <strPopNotes>من فضلك ادخل ملاحظات</strPopNotes>
+    <DocOwner>من فضلك ادخل اسم صاحب المستند</DocOwner>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </EmpDocs>
+
+  <RequestTypes>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnSave>حفظ</strbtnSave>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة نوع الطلب</strscreenName>
+    <strscreenDataName>بيانات نوع الطلب</strscreenDataName>
+
+    <strId>رقم تحقيق الشخصية</strId>
+    <strCode>كود الموظف</strCode>
+    <strName>الاسم باللغة العربية</strName>
+    <strNameEn>الاسم باللغة الانجليزية</strNameEn>
+    <strCountry>البلد</strCountry>
+    <strSelect>اختر</strSelect>
+    <strSpanCode>من فضلك ادخل كود الموظف للبحث</strSpanCode>
+    <strSpanName>من فضلك ادخل الاسم باللغة العربية للبحث</strSpanName>
+    <strSpanNameEn>من فضلك ادخل الاسم باللغة الانجليزية للبحث</strSpanNameEn>
+    <strSpanPopId>من فضلك ادخل رقم تحقيق الشخصية</strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل  كود الموظف</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل  الاسم باللغة العربية</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم باللغة الانجليزية</strSpanPopNameEn>
+
+
+
+
+    <strRequsetGrp>Requst Group</strRequsetGrp>
+
+    <strAttach>المرفقات ضرورية</strAttach>
+    <strVacVisible>لا يمكن تجزئة العطلة</strVacVisible>
+    <strSndOnlymang>ترسل للمدير فقط</strSndOnlymang>
+    <strEffectOn>يؤثر على</strEffectOn>
+    <strHireitem>البند الوظيفي</strHireitem>
+
+
+  </RequestTypes>
+
+
+  <WorkFlows>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>سير العمل شاشة</strscreenName>
+    <strscreenDataName>بيانات سير العمل</strscreenDataName>
+
+
+
+    <strCode>رقم تحقيق الشخصية</strCode>
+    <strCodeFollow>من فضلك ادخل رقم تحقيق الشخصية للبحث</strCodeFollow>
+    <strName>الاسم باللغة العربية</strName>
+    <strNameFollow>من فضلك ادخل الاسم باللغة العربية للبحث</strNameFollow>
+    <strNameEn>الاسم باللغة الانجليزية</strNameEn>
+    <strNameEnFollow>من فضلك ادخل الاسم باللغة الانجليزية للبحث</strNameEnFollow>
+    <strSelect>اختر</strSelect>
+
+
+
+  </WorkFlows>
+  <AddWorkFlow>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>اضافة سير العمل شاشة</strscreenName>
+    <strscreenDataName>اضافة سير العمل بيانات</strscreenDataName>
+
+
+
+
+    <strCode>رقم تحقيق الشخصية</strCode>
+    <strCodeFollow>رقم تحقيق الشخصية لا يمكن تغييره</strCodeFollow>
+    <strName>الاسم باللغة العربية</strName>
+    <strNameFollow>من فضلك ادخل الاسم باللغة العربية</strNameFollow>
+    <strNameEnFollow>من فضلك ادخل الاسم باللغة الانجليزية</strNameEnFollow>
+    <strWorkFlowOrder>ترتيب سير العمل</strWorkFlowOrder>
+    <strAddTheWorkFlow>من فضلك اضافة ترتيب سير العمل</strAddTheWorkFlow>
+    <strJobs>الوظائف</strJobs>
+    <strAddrow>اضف صف</strAddrow>
+    <strOrder>ترتيب</strOrder>
+    <strSave>حفظ</strSave>
+
+
+
+  </AddWorkFlow>
+
+  <UpdateWorkFlow>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>تحديث سير العمل شاشة</strscreenName>
+    <strscreenDataName>تحديث سير العمل بيانات</strscreenDataName>
+
+
+
+
+    <strCode>رقم تحقيق الشخصية</strCode>
+    <strCodeFollow>رقم تحقيق الشخصية لا يمكن تغييره</strCodeFollow>
+    <strName>الاسم باللغة العربية</strName>
+    <strNameFollow>من فضلك ادخل الاسم باللغة العربية</strNameFollow>
+    <strNameEnFollow>من فضلك ادخل الاسم باللغة الانجليزية</strNameEnFollow>
+    <strWorkFlowOrder>ترتيب سير العمل</strWorkFlowOrder>
+    <strAddTheWorkFlow>من فضلك اضافة سير العمل ترتيب</strAddTheWorkFlow>
+    <strJobs>الوظائف</strJobs>
+    <strAddrow>اضف صف</strAddrow>
+    <strOrder>ترتيب</strOrder>
+    <strSave>حفظ</strSave>
+
+
+
+  </UpdateWorkFlow>
+
+
+
+  <AssignWorkFlowRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة تعيين طلب سير العمل</strscreenName>
+    <strscreenDataName>بيانات تعيين طلب سير العمل</strscreenDataName>
+
+    <strAssignworkflowtorequest>تعيين سير العمل لطلب</strAssignworkflowtorequest>
+    <strWorkflow>سير العمل</strWorkflow>
+    <strPleaseassignworkflowtorequest>يرجى تعيين سير العمل لطلب</strPleaseassignworkflowtorequest>
+
+    <strbtnSave>حفظ</strbtnSave>
+    <strAssign>تعيين</strAssign>
+
+  </AssignWorkFlowRequest>
+
+
+  <EmpVactionSetting>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة إعداد العطلات</strscreenName>
+    <strscreenDataName>بيانات إعداد العطلات</strscreenDataName>
+
+    <strVacationrequesttype>نوع طلب عطلة</strVacationrequesttype>
+    <strRequesttypedetails>تفاصيل نوع الطلب</strRequesttypedetails>
+    <strAllowedvalue>القيمة المسموح بها</strAllowedvalue>
+    <strPuttheallowedvalue>ضع القيمة المسموح بها</strPuttheallowedvalue>
+    <strDiscounttype>نوع الخصم</strDiscounttype>
+    <strValuetype>نوع القيمة</strValuetype>
+    <strDiscountvalue>قيمة الخصم (في اليوم)</strDiscountvalue>
+    <strPutthediscountvalue>ضع قيمة الخصم</strPutthediscountvalue>
+
+    <strAddRow>اضف صف</strAddRow>
+    <strSave>حفظ</strSave>
+
+
+
+
+  </EmpVactionSetting>
+  <EmpPermissionSetting>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اعدادات الاذن</strscreenName>
+    <strscreenDataName>بيانات اعدادات الاذن</strscreenDataName>
+
+    <strTotalallowedperiodforpermissioninmonth>إجمالي الفترة المسموح بها للإذن في الشهر </strTotalallowedperiodforpermissioninmonth>
+    <strTheallowedperiodforpermissionindaytotal>الفترة المسموح بها للإذن في إجمالي اليوم</strTheallowedperiodforpermissionindaytotal>
+    <strWillbeadiscountvalue>ستكون قيمة الخصم (في الشهر)</strWillbeadiscountvalue>
+    <strDay>يوم</strDay>
+    <strIncaseofemployeeexceedto>في حالة تجاوز الموظف ل (في الشهر)</strIncaseofemployeeexceedto>
+    <strHour>ساعة</strHour>
+    <strAllowtoexceedmonthlyvalue>السماح بتجاوز القيمة الشهرية</strAllowtoexceedmonthlyvalue>
+    <strAllow>السماح</strAllow>
+    <strAllowtoexceeddailyvalue>السماح بتجاوز القيمة اليومية</strAllowtoexceeddailyvalue>
+    <strAccpettoapplydiscount>قبول تطبيق الخصم (في الشهر)</strAccpettoapplydiscount>
+    <strAccept>قبول</strAccept>
+
+    <strCompany>الشركة</strCompany>
+    <strbranch>الفرع</strbranch>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+  </EmpPermissionSetting>
+  <EmpOverTimeSetting>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اعدادات اليوم الاضافي</strscreenName>
+    <strscreenDataName>بيانات اعدات اليوم الاضافي</strscreenDataName>
+
+    <strInworkingdaythehouriscalculatedby>في يوم العمل يتم احتساب ساعة من قبل</strInworkingdaythehouriscalculatedby>
+    <strHour>ساعة</strHour>
+    <strInvactiondaythehouriscalculatedby>في يوم الترقوة يتم احتساب ساعة من قبل</strInvactiondaythehouriscalculatedby>
+    <strHour>ساعة</strHour>
+
+
+    <strCompany>الشركة</strCompany>
+    <strbranch>الفرع</strbranch>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+  </EmpOverTimeSetting>
+  <EmpBorrowSetting>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اعدادات السلفة</strscreenName>
+    <strscreenDataName>بيانات اعدادات السلفة</strscreenDataName>
+
+    <strTheemployeeisallowedtoborrowmonths>يسمح للموظف بالاقتراض (...) شهر</strTheemployeeisallowedtoborrowmonths>
+    <strIsemployeeallowedtoexceedmaximumvalue>هل يسمح للموظف بتجاوز القيمة القصوى؟</strIsemployeeallowedtoexceedmaximumvalue>
+    <strMonthlyPackageselectedItems>(حزمة شهرية / عناصر مختارة)</strMonthlyPackageselectedItems>
+    <strYesNo>نعم / لا</strYesNo>
+    <strAllowed>السماح</strAllowed>
+
+
+    <strCompany>الشركة</strCompany>
+    <strbranch>الفرع</strbranch>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+  </EmpBorrowSetting>
+
+  <EmpVactionRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلبات الاجازة</strscreenName>
+    <strscreenDataName>طلب اجازة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strAnnualvacationrequest>طلب اجازة سنوية</strAnnualvacationrequest>
+    <strResidenceaddress>عنوان اقامتك خلال الاجازة</strResidenceaddress>
+    <strFromdate>من تاريخ</strFromdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strEnddate>تاريخ الانتهاء</strEnddate>
+    <strBackdate>تاريخ العودة للعمل</strBackdate>
+    <strShowemployeevacationsbalanceandrules>رصيد اجازات الموظف التي يمكنه التمتع بها حسب قانون العمل</strShowemployeevacationsbalanceandrules>
+    <strAnnualvacationdays>أيام الإجازة السنوية</strAnnualvacationdays>
+    <strDaysyougotbefore>الايام التي قمت بها</strDaysyougotbefore>
+    <strRemainingvacationdays>ايام الاجازة المتبقية</strRemainingvacationdays>
+    <strRequiredvacationdays>ايام الاجازة المطلوبة</strRequiredvacationdays>
+    <strRestvacationdays>ايام الاجازة المتبقية</strRestvacationdays>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strVacationreason>سبب الاجازة</strVacationreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strVacationreasonFollow>ادخل سبب الاجازة</strVacationreasonFollow>
+    <strVactionRule>قواعد الاجازة</strVactionRule>
+    <strAllowedValue>القيمة المسموح بها</strAllowedValue>
+    <strDiscountType>نوع الخصم</strDiscountType>
+    <strValueType>نوع القيمة</strValueType>
+    <strDiscountValue>قيمة الخصم</strDiscountValue>
+    <strTotalAllowed >اجمالى الرصيد المسموح لهذا الطلب</strTotalAllowed>
+    <strTotalBalc >اجمالي الرصيد للموظف حتى الان</strTotalBalc>
+
+
+
+
+
+
+
+
+  </EmpVactionRequest>
+
+  <EmpVactionRequestData>
+
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلبات الاجازة</strscreenName>
+    <strscreenDataName>طلب اجازة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strAnnualvacationrequest>طلب اجازة سنوية</strAnnualvacationrequest>
+    <strResidenceaddress>عنوان اقامتك خلال الاجازة</strResidenceaddress>
+    <strFromdate>من تاريخ</strFromdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strEnddate>تاريخ الانتهاء</strEnddate>
+    <strBackdate>تاريخ العودة للعمل</strBackdate>
+    <strShowemployeevacationsbalanceandrules>رصيد اجازات الموظف التي يمكنه التمتع بها حسب قانون العمل</strShowemployeevacationsbalanceandrules>
+    <strAnnualvacationdays>أيام الإجازة السنوية</strAnnualvacationdays>
+    <strDaysyougotbefore>الايام التي قمت بها</strDaysyougotbefore>
+    <strRemainingvacationdays>ايام الاجازة المتبقية</strRemainingvacationdays>
+    <strRequiredvacationdays>ايام الاجازة المطلوبة</strRequiredvacationdays>
+    <strRestvacationdays>ايام الاجازة المتبقية</strRestvacationdays>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strVacationreason>سبب الاجازة</strVacationreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strVacationreasonFollow>ادخل سبب الاجازة</strVacationreasonFollow>
+    <strVactionRule>قواعد الاجازة</strVactionRule>
+    <strAllowedValue>القيمة المسموح بها</strAllowedValue>
+    <strDiscountType>نوع الخصم</strDiscountType>
+    <strValueType>نوع القيمة</strValueType>
+    <strDiscountValue>قيمة الخصم</strDiscountValue>
+    <strTotalAllowed >اجمالى الرصيد المسموح لهذا الطلب</strTotalAllowed>
+    <strTotalBalc >اجمالي الرصيد للموظف حتى الان</strTotalBalc>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+
+
+
+
+  </EmpVactionRequestData>
+
+
+  <EmpVactionRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلبات الاجازة</strscreenName>
+    <strscreenDataName>طلب اجازة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strAnnualvacationrequest>طلب اجازة سنوية</strAnnualvacationrequest>
+    <strResidenceaddress>عنوان اقامتك خلال الاجازة</strResidenceaddress>
+    <strFromdate>من تاريخ</strFromdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strEnddate>تاريخ الانتهاء</strEnddate>
+    <strBackdate>تاريخ العودة للعمل</strBackdate>
+    <strShowemployeevacationsbalanceandrules>رصيد اجازات الموظف التي يمكنه التمتع بها حسب قانون العمل</strShowemployeevacationsbalanceandrules>
+    <strAnnualvacationdays>أيام الإجازة السنوية</strAnnualvacationdays>
+    <strDaysyougotbefore>الايام التي قمت بها</strDaysyougotbefore>
+    <strRemainingvacationdays>ايام الاجازة المتبقية</strRemainingvacationdays>
+    <strRequiredvacationdays>ايام الاجازة المطلوبة</strRequiredvacationdays>
+    <strRestvacationdays>ايام الاجازة المتبقية</strRestvacationdays>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strVacationreason>سبب الاجازة</strVacationreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strVacationreasonFollow>ادخل سبب الاجازة</strVacationreasonFollow>
+    <strVactionRule>قواعد الاجازة</strVactionRule>
+    <strAllowedValue>القيمة المسموح بها</strAllowedValue>
+    <strDiscountType>نوع الخصم</strDiscountType>
+    <strValueType>نوع القيمة</strValueType>
+    <strDiscountValue>قيمة الخصم</strDiscountValue>
+    <strTotalAllowed >اجمالى الرصيد المسموح لهذا الطلب</strTotalAllowed>
+    <strTotalBalc >اجمالي الرصيد للموظف حتى الان</strTotalBalc>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+
+
+
+
+  </EmpVactionRequestReplay>
+
+  <ShowEmpVactionRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب اجازة, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب اجازة, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strFromdate>من تاريخ</strFromdate>
+    <strEnddate>تاريخ الانتهاء</strEnddate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strShow>عرض</strShow>
+    <strTravelticket>تذكرة الطيران</strTravelticket>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+    <strbtnSave>حفظ</strbtnSave>
+
+  </ShowEmpVactionRequest>
+
+  <BeginEmpVactionRecord>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>الطلبات تحت المعالجة شاشة</strscreenName>
+    <strscreenDataName>الطلبات تحت المعالجة بيانات</strscreenDataName>
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strEmployeewhorequest>صاحب الطلب</strEmployeewhorequest>
+
+    <strRequesttype>نوع الطلب</strRequesttype>
+
+    <strResidenceaddress>عنوان اقامتك خلال الاجازة</strResidenceaddress>
+    <strFromdate>من تاريخ</strFromdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strEnddate>تاريخ الانتهاء</strEnddate>
+    <strBackdate>تاريخ العودة للعمل</strBackdate>
+
+
+    <strRequiredVac>مطلوب مدة الاجازة باليوم</strRequiredVac>
+    <strFreeAllowed>ايام الاجازة المسموح بها بدون خصم</strFreeAllowed>
+    <strRestDiscount>بقية الايام المخصومة</strRestDiscount>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strVacationreason>سبب الاجازة</strVacationreason>
+    <strVacationreasonFollow>ادخل سبب الاجازة</strVacationreasonFollow>
+
+
+    <strbtnSave>حفظ</strbtnSave>
+
+  </BeginEmpVactionRecord>
+
+
+
+  <EmpPermissionRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اذن</strscreenName>
+    <strscreenDataName>بيانات طلب اذن</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strPermissiondate>تاريخ الحصول على اذن</strPermissiondate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTimeformat>تنسيق الوقت: 24 ساعة ( ساعة / دقيقة )</strTimeformat>
+    <strPermissionperiod>فترة الاذن</strPermissionperiod>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strPermissionreason>سبب الاذن</strPermissionreason>
+
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strPermissionreasonFollow>ادخل سبب الاذن</strPermissionreasonFollow>
+
+
+  </EmpPermissionRequest>
+
+  <EmpPermissionRequestData>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اذن</strscreenName>
+    <strscreenDataName>بيانات طلب اذن</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strPermissiondate>تاريخ الحصول على اذن</strPermissiondate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTimeformat>تنسيق الوقت: 24 ساعة ( ساعة / دقيقة )</strTimeformat>
+    <strPermissionperiod>فترة الاذن</strPermissionperiod>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strPermissionreason>سبب الاذن</strPermissionreason>
+
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strPermissionreasonFollow>من فضلك ادخل سبب الاذن</strPermissionreasonFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+  </EmpPermissionRequestData>
+  <EmpPermissionRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اذن</strscreenName>
+    <strscreenDataName>بيانات طلب اذن</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strPermissiondate>تاريخ الحصول على اذن</strPermissiondate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTimeformat>تنسيق الوقت: 24 ساعة ( ساعة / دقيقة )</strTimeformat>
+    <strPermissionperiod>فترة الاذن</strPermissionperiod>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strPermissionreason>سبب الاذن</strPermissionreason>
+
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strPermissionreasonFollow>من فضلك ادخل سبب الاذن</strPermissionreasonFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+  </EmpPermissionRequestReplay>
+
+
+  <ShowEmpPermissionRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب اذن, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب اذن, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strPermissiondate>تاريخ الحصول على اذن</strPermissiondate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strShow>عرض</strShow>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+
+  </ShowEmpPermissionRequest>
+
+
+  <EmpResignationRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب استقالة</strscreenName>
+    <strscreenDataName>بيانات طلب استقالة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strResignationdate>تاريخ الاستقالة</strResignationdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strResignationreason>سبب الاستقالة</strResignationreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strResignationreasonFollow>ادخل سبب الاستقالة</strResignationreasonFollow>
+
+
+  </EmpResignationRequest>
+
+  <EmpResignationRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب استقالة</strscreenName>
+    <strscreenDataName>بيانات طلب استقالة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strResignationdate>تاريخ الاستقالة</strResignationdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strResignationreason>سبب الاستقالة</strResignationreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+  </EmpResignationRequestReplay>
+
+
+  <EmpResignationRequestData>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب استقالة</strscreenName>
+    <strscreenDataName>بيانات طلب استقالة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strResignationdate>تاريخ الاستقالة</strResignationdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strResignationreason>سبب الاستقالة</strResignationreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strResignationreasonFollow>ادخل سبب الاذن</strResignationreasonFollow>
+
+
+  </EmpResignationRequestData>
+
+
+  <ShowEmpResignationRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب استقالة, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب استقالة, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strResignationdate>تاريخ الاستقالة</strResignationdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strShow>عرض</strShow>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+  </ShowEmpResignationRequest>
+  <EmpBorrowRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب سلفة</strscreenName>
+    <strscreenDataName>بيانات طلب سلفة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTotalborrowmount>اجمالى مبلغ السلفة</strTotalborrowmount>
+    <strHowmanymonthstofinishborrow>كم متبقى من الاشهر على انتهاء السلفة؟</strHowmanymonthstofinishborrow>
+    <strMonthlydeduction>قيمة الاقتطاع الشهري</strMonthlydeduction>
+    <strBorrowspayingdate>تاريخ دفع السلفة</strBorrowspayingdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strDeductionstartdate>تاريخ بدء الخصم</strDeductionstartdate>
+    <strDeductionenddate>تاريخ نهاية الخصم</strDeductionenddate>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strBorrowreason>سبب السلفة</strBorrowreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBorrowreasonFollow>من فضلك ادخل سبب السلفة</strBorrowreasonFollow>
+
+
+    <strTotalborrowmountFollow>من فضللك ادخل اجمالي قيمة السلفة</strTotalborrowmountFollow>
+    <strMonthlydeductionFollow>من فضلك ادخل القيمة الشهرية</strMonthlydeductionFollow>
+
+  </EmpBorrowRequest>
+
+
+  <EmpBorrowRequestData>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب سلفة</strscreenName>
+    <strscreenDataName>بيانات طلب سلفة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTotalborrowmount>اجمالى مبلغ السلفة</strTotalborrowmount>
+    <strHowmanymonthstofinishborrow>تخصم السلفة على كم شهر ؟</strHowmanymonthstofinishborrow>
+    <strMonthlydeduction>قيمة الاقتطاع الشهري</strMonthlydeduction>
+    <strBorrowspayingdate>تاريخ دفع السلفة</strBorrowspayingdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strDeductionstartdate>تاريخ بدء الخصم</strDeductionstartdate>
+    <strDeductionenddate>تاريخ نهاية الخصم</strDeductionenddate>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strBorrowreason>سبب السلفة</strBorrowreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBorrowreasonFollow>من فضلك ادخل سبب السلفة</strBorrowreasonFollow>
+
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strTotalborrowmountFollow>من فضللك ادخل اجمالي قيمة السلفة</strTotalborrowmountFollow>
+    <strMonthlydeductionFollow>من فضلك ادخل القيمة الشهرية</strMonthlydeductionFollow>
+
+
+
+
+  </EmpBorrowRequestData>
+
+
+
+  <EmpBorrowRequestReplay>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب سلفة</strscreenName>
+    <strscreenDataName>بيانات طلب سلفة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTotalborrowmount>اجمالى مبلغ السلفة</strTotalborrowmount>
+    <strHowmanymonthstofinishborrow>تخصم السلفة على كم شهر ؟</strHowmanymonthstofinishborrow>
+    <strMonthlydeduction>قيمة الاقتطاع الشهري</strMonthlydeduction>
+    <strBorrowspayingdate>تاريخ دفع السلفة</strBorrowspayingdate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strDeductionstartdate>تاريخ بدء الخصم</strDeductionstartdate>
+    <strDeductionenddate>تاريخ نهاية الخصم</strDeductionenddate>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strBorrowreason>سبب السلفة</strBorrowreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBorrowreasonFollow>من فضلك ادخل سبب السلفة</strBorrowreasonFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+    <strTotalborrowmountFollow>من فضللك ادخل اجمالي قيمة السلفة</strTotalborrowmountFollow>
+    <strMonthlydeductionFollow>من فضلك ادخل القيمة الشهرية</strMonthlydeductionFollow>
+
+
+  </EmpBorrowRequestReplay>
+
+
+
+  <ShowEmpBorrowRequest>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب سلفة, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب سلفة, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strBorrowdate>تاريخ السلفة</strBorrowdate>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strBorrowamount>قيمة السلفة</strBorrowamount>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strShow>عرض</strShow>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+    <strBorrowValue>قيمة السلفة</strBorrowValue>
+    <strbtnSave>حفظ</strbtnSave>
+
+  </ShowEmpBorrowRequest>
+
+  <EmpBorrowFollowUp>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب سلفة, متابعة screen</strscreenName>
+    <strscreenDataName>طلب سلفة, متابعة data</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strBorrowrequestsFollow-up>متابعة طلبات السلف</strBorrowrequestsFollow-up>
+    <strDuesdate>تاريخ الاستحقاق</strDuesdate>
+    <strStartdate>تاريخ بداية السلفة</strStartdate>
+    <strEnddate>تاريخ الانتهاء</strEnddate>
+    <strMonthlydeduction>قيمة الاقتطاع الشهري</strMonthlydeduction>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+
+    <strPeriod>الفترة</strPeriod>
+    <strBorrowValue>قيمة السلفة</strBorrowValue>
+    <strBorrowValCrdTill>قيمة السلفة حتى الان</strBorrowValCrdTill>
+    <strTheRest>المتبقي</strTheRest>
+    <strBorrowStatus>حالة سلفة الموظف</strBorrowStatus>
+    <strDetails>التفاصيل</strDetails>
+    <strShowBorrowDtls>عرض تفاصيل السلفة</strShowBorrowDtls>
+    <strTransdate>تاريخ المعالجة</strTransdate>
+    <strDiscValue>قيمة الخصم</strDiscValue>
+
+  </EmpBorrowFollowUp>
+
+  <EmpBeginBalancBorrowRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة السلف, الرصيد الافتتاحي</strscreenName>
+    <strscreenDataName>شاشة السلف, الرصيد الافتتاحي</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTotalborrowamount>اجمالي قيمة السلفة</strTotalborrowamount>
+    <strHowmanymonthstofinishborrow>تخصم السلفة على كم شهر ؟</strHowmanymonthstofinishborrow>
+    <strMonthlydeduction>قيمة الاقتطاع الشهري</strMonthlydeduction>
+    <strBorrowspayingdate>تاريخ دفع السلفة</strBorrowspayingdate>
+    <strDeductionstartdate>تاريخ بدء الخصم</strDeductionstartdate>
+    <strDeductionenddate>تاريخ نهاية الخصم</strDeductionenddate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strRecievedamount>القيمة المسددة</strRecievedamount>
+    <strBorrowreason>سبب السلفة</strBorrowreason>
+    <strNotes>ملاحظات</strNotes>
+    <strStartbalance>الرصيد الافتتاحي</strStartbalance>
+    <strSavedata>حفظ البيانات</strSavedata>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strBorrowreasonFollow>من فضلك ادخل سبب السلفة</strBorrowreasonFollow>
+
+
+    <strTotalborrowmountFollow>من فضللك ادخل اجمالي قيمة السلفة</strTotalborrowmountFollow>
+    <strMonthlydeductionFollow>من فضلك ادخل القيمة الشهرية</strMonthlydeductionFollow>
+    <strApplication>مقدم الطلب</strApplication>
+    <strRecievedamountFollow>من فضلك ادخل القيمة المسددة</strRecievedamountFollow>
+
+
+  </EmpBeginBalancBorrowRequest>
+  <EmpBorrowDelayRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب تأجيل خصم سلفة</strscreenName>
+    <strscreenDataName>بيانات طلب تأجيل خصم سلفة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strChooseborrow>اختر السلفة</strChooseborrow>
+    <strBorrowMonth>شهر السلفة</strBorrowMonth>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strReasonfordelayofdeduction>سبب تأجيل استقطاع السلفة</strReasonfordelayofdeduction>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strReasonfordelayofdeductionFollow>من فضلك ادخل سبب تأجيل استقطاع السلفة</strReasonfordelayofdeductionFollow>
+
+
+  </EmpBorrowDelayRequest>
+
+  <EmpBorrowDelayRequestData>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب تأجيل خصم سلفة</strscreenName>
+    <strscreenDataName>بيانات طلب تأجيل خصم سلفة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strChooseborrow>اختر السلفة</strChooseborrow>
+    <strBorrowMonth>شهر السلفة</strBorrowMonth>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strReasonfordelayofdeduction>سبب تأجيل استقطاع السلفة</strReasonfordelayofdeduction>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strReasonfordelayofdeductionFollow>من فضلك ادخل سبب تأجيل استقطاع السلفة</strReasonfordelayofdeductionFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+
+
+
+
+  </EmpBorrowDelayRequestData>
+
+
+  <EmpBorrowDelayRequestReplay>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب تأجيل خصم سلفة</strscreenName>
+    <strscreenDataName>بيانات طلب تأجيل خصم سلفة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strChooseborrow>اختر السلفة</strChooseborrow>
+    <strBorrowMonth>شهر السلفة</strBorrowMonth>
+    <strNotesforemployee>ملاحظات للموظف :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strReasonfordelayofdeduction>سبب تأجيل استقطاع السلفة</strReasonfordelayofdeduction>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strReasonfordelayofdeductionFollow>من فضلك ادخل سبب تأجيل استقطاع السلفة</strReasonfordelayofdeductionFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+
+  </EmpBorrowDelayRequestReplay>
+
+
+  <EmpOverTimeRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب عمل اضافي</strscreenName>
+    <strscreenDataName>بيانات طلب عمل اضافي</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTypeofovertimeday>نوع يوم العمل الإضافي</strTypeofovertimeday>
+    <strDateofovertimeday>تاريخ يوم العمل الإضافي</strDateofovertimeday>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTimeformat>تنسيق الوقت: 24 ساعة ( ساعة / دقيقة )</strTimeformat>
+    <strOvertimeperiod>فترة العمل الاضافي</strOvertimeperiod>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strOvertimereason>سبب الوقت الاضافي</strOvertimereason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+    <strOvertimereasonFollow>من فضلك ادخل سبب الوقت الاضافي</strOvertimereasonFollow>
+
+  </EmpOverTimeRequest>
+
+
+  <EmpOverTimeRequestData>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب عمل اضافي</strscreenName>
+    <strscreenDataName>بيانات طلب عمل اضافي</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTypeofovertimeday>نوع يوم العمل الإضافي</strTypeofovertimeday>
+    <strDateofovertimeday>تاريخ يوم العمل الإضافي</strDateofovertimeday>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTimeformat>تنسيق الوقت: 24 ساعة ( ساعة / دقيقة )</strTimeformat>
+    <strOvertimeperiod>فترة العمل الاضافي</strOvertimeperiod>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strOvertimereason>سبب الوقت الاضافي</strOvertimereason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+    <strOvertimereasonFollow>من فضلك ادخل سبب الوقت الاضافي</strOvertimereasonFollow>
+
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+
+  </EmpOverTimeRequestData>
+
+
+  <EmpOverTimeRequestReplay>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب عمل اضافي</strscreenName>
+    <strscreenDataName>بيانات طلب عمل اضافي</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTypeofovertimeday>نوع يوم العمل الإضافي</strTypeofovertimeday>
+    <strDateofovertimeday>تاريخ يوم العمل الإضافي</strDateofovertimeday>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTimeformat>تنسيق الوقت: 24 ساعة ( ساعة / دقيقة )</strTimeformat>
+    <strOvertimeperiod>فترة العمل الاضافي</strOvertimeperiod>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strOvertimereason>سبب الوقت الاضافي</strOvertimereason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+    <strOvertimereasonFollow>من فضلك ادخل سبب الوقت الاضافي</strOvertimereasonFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+
+
+  </EmpOverTimeRequestReplay>
+
+
+
+  <ShowEmpOverTimeRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب عمل اضافي, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب عمل اضافي, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strDateofovertimeday>تاريخ يوم العمل الإضافي</strDateofovertimeday>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strShow>عرض</strShow>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+
+  </ShowEmpOverTimeRequest>
+
+  <ShowEmpBorrowDelayRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب تأجيل خصم بسبب سلفة شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب تأجيل خصم بسبب سلفة, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strBorrowMonth>شهر السلفة</strBorrowMonth>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strShow>عرض</strShow>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+    <strBorrowValue>قيمة السلفة</strBorrowValue>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+  </ShowEmpBorrowDelayRequest>
+  <EmpSecondmentRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اعارة</strscreenName>
+    <strscreenDataName>بيانات طلب اعارة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strSecondmentType>نوع الاعارة</strSecondmentType>
+    <strExpectedamount>المبلغ المتوقع</strExpectedamount>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strSecondmentreason>سبب الاعارة</strSecondmentreason>
+    <strNotes>ملاحظات</strNotes>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strExpectedamountFollow>من فضلك ادخل المبلغ المتوقع</strExpectedamountFollow>
+    <strCountryFollow>من فضلك ادخل اسم البلد باللغة العربية</strCountryFollow>
+    <strCityFollow>من فضلك ادخل اسم المدينة باللغة العربية</strCityFollow>
+    <strSecondmentreasonFollow>من فضلك ادخل سبب الاعارة</strSecondmentreasonFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+
+
+  </EmpSecondmentRequest>
+
+  <EmpSecondmentRequestData>
+
+
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اعارة</strscreenName>
+    <strscreenDataName>بيانات طلب اعارة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strSecondmentType>نوع الاعارة</strSecondmentType>
+    <strExpectedamount>المبلغ المتوقع</strExpectedamount>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strSecondmentreason>سبب الاعارة</strSecondmentreason>
+    <strNotes>ملاحظات</strNotes>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strExpectedamountFollow>من فضلك ادخل المبلغ المتوقع</strExpectedamountFollow>
+
+    <strCountryFollow>من فضلك ادخل اسم المدينة باللغة العربية</strCountryFollow>
+
+    <strCityFollow>من فضلك ادخل المدينة الاسم باللغة العربية</strCityFollow>
+    <strSecondmentreasonFollow>من فضلك ادخل سبب الاعارة</strSecondmentreasonFollow>
+
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+
+
+  </EmpSecondmentRequestData>
+
+  <EmpSecondmentRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اعارة</strscreenName>
+    <strscreenDataName>بيانات طلب اعارة</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strSecondmentType>نوع الاعارة</strSecondmentType>
+    <strExpectedamount>المبلغ المتوقع</strExpectedamount>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strSecondmentreason>سبب الاعارة</strSecondmentreason>
+    <strNotes>ملاحظات</strNotes>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strExpectedamountFollow>من فضلك ادخل المبلغ المتوقع</strExpectedamountFollow>
+
+    <strCountryFollow>من فضلك ادخل اسم البلد باللغة العربية</strCountryFollow>
+
+    <strCityFollow>من فضلك ادخل المدينة الاسم باللغة العربية</strCityFollow>
+    <strSecondmentreasonFollow>من فضلك ادخل سبب الاعارة</strSecondmentreasonFollow>
+
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+
+
+  </EmpSecondmentRequestReplay>
+
+  <ShowEmpSecondmentRequest>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اعارة موظف</strscreenName>
+    <strscreenDataName>بيانات طلب اعارة موظف</strscreenDataName>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strShow>عرض</strShow>
+    <strTravelticket>تذكرة الطيران</strTravelticket>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+
+    <strbtnSave>حفظ</strbtnSave>
+
+  </ShowEmpSecondmentRequest>
+
+  <EmpAnnualLeavePlanRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اضافة طلب فى الخطة السنوية للاجازات</strscreenName>
+    <strscreenDataName>بيانات اضافة طلب فى الخطة السنوية للاجازات</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strYearofplan>سنة المخطط</strYearofplan>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strAnnualvacationplanreason>سبب اضافة طلب فى الخطة السنوية للاجازات</strAnnualvacationplanreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strYearofplanFollow>من فضلك ادخل سنة المخطط</strYearofplanFollow>
+    <strAnnualvacationplanreasonFollow>من فضلك ادخل السبب</strAnnualvacationplanreasonFollow>
+
+
+  </EmpAnnualLeavePlanRequest>
+
+  <EmpAnnualLeavePlanRequestData>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اضافة طلب فى الخطة السنوية للاجازات</strscreenName>
+    <strscreenDataName>بيانات اضافة طلب فى الخطة السنوية للاجازات</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strYearofplan>سنة المخطط</strYearofplan>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strAnnualvacationplanreason>سبب اضافة طلب فى الخطة السنوية للاجازات</strAnnualvacationplanreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strYearofplanFollow>من فضلك ادخل سنة المخطط</strYearofplanFollow>
+    <strAnnualvacationplanreasonFollow>من فضلك ادخل السبب</strAnnualvacationplanreasonFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+  </EmpAnnualLeavePlanRequestData>
+
+  <EmpAnnualLeavePlanRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اضافة طلب فى الخطة السنوية للاجازات</strscreenName>
+    <strscreenDataName>بيانات اضافة طلب فى الخطة السنوية للاجازات</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strYearofplan>سنة المخطط</strYearofplan>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strAnnualvacationplanreason>سبب اضافة طلب فى الخطة السنوية للاجازات</strAnnualvacationplanreason>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strYearofplanFollow>من فضلك ادخل سنة المخطط</strYearofplanFollow>
+    <strAnnualvacationplanreasonFollow>من فضلك ادخل السبب</strAnnualvacationplanreasonFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+  </EmpAnnualLeavePlanRequestReplay>
+
+
+  <ShowEmpAnnualLeavePlanRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>مخطط الاجازة السنوي, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>مخطط الاجازة السنوي, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strFromdate>من تاريخ</strFromdate>
+    <strTodate>الى تاريخ</strTodate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strShow>عرض</strShow>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+
+    <strbtnSave>حفظ</strbtnSave>
+
+  </ShowEmpAnnualLeavePlanRequest>
+
+  <EmpTravelTickectRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب تذكرة طيران</strscreenName>
+    <strscreenDataName>بيانات طلب تذكرة طيران</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTraveldate>تاريخ السفر</strTraveldate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTravel>السفر ( صباحاً / مساءً )</strTravel>
+    <strReturndate>تاريخ العودة</strReturndate>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strAirportcompany>شركة الطيران</strAirportcompany>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strTravelticketreason>سبب طلب تذكرة طيران</strTravelticketreason>
+    <strNotes>ملاحظات</strNotes>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strCountryFollow>من فضلك ادخل المدينة الاسم باللغة العربية</strCountryFollow>
+    <strCityFollow>من فضلك ادخل اسم المدينة باللغة العربية</strCityFollow>
+    <strAirportcompanyFollow>من فضلك ادخل اسم شركة الطيران</strAirportcompanyFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+
+
+  </EmpTravelTickectRequest>
+
+  <EmpTravelTickectRequestData>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب تذكرة طيران</strscreenName>
+    <strscreenDataName>بيانات طلب تذكرة طيران</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTraveldate>تاريخ السفر</strTraveldate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTravel>السفر ( صباحاً / مساءً )</strTravel>
+    <strReturndate>تاريخ العودة</strReturndate>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strAirportcompany>شركة الطيران</strAirportcompany>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strTravelticketreason>سبب طلب تذكرة طيران</strTravelticketreason>
+    <strNotes>ملاحظات</strNotes>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strCountryFollow>من فضلك ادخل المدينة الاسم باللغة العربية</strCountryFollow>
+
+    <strCityFollow>من فضلك ادخل اسم المدينة باللغة العربية</strCityFollow>
+    <strAirportcompanyFollow>من فضلك ادخل اسم شركة الطيران</strAirportcompanyFollow>
+
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+
+  </EmpTravelTickectRequestData>
+
+  <EmpTravelTickectRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب تذكرة طيران</strscreenName>
+    <strscreenDataName>بيانات طلب تذكرة طيران</strscreenDataName>
+
+    <strApplicant>مقدم الطلب</strApplicant>
+    <strEmployeewhorequest>الطلب للموظف</strEmployeewhorequest>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strTraveldate>تاريخ السفر</strTraveldate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strTravel>السفر ( صباحاً / مساءً )</strTravel>
+    <strReturndate>تاريخ العودة</strReturndate>
+    <strCountry>البلد</strCountry>
+    <strCity>المدينة</strCity>
+    <strAirportcompany>شركة الطيران</strAirportcompany>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strTravelticketreason>سبب طلب تذكرة طيران</strTravelticketreason>
+    <strNotes>ملاحظات</strNotes>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strCountryFollow>من فضلك ادخل المدينة الاسم باللغة العربية</strCountryFollow>
+
+    <strCityFollow>من فضلك ادخل اسم المدينة باللغة العربية</strCityFollow>
+    <strAirportcompanyFollow>من فضلك ادخل اسم شركة الطيران</strAirportcompanyFollow>
+
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+
+
+
+  </EmpTravelTickectRequestReplay>
+
+
+  <ShowEmpTravelTickectRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>تذكرة الطيران طلب, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>تذكرة الطيران طلب, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strTraveldate>تاريخ السفر</strTraveldate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strReturndate>تاريخ العودة</strReturndate>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strShow>عرض</strShow>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+
+    <strbtnSave>حفظ</strbtnSave>
+
+  </ShowEmpTravelTickectRequest>
+
+  <EmpRewardRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب مكافأة لموظف</strscreenName>
+    <strscreenDataName>بيانات طلب مكافأة لموظف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strRewarddate>تاريخ استحقاق المكافأة</strRewarddate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strReason>السبب</strReason>
+    <strRewardtype>نوع المكافأة</strRewardtype>
+    <strBouns>العلاوة</strBouns>
+    <strMoral>اخلاقي</strMoral>
+    <strValue>القيمة</strValue>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strValueFollow>من فضلك ادخل القيمة</strValueFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+  </EmpRewardRequest>
+
+  <EmpRewardRequestData>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب مكافأة لموظف</strscreenName>
+    <strscreenDataName>بيانات طلب مكافأة لموظف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strRewarddate>تاريخ استحقاق المكافأة</strRewarddate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strReason>السبب</strReason>
+    <strRewardtype>نوع المكافأة</strRewardtype>
+    <strBouns>العلاوة</strBouns>
+    <strMoral>اخلاقي</strMoral>
+    <strValue>القيمة</strValue>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strValueFollow>من فضلك ادخل القيمة</strValueFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+  </EmpRewardRequestData>
+
+  <EmpRewardRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب مكافأة لموظف</strscreenName>
+    <strscreenDataName>بيانات طلب مكافأة لموظف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strRewarddate>تاريخ استحقاق المكافأة</strRewarddate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strReason>السبب</strReason>
+    <strRewardtype>نوع المكافأة</strRewardtype>
+    <strBouns>العلاوة</strBouns>
+    <strMoral>اخلاقي</strMoral>
+    <strValue>القيمة</strValue>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strValueFollow>من فضلك ادخل القيمة</strValueFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+
+  </EmpRewardRequestReplay>
+
+
+  <ShowEmpRewardRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب مكافأة, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب مكافأة, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRewarddate>تاريخ استحقاق المكافأة</strRewarddate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+
+    <strShow>عرض</strShow>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+
+    <strbtnSave>حفظ</strbtnSave>
+    <strRewardValue>قيمة المكافأة</strRewardValue>
+  </ShowEmpRewardRequest>
+
+  <EmpTransferEmployeeRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب نقل موظف</strscreenName>
+    <strscreenDataName>بيانات طلب نقل موظف</strscreenDataName>
+
+    <strDirectManagername>اسم المدير المباشر</strDirectManagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strCurrentadministration>الادارة الحالية</strCurrentadministration>
+    <strCurrentdepartment>القسم الحالي</strCurrentdepartment>
+    <strNewadministration>الادارة الجديدة</strNewadministration>
+    <strNewdepartment>القسم الجديد</strNewdepartment>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+  </EmpTransferEmployeeRequest>
+
+
+  <EmpTransferEmployeeRequestData>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب نقل موظف</strscreenName>
+    <strscreenDataName>بيانات طلب نقل موظف</strscreenDataName>
+
+    <strDirectManagername>اسم المدير المباشر</strDirectManagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strCurrentadministration>الادارة الحالية</strCurrentadministration>
+    <strCurrentdepartment>القسم الحالي</strCurrentdepartment>
+    <strNewadministration>الادارة الجديدة</strNewadministration>
+    <strNewdepartment>القسم الجديد</strNewdepartment>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+
+  </EmpTransferEmployeeRequestData>
+
+  <EmpTransferEmployeeRequestReplay>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب نقل موظف</strscreenName>
+    <strscreenDataName>بيانات طلب نقل موظف</strscreenDataName>
+
+    <strDirectManagername>اسم المدير المباشر</strDirectManagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strCurrentadministration>الادارة الحالية</strCurrentadministration>
+    <strCurrentdepartment>القسم الحالي</strCurrentdepartment>
+    <strNewadministration>الادارة الجديدة</strNewadministration>
+    <strNewdepartment>القسم الجديد</strNewdepartment>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+  </EmpTransferEmployeeRequestReplay>
+
+
+
+  <ShowEmpTransferEmployeeRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب نقل موظف, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب نقل موظف, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    <strCurrentadministration>الادارة الحالية</strCurrentadministration>
+    <strCurrentdepartment>القسم الحالي</strCurrentdepartment>
+    <strNewadministration>الادارة الجديدة</strNewadministration>
+    <strNewdepartment>القسم الجديد</strNewdepartment>
+
+
+  </ShowEmpTransferEmployeeRequest>
+
+  <EmpDismissalRequest>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اقالة موظف</strscreenName>
+    <strscreenDataName>بيانات طلب اقالة موظف</strscreenDataName>
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strDirectManag>المدير المباشر</strDirectManag>
+    <strEmployee>الموظف</strEmployee>
+    <strRequestType>نوع الطلب</strRequestType>
+    <strReason>السبب</strReason>
+    <strAttachfile>المستندات المساعدة</strAttachfile>
+    <strNotes>ملاحظات</strNotes>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+
+  </EmpDismissalRequest>
+
+  <EmpDismissalRequestData>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اقالة موظف</strscreenName>
+    <strscreenDataName>بيانات طلب اقالة موظف</strscreenDataName>
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strDirectManag>المدير المباشر</strDirectManag>
+    <strEmployee>الموظف</strEmployee>
+    <strRequestType>نوع الطلب</strRequestType>
+    <strReason>السبب</strReason>
+    <strAttachfile>المستندات المساعدة</strAttachfile>
+    <strNotes>ملاحظات</strNotes>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+  </EmpDismissalRequestData>
+
+  <EmpDismissalRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب اقالة موظف</strscreenName>
+    <strscreenDataName>بيانات طلب اقالة موظف</strscreenDataName>
+
+    <strReferenceNo>الرقم المرجعي</strReferenceNo>
+    <strTransDate>تاريخ المعالجة</strTransDate>
+    <strTransDateFollow>التنسيق الصحيح ( يوم / شهر / سنة )</strTransDateFollow>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strDirectManag>المدير المباشر</strDirectManag>
+    <strEmployee>الموظف</strEmployee>
+    <strRequestType>نوع الطلب</strRequestType>
+    <strReason>السبب</strReason>
+    <strAttachfile>المستندات المساعدة</strAttachfile>
+    <strNotes>ملاحظات</strNotes>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+
+  </EmpDismissalRequestReplay>
+
+
+  <EmpDisciplinaryProcedureRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب عقوبة لموظف</strscreenName>
+    <strscreenDataName>بيانات طلب عقوبة لموظف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strProceduretype>نوع الاجراء</strProceduretype>
+    <strProcedureeffect>تأثير الاجراء</strProcedureeffect>
+    <strDeductiondate>تاريخ الخصم</strDeductiondate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strPercentage>النسبة المئوية (باليوم)</strPercentage>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strPercentageFollow>من فضلك ادخل النسبة المئوية</strPercentageFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+  </EmpDisciplinaryProcedureRequest>
+
+  <EmpDisciplinaryProcedureRequestData>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب عقوبة لموظف</strscreenName>
+    <strscreenDataName>بيانات طلب عقوبة لموظف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strProceduretype>نوع الاجراء</strProceduretype>
+    <strProcedureeffect>تأثير الاجراء</strProcedureeffect>
+    <strDeductiondate>تاريخ الخصم</strDeductiondate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strPercentage>النسبة المئوية (باليوم)</strPercentage>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strPercentageFollow>من فضلك ادخل النسبة المئوية</strPercentageFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+  </EmpDisciplinaryProcedureRequestData>
+
+  <EmpDisciplinaryProcedureRequestReplay>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب عقوبة لموظف</strscreenName>
+    <strscreenDataName>بيانات طلب عقوبة لموظف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strProceduretype>نوع الاجراء</strProceduretype>
+    <strProcedureeffect>تأثير الاجراء</strProcedureeffect>
+    <strDeductiondate>تاريخ الخصم</strDeductiondate>
+    <strDateformat>التنسيق الصحيح ( يوم / شهر / سنة )</strDateformat>
+    <strPercentage>النسبة المئوية (باليوم)</strPercentage>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strNotes>ملاحظات</strNotes>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strPercentageFollow>من فضلك ادخل النسبة المئوية</strPercentageFollow>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+
+  </EmpDisciplinaryProcedureRequestReplay>
+
+
+
+
+
+  <ShowEmpDisciplinaryProcedureRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب عقوبة, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب عقوبة, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    <strNotes>ملاحظات</strNotes>
+
+
+  </ShowEmpDisciplinaryProcedureRequest>
+  <ShowEmpDismissalRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>طلب اقالة, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>طلب اقالة, بيانات الاستعلام</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strNotes>ملاحظات</strNotes>
+    <Select>Select</Select>
+
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+
+  </ShowEmpDismissalRequest>
+
+
+  <EmpEmploymentRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب توظيف</strscreenName>
+    <strscreenDataName>بيانات طلب توظيف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strAdministration>الادارة</strAdministration>
+    <strDepartment>القسم</strDepartment>
+    <strExperience>الخبرة</strExperience>
+    <strQualification>المؤهلات</strQualification>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strWithinbudget>ضمن التكلفة</strWithinbudget>
+    <strNotes>ملاحظات</strNotes>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+
+  </EmpEmploymentRequest>
+
+  <EmpEmploymentRequestData>
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب توظيف</strscreenName>
+    <strscreenDataName>بيانات طلب توظيف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strAdministration>الادارة</strAdministration>
+    <strDepartment>القسم</strDepartment>
+    <strExperience>الخبرة</strExperience>
+    <strQualification>المؤهلات</strQualification>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strWithinbudget>ضمن التكلفة</strWithinbudget>
+    <strNotes>ملاحظات</strNotes>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+
+
+  </EmpEmploymentRequestData>
+
+
+  <EmpEmploymentRequestReplay>
+
+
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة طلب توظيف</strscreenName>
+    <strscreenDataName>بيانات طلب توظيف</strscreenDataName>
+
+    <strDirectmanagername>اسم المدير المباشر</strDirectmanagername>
+    <strRequesttype>نوع الطلب</strRequesttype>
+    <strAdministration>الادارة</strAdministration>
+    <strDepartment>القسم</strDepartment>
+    <strExperience>الخبرة</strExperience>
+    <strQualification>المؤهلات</strQualification>
+    <strPleaseattachhelpdocuments>من فضلك ارفق المستندات المساعدة :</strPleaseattachhelpdocuments>
+    <strWithinbudget>ضمن التكلفة</strWithinbudget>
+    <strNotes>ملاحظات</strNotes>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strSubmitrequest>قدم الطلب</strSubmitrequest>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    <strNotesFollow>من فضلك ادخل ملاحظات</strNotesFollow>
+
+    <strOpenFile>افتح الملف</strOpenFile>
+    <strRequestDetails>تفاصيل الطلب</strRequestDetails>
+    <strManagerApproval>موافقة المدير</strManagerApproval>
+    <strManager>المدير</strManager>
+    <strApporval>الموافقة؟</strApporval>
+    <strYes>نعم</strYes>
+    <strNo>لا</strNo>
+    <strComment>تعليق</strComment>
+    <strCommentFollow>ادخل التعليق</strCommentFollow>
+    <strSign>ضع علامة على هذا القسم</strSign>
+
+
+  </EmpEmploymentRequestReplay>
+
+
+  <ShowEmpEmploymentRequest>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>Employment request, شاشة الاستعلام</strscreenName>
+    <strscreenDataName>Employment request, بيانات screen</strscreenDataName>
+
+    <strAdministration>الادارة</strAdministration>
+    <strDepartment>القسم</strDepartment>
+    <strRequeststatus>حالة الطلب</strRequeststatus>
+    <strRequesttype>نوع الطلب</strRequesttype>
+
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strRequestReason>سبب الطلب</strRequestReason>
+    <Select>اختر</Select>
+    <strFollow-up>متابعة</strFollow-up>
+    <strRequestdatadetails>اعرض بيانات الطلب</strRequestdatadetails>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    <strbtnSave>حفظ</strbtnSave>
+
+
+  </ShowEmpEmploymentRequest>
+
+  
+  
+
+
+
+  <Hiring_Items>
+
+    <strbtnAdd>إضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>إغلاق</strbtnClose>
+    <strbtnSave>حفظ</strbtnSave>
+
+    <strscreenName>شاشة  بنود الرواتب</strscreenName>
+    <strscreenDataName>بيانات  بنود الرواتب</strscreenDataName>
+
+    <strId>الرقم</strId>
+    <strCode>الكود </strCode>
+    <strName>الاسم</strName>
+    <strNameEn>الاسم الانجليزى</strNameEn>
+
+    <strSelect>اختر</strSelect>
+
+    <strSpanCode>ادخل الكود للبحث</strSpanCode>
+    <strSpanName>ادخل الاسم للبحث</strSpanName>
+    <strSpanNameEn>ادخل الاسم الانجليزى للبحث</strSpanNameEn>
+
+    <strSpanPopId>من فضلك ادخل الرقم </strSpanPopId>
+    <strSpanPopCode>من فضلك ادخل الكود</strSpanPopCode>
+    <strSpanPopName>من فضلك ادخل الاسم</strSpanPopName>
+    <strSpanPopNameEn>من فضلك ادخل الاسم الانجليزى</strSpanPopNameEn>
+
+
+  </Hiring_Items>
+
+  <PreparingHiringMonth>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اعداد الرواتب</strscreenName>
+    <strscreenDataName>بيانات اعداد الرواتب</strscreenDataName>
+
+    <strMonth>الشهر</strMonth>
+    <strYear>السنة</strYear>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strMonth>الشهر</strMonth>
+    <strYear>السنة</strYear>
+    <strPrepareMonthSal>اعداد رواتب الشهر</strPrepareMonthSal>
+    <strLoading>تحميل</strLoading>
+    <strTrnsFerData>نقل البيانات ...........</strTrnsFerData>
+
+
+  </PreparingHiringMonth>
+
+  <HiringMonth_FollowUp>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة متابعة الرواتب</strscreenName>
+    <strscreenDataName>بيانات متابعة الرواتب</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strMonth>الشهر</strMonth>
+    <strYear>السنة</strYear>
+    <strEmployeedues>مستحقات الموظف</strEmployeedues>
+    <strEmploymentitem>البند الوظيفي</strEmploymentitem>
+    <strEmploymentitemvalue>البند الوظيفي القيمة</strEmploymentitemvalue>
+    <strActualvalue>القيمة الفعلية</strActualvalue>
+    <strUpdate>تحديث</strUpdate>
+    <strEmployeededuction>خصم الموظف</strEmployeededuction>
+    
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strMonth>الشهر</strMonth>
+    <strEmploymentitemvalueFollow>ضع قيمة البند</strEmploymentitemvalueFollow>
+    <strActualvalueFollow>ضع القيمة الفعلية</strActualvalueFollow>
+    <strSave>حفظ</strSave>
+
+
+  </HiringMonth_FollowUp>
+  <EtmadEmpHiringMonth>
+    
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اعداد الرواتب</strscreenName>
+    <strscreenDataName>بيانات اعداد الرواتب</strscreenDataName>
+
+    <strMonth>الشهر</strMonth>
+    <strYear>السنة</strYear>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strMonth>الشهر</strMonth>
+    <strYear>السنة</strYear>
+    <strConfirmMonthSal>تأكيد رواتب الشهر</strConfirmMonthSal>
+    <strLoading>تحميل</strLoading>
+    <strTrnsFerData>نقل البيانات ...........</strTrnsFerData>
+
+
+  </EtmadEmpHiringMonth>
+  <HiringEmpReceivableDues>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة متابعة اعداد الرواتب</strscreenName>
+    <strscreenDataName>بيانات متابعة اعداد الرواتب</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strMonth>الشهر</strMonth>
+    <strYear>السنة</strYear>
+    <strEmployeedues>مستحقات الموظف</strEmployeedues>
+    <strEmploymentitem>البند الوظيفي</strEmploymentitem>
+    <strEmploymentitemvalue>قيمة البند الوظيفي</strEmploymentitemvalue>
+
+    <strUpdate>تحديث</strUpdate>
+    <strEmployeededuction>الخصم على الموظف</strEmployeededuction>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strMonth>الشهر</strMonth>
+    <strEmploymentitemvalueFollow>ضع قيمة البند</strEmploymentitemvalueFollow>
+
+    <strSave>حفظ</strSave>
+
+    <strBasicValue>القيمة الاساسية</strBasicValue>
+    <strRecievedValue>القيمة المستلمة</strRecievedValue>
+    <strPayedValue>القيمة المدفوعة</strPayedValue>
+    <strDuesValue>قيمة المستحقات</strDuesValue>
+    <strDetials>التفاصيل</strDetials>
+    <strShowReceivalDues>اعرض تفاصيل المستحقات المستلمة</strShowReceivalDues>
+    <strDuesDate>تاريخ الاستحقاق</strDuesDate>
+    <strReceivableValue>القيمة المستلمة</strReceivableValue>
+
+  </HiringEmpReceivableDues>
+
+  <EtmadEmpReceivableDues>
+    
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة متابعة اعداد الرواتب</strscreenName>
+    <strscreenDataName>بيانات متابعة اعداد الرواتب</strscreenDataName>
+
+    <strEmployeename>اسم الموظف</strEmployeename>
+    <strMonth>الشهر</strMonth>
+    <strYear>السنة</strYear>
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+
+    <strLoading>تحميل</strLoading>
+    <strTrnsFerData>نقل البيانات ...........</strTrnsFerData>
+    <strEmpSerial>الرقم التسلسلي للموظف</strEmpSerial>
+    <strEmpName>اسم الموظف</strEmpName>
+    <strChoose>اختر</strChoose>
+    <strSave>حفظ</strSave>
+
+  </EtmadEmpReceivableDues>
+
+
+
+  <Roles>
+    
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة اعدادات الادوار</strscreenName>
+    <strscreenDataName>بيانات اعدادات الادوار</strscreenDataName>
+
+    <strName>الاسم</strName>
+    <strNameFollow>ادخل الاسم للبحث</strNameFollow>
+    <strSelect>اختر</strSelect>
+    <strAddRole>اضف دور</strAddRole>
+    <strShowAllEmp>اعرض كل الموظفين</strShowAllEmp>
+    <strSave>حفظ</strSave>
+
+  </Roles>
+
+  <AppRolesMenuPriviledge>
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة ادوار المستخدمين</strscreenName>
+    <strscreenDataName>بيانات ادوار المستخدمين</strscreenDataName>
+
+    <strRoles>الادوار</strRoles>
+    <strFirstlevelmenu>قائمة المستوى الاول</strFirstlevelmenu>
+    <strSecondlevelmenu>قائمة المستوى الثاني</strSecondlevelmenu>
+    <strThirdlevel>المستوى الثالث ( الشاشات )</strThirdlevel>
+    <strSave>حفظ</strSave>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+
+  
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strMenuName>اسم القائمة</strMenuName>
+    <strMenuNameEn>اسم القائمة باللغة الانجليزية</strMenuNameEn>
+    <strChoose>اختر</strChoose>
+    <strGetLevel>الحصول على مستوى</strGetLevel>
+    <strScrName>اسم الشاشة</strScrName>
+    <strScrNameEn>اسم الشاشة باللعة الانجليزية</strScrNameEn>
+    <strVisible>ظاهر</strVisible>
+    <strCanInsert>يمكن ادراج</strCanInsert>
+    <strCanUpdate>يمكن تحديث</strCanUpdate>
+    <strCanDel>يمكن الحذف</strCanDel>
+    <strCanSearch>يمكن البحث</strCanSearch>
+
+
+  </AppRolesMenuPriviledge>
+  <AppUsers>
+    
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة مستخدمين النظام</strscreenName>
+    <strscreenDataName>بيانات مستخدمين النظام</strscreenDataName>
+
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strName>الاسم</strName>
+    <strNameFollow>ادخل الاسم للبحث</strNameFollow>
+    <strUserName>اسم السمتخدم</strUserName>
+    <strUserNameFollow >ادخل اسم المستخدم للبحث</strUserNameFollow>
+    <strEmail>الايميل</strEmail>
+    <strEmailFollow>ادخل الايميل للبحث</strEmailFollow>
+    <strEmailConfirm>تأكيد الايميل</strEmailConfirm>
+    <strSelect>اختر</strSelect>
+    <strCrtUser>انشاء مستخدم</strCrtUser>
+    <strAssignUserRole>تعيين المستخدم الى الادوار</strAssignUserRole>
+    <strRestPass>اعادة تعيين كلمة المرور</strRestPass>
+    <strRsndEmail>إعادة إرسال تأكيد البريد الإلكتروني</strRsndEmail>
+
+    <strAddUser>اضف مستخدم</strAddUser>
+    <strEmpSerial>الرقم التسلسلي للموظف</strEmpSerial>
+    <strFrstName>الاسم الاول</strFrstName>
+    <strFrstNameFollow>ادخل الاسم الاول</strFrstNameFollow>
+    <strLastName>الاسم الاخير</strLastName>
+    <strLastNameFollow>ادخل الاسم الاخير</strLastNameFollow>
+    <strPass>كلمة المرور</strPass>
+    <strPassFollow>ادخل كلمة المرور</strPassFollow>
+    <strConfrmPass>تأكيد كلمة المرور</strConfrmPass>
+    <strConfrmPassFollow>ادخل تأكيد كلمة المرور</strConfrmPassFollow>
+    <strbtnSave>حفظ</strbtnSave>
+    <strUserRole >ادوار المستخدم</strUserRole>
+    <strRole>الدور</strRole>
+    <strChoose>اختر</strChoose>
+    <strRstPass>اعادة تعيين كلمة المرور</strRstPass>
+    <strNewPass>كلمة المرور الجديد</strNewPass>
+    <strNewPassFollow>ادخل كلمة المرور الجديدة</strNewPassFollow>
+
+  </AppUsers>
+  <AppUsersMenuPriviledge>
+
+    <strbtnAdd>اضافة</strbtnAdd>
+    <strbtnEdit>تعديل</strbtnEdit>
+    <strbtnDel>حذف</strbtnDel>
+    <strbtnSearch>عرض</strbtnSearch>
+    <strbtnClose>العودة الى الشاشة الرئيسية</strbtnClose>
+
+    <strscreenName>شاشة قائمة امتيازات المستخدمين</strscreenName>
+    <strscreenDataName>بيانات قائمة امتيازات المستخدمين</strscreenDataName>
+
+    <strSystemusers>مستخدمين النظام</strSystemusers>
+    <strFirstlevelmenu>قائمة المستوى الاول</strFirstlevelmenu>
+    <strSecondlevelmenu>قائمة المستوى الثاني</strSecondlevelmenu>
+    <strThirdlevel>المستوى الثالث ( الشاشات )</strThirdlevel>
+    <strSave>حفظ</strSave>
+    <strBacktohomescreen>العودة الى الشاشة الرئيسية</strBacktohomescreen>
+    
+    <strCompany>الشركة</strCompany>
+    <strBranch>الفرع</strBranch>
+    <strMenuName>اسم القائمة</strMenuName>
+    <strMenuNameEn>اسم القائمة باللغة الانجليزية</strMenuNameEn>
+    <strChoose>اختر</strChoose>
+    <strGetLevel>الحصول على مستوى</strGetLevel>
+    <strScrName>اسم الشاشة</strScrName>
+    <strScrNameEn>اسم الشاشة باللعة الانجليزية</strScrNameEn>
+    <strVisible>ظاهر</strVisible>
+    <strCanInsert>يمكن ادراج</strCanInsert>
+    <strCanUpdate>يمكن تحديث</strCanUpdate>
+    <strCanDel>يمكن الحذف</strCanDel>
+    <strCanSearch>يمكن البحث</strCanSearch>
+
+
+  </AppUsersMenuPriviledge>
+  
+
+
+  <!--<EmployeeDataRptScr></EmployeeDataRptScr>
+  <EmployeeEndOfServiceScr></EmployeeEndOfServiceScr>
+  <EmployeeDependentsScr></EmployeeDependentsScr>
+  <EmployeeMonthDuesScr></EmployeeMonthDuesScr>
+  <EmployeeExperiencesScr></EmployeeExperiencesScr>
+  <EmployeeQualificationsScr></EmployeeQualificationsScr>
+  <EmployeeCertificatesScr></EmployeeCertificatesScr>
+  <EmployeeContractRptScr></EmployeeContractRptScr>
+  <EmployeeMainDataRptScr></EmployeeMainDataRptScr>
+  <EmployeeDocsRptScr></EmployeeDocsRptScr>
+  <TotEmpVacBalancRptScr></TotEmpVacBalancRptScr>
+  <EmpVacBalancDtlsRptScr></EmpVacBalancDtlsRptScr>
+  <EmpAnnualVacPlanScr></EmpAnnualVacPlanScr>
+  <TotBorrowEmpRptScr></TotBorrowEmpRptScr>
+  <BorrowEmpDtlsRptScr></BorrowEmpDtlsRptScr>
+  <EmployeeRequestRptScr></EmployeeRequestRptScr>
+  <EmployeeTotalMonthPayrollScr></EmployeeTotalMonthPayrollScr>
+  <EmployeeMonthPayrollScr></EmployeeMonthPayrollScr>-->
+
+</corporate>
+
+

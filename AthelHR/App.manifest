@@ -1,0 +1,28 @@
+﻿CACHE MANIFEST
+# 2017-08-21:v8.06
+
+# Explicitly cached 'master entries'.
+CACHE:
+/favicon.ico
+HR/Registeration/Religions.aspx
+Scripts/HR/Registeration/Religions.js
+assets/layouts/layout/img/logo.png
+#index.html
+#stylesheet.css
+#images/logo.png
+#scripts/main.js
+
+
+# Resources that require the user to be online.
+NETWORK:
+*
+
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+FALLBACK:
+#/main.py /static.html
+/assets/layouts/layout/img/logo.png
+
+#images/large/ images/offline.jpg

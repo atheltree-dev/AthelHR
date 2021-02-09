@@ -1,0 +1,10 @@
+﻿1>------ Build started: Project: PharmaERP, Configuration: Debug Any CPU ------
+1>E:\LastProjects\ActuallyProjects\Web\PharmaERP\PharmaERP\HR\EndOfServiceDtls.aspx.cs(8,7,8,20): warning CS0105: The using directive for 'System.Web.UI' appeared previously in this namespace
+1>E:\LastProjects\ActuallyProjects\Web\PharmaERP\PharmaERP\HR\EndOfServiceDtls.aspx.cs(9,7,9,32): warning CS0105: The using directive for 'System.Web.UI.WebControls' appeared previously in this namespace
+1>E:\LastProjects\ActuallyProjects\Web\PharmaERP\PharmaERP\HR\DashBoardEn.aspx.cs(8,7,8,20): warning CS0105: The using directive for 'System.Web.UI' appeared previously in this namespace
+1>E:\LastProjects\ActuallyProjects\Web\PharmaERP\PharmaERP\HR\DashBoardEn.aspx.cs(9,7,9,32): warning CS0105: The using directive for 'System.Web.UI.WebControls' appeared previously in this namespace
+1>E:\LastProjects\ActuallyProjects\Web\PharmaERP\PharmaERP\Reports\ReportPrintDocument.cs(2,7,2,13): warning CS0105: The using directive for 'System' appeared previously in this namespace
+1>E:\LastProjects\ActuallyProjects\Web\PharmaERP\PharmaERP\UserIdentity\Services\SmtpEmailService.cs(75,30,75,32): warning CS0168: The variable 'ex' is declared but never used
+1>E:\LastProjects\ActuallyProjects\Web\PharmaERP\PharmaERP\Reports\MainViewer.aspx.cs(27,16,27,24): warning CS0169: The field 'PharmaERP.Reports.MainViewer.datalist' is never used
+1>  PharmaERP -> E:\LastProjects\ActuallyProjects\Web\PharmaERP\PharmaERP\bin\PharmaERP.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

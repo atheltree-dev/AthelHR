@@ -1,0 +1,2896 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<corporate>
+  <AppSetting>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+
+    <strscreenName>Application settings screen</strscreenName>
+    <strscreenDataName>Application setting data</strscreenDataName>
+
+    <strGeneralsettings>General settings</strGeneralsettings>
+    <strEmployeewhowillbenotified>Employee who will be notified</strEmployeewhowillbenotified>
+    <strCalculationbyusinggrade>Calculation by using grade</strCalculationbyusinggrade>
+    <strEmployeecontract>Employee contract</strEmployeecontract>
+    
+    <strTransferrequesttonextmanagerafterdays>Transfer request to next manager after (…) days</strTransferrequesttonextmanagerafterdays>
+    <strPutperioddays>Put period (days)</strPutperioddays>
+    <strWorkinghoursperday>Working hours per day</strWorkinghoursperday>
+    <strPutworkinghours>Put working hours</strPutworkinghours>
+    <strApplypermissionsdiscount>Apply permissions discount</strApplypermissionsdiscount>
+    <strApply>Apply</strApply>
+    <strPeriodtonotifybeforecontractfinishingbydays>Period to notify before contract finishing (by days)</strPeriodtonotifybeforecontractfinishingbydays>
+    <strPutperioddays>Put period (days)</strPutperioddays>
+    <strEnterpayday>Enter payday</strEnterpayday>
+    <strPutadayforpreparingofthepayroll>Put a day for preparing of the payroll</strPutadayforpreparingofthepayroll>
+    <strEntertheallowedperiodforstoppingrequesteffects>Enter the allowed period for stopping request effects</strEntertheallowedperiodforstoppingrequesteffects>
+    <strPuttheallowedperiodforstoppingrequesteffectsduesAnddeductions>Put the allowed period for stopping request effects (dues and deductions)</strPuttheallowedperiodforstoppingrequesteffectsduesAnddeductions>
+
+    <strAbsencesettings>Absence settings</strAbsencesettings>
+    <strCalculatingabsencefrom>Calculating absence from</strCalculatingabsencefrom>
+    <strDailyPackage>Daily Package</strDailyPackage>
+    <strChooseemploymentitems>Choose employment items</strChooseemploymentitems>
+
+    <strDeductionsettings>Deduction settings</strDeductionsettings>
+    <strCalculatingdeductionfrom>Calculating deduction from</strCalculatingdeductionfrom>
+    
+
+    <strBorrowsettings>Borrow settings</strBorrowsettings>
+    <strCalculatingborrowfrom>Calculating borrow from</strCalculatingborrowfrom>
+    <strMonthlyPackage>MonthLy Package</strMonthlyPackage>
+
+    <strOvertimesettings>Overtime settings</strOvertimesettings>
+    <strCalculatingOvertimefrom>Calculating Overtime from</strCalculatingOvertimefrom>
+    
+
+    <strVacationallowancesettings>Vacation allowance settings</strVacationallowancesettings>
+    <strCalculatingVacationallowancefrom>Calculating Vacation allowance from</strCalculatingVacationallowancefrom>
+   
+
+     <!---->
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    
+    <strUsetimetotransferrequest1>Use time to transfer request?</strUsetimetotransferrequest1>
+    <strUsetimetotransferrequest2>Use time to transfer request</strUsetimetotransferrequest2>
+    <strHireItemId>Employment item id</strHireItemId>
+    <strHireItemName>Employment item name</strHireItemName>
+    <strChoose>Choose</strChoose>
+    <btnSave>Save</btnSave>
+
+  </AppSetting>
+
+		<OrgChart>
+    <strscreenName>Organization Chart</strscreenName>
+  </OrgChart>	
+  <Countries>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Countery Screen</strscreenName>
+    <strscreenDataName>Countery Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strCountry>Country</strCountry>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+
+
+  </Countries>
+  <Cities>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>City Screen</strscreenName>
+    <strscreenDataName>City Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strCountry>Country</strCountry>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+  </Cities>
+
+  <Religions>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Religion Screen</strscreenName>
+    <strscreenDataName>Religion Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strCountry>Country</strCountry>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+  </Religions>
+
+  <Nationalities>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Nationality Screen</strscreenName>
+    <strscreenDataName>Nationality Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+
+  </Nationalities>
+  <Qualifications>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Qualification Screen</strscreenName>
+    <strscreenDataName>Qualification Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+
+
+  </Qualifications>
+  <GradeJobGroups>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+
+  </GradeJobGroups>
+  <Jobs>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Job Screen</strscreenName>
+    <strscreenDataName>Job Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strjobGrade>Job grade</strjobGrade>
+    
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+    
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+
+  </Jobs>
+  <Grades>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Grade Screen</strscreenName>
+    <strscreenDataName>Grade Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+
+
+  </Grades>
+  <GradeHiringItem>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+
+    <strscreenName>Job grades, Benefits screen</strscreenName>
+    <strscreenDataName>Job grades, Benefits data</strscreenDataName>
+
+    <strJobGrade>Job Grade</strJobGrade>
+    <strJobgradedetails>Job grade details</strJobgradedetails>
+    <strGrade>Grade</strGrade>
+    <strEmploymentitem>Employment item</strEmploymentitem>
+    <strCalculationmethod>Calculation method</strCalculationmethod>
+    <strEmploymentitemvalue>Employment item value</strEmploymentitemvalue>
+    <strFillinemploymentitemvalue>Fill in employment item value</strFillinemploymentitemvalue>
+    <strnextvaluesofallowancesandannualvacationarerelatedtojobgrade>Please note : next values of allowances and annual vacation are related to job grade</strnextvaluesofallowancesandannualvacationarerelatedtojobgrade>
+    <strAllowancesdetails>Allowances details</strAllowancesdetails>
+    <strEmploymentitem>Employment item</strEmploymentitem>
+    <strCalculationmethod>Calculation method</strCalculationmethod>
+    <strPeriod>Period</strPeriod>
+    <strMonthly>Monthly</strMonthly>
+    <strEmploymentitemvalue>Employment item value</strEmploymentitemvalue>
+    <strFillinemploymentitemvalue>Fill in employment item value</strFillinemploymentitemvalue>
+    <strAnnualvacationdetails>Annual vacation details</strAnnualvacationdetails>
+    <strAnnualvactionperiod>Annual vaction period</strAnnualvactionperiod>
+    <strFillinannualvactionperiod>Fill in annual vaction period</strFillinannualvactionperiod>
+    <strVacationtravelticketclass>Vacation travel ticket class</strVacationtravelticketclass>
+    <strInternalworktravelticketclass>Internal work travel ticket class</strInternalworktravelticketclass>
+    <strExternalworktravelticketclass>External work travel ticket class</strExternalworktravelticketclass>
+
+    
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strAddRow>Add row</strAddRow>
+    <strBtnUpdate>Update</strBtnUpdate>
+    <strBtnDelete>Delete</strBtnDelete>
+    <strbtnSave>Save</strbtnSave>
+    
+
+  </GradeHiringItem>
+  <Currencies>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Currency Screen</strscreenName>
+    <strscreenDataName>Currency Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+    
+
+
+  </Currencies>
+  <Banks>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Bank Screen</strscreenName>
+    <strscreenDataName>Bank Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strAddress>Address</strAddress>
+    <strSpanPopAddress>Enter The Address</strSpanPopAddress>
+    <strCurrency>Currency</strCurrency>
+    <strCountry>Country</strCountry>
+    <strCity>City</strCity>
+    <strPhone1>Phone1</strPhone1>
+    <strSpanPopPhone1>Enter The Phone1</strSpanPopPhone1>
+    <strPhone2>Phone2</strPhone2>
+    <strSpanPopPhone2>Enter The Phone2</strSpanPopPhone2>
+    <strSwiftCode>Swift Code</strSwiftCode>
+    <strSpanPopSwiftCode>Enter The Swift Code</strSpanPopSwiftCode>
+    <strMobile1>Mobile1</strMobile1>
+    <strSpanPopMobile1>Enter The Mobile1</strSpanPopMobile1>
+    <strMobile2>Mobile2</strMobile2>
+    <strSpanPopMobile2>Enter The Mobile2</strSpanPopMobile2>
+    <strFax>Fax</strFax>
+    <strSpanPopFax>Enter The Fax</strSpanPopFax>
+    
+  </Banks>
+  <DocumentTypes>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Document Type Screen</strscreenName>
+    <strscreenDataName>Document Type Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+  </DocumentTypes>
+  <ExperienceCategories>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Experience Category Screen</strscreenName>
+    <strscreenDataName>Experience Category Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+
+  </ExperienceCategories>
+  <Experiences>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Experience Screen</strscreenName>
+    <strscreenDataName>Experience Data</strscreenDataName>
+    
+    <strExperiencesCategory>Experience's Category</strExperiencesCategory>
+    
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+   
+  </Experiences>
+  <RewardReasons>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Reward Reason Screen</strscreenName>
+    <strscreenDataName>Reward Reason Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+  </RewardReasons>
+  
+  <DisciplinaryProcedures>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Penalties and Fines Procedure Screen</strscreenName>
+    <strscreenDataName>Penalties and Fines Procedure Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+
+
+  </DisciplinaryProcedures>
+  <DismissalReasons>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Dismissal Reason Screen</strscreenName>
+    <strscreenDataName>Dismissal Reason Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+  </DismissalReasons>
+  <DeductionReasons>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Deduction Reason Screen</strscreenName>
+    <strscreenDataName>Deduction Reason Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+
+  </DeductionReasons>
+  
+  <AlternativeEmployeesTrans>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+
+    <strscreenName>Alternative employee screen</strscreenName>
+    <strscreenDataName>Alternative employee data</strscreenDataName>
+
+    <strAlternativeemployeescreen>Alternative employee screen</strAlternativeemployeescreen>
+    <strAlternativeemployeedata>Alternative employee data</strAlternativeemployeedata>
+    <strAssignauthorizedemployee>Assign authorized employee</strAssignauthorizedemployee>
+    <strEmployeename>Employee name</strEmployeename>
+    <strAuthorizedemployee>Authorized employee</strAuthorizedemployee>
+  
+    
+    <strAssign>Assign</strAssign>
+    <strBtnUpdate>Update</strBtnUpdate>
+    <strBtnSave>Save</strBtnSave>
+    
+  </AlternativeEmployeesTrans>
+  <Companies>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Company Screen</strscreenName>
+    <strscreenDataName>Company Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strArabicField>BussinessField Arabic Name</strArabicField>
+    <strEngField>BussinessField English Name</strEngField>
+    <strResponsPerson>Responsible Person</strResponsPerson>
+    
+
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+    <strSpanPopArabicField>Enter The BussinessField Arabic Name</strSpanPopArabicField>
+    <strSpanPopEngField>Enter BussinessField English Name</strSpanPopEngField>
+    <strCompanyLogo>Company Logo</strCompanyLogo>
+
+  </Companies>
+  <Branches>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Branch Screen</strscreenName>
+    <strscreenDataName>Branch Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strCompanyname>Company name</strCompanyname>
+    
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+    
+    <!---->
+    
+    <strCompany>Company</strCompany>
+    <strCurrency>Currency</strCurrency>
+    <strResponsible>Responsible person</strResponsible>
+    <strStreetName>Street name</strStreetName>
+    <strSpanPopStreetName>Enter the street name</strSpanPopStreetName>
+    <strBuildingNo>Building number</strBuildingNo>
+    <strSpanPopBuildingNo>Enter the building number</strSpanPopBuildingNo>
+    <strPoBox>P.O Box number</strPoBox>
+    <strSpanPopPoBox>Enter the P.O box number</strSpanPopPoBox>
+    <strPostalCode>Postal code</strPostalCode>
+    <strSpanPopPostalCode>Enter the postal code</strSpanPopPostalCode>
+    <strFax>Fax></strFax>
+    <strSpanPopFax>Enter the fax</strSpanPopFax>
+    <strEmail>Email</strEmail>
+    <strSpanPopEmail>Enter the email</strSpanPopEmail>
+    <strPhone1>Phone1</strPhone1>
+    <strSpanPopPhone1>Enter the phone1</strSpanPopPhone1>
+    <strPhone2>Phone2</strPhone2>
+    <strSpanPopPhone2>Enter the phone2</strSpanPopPhone2>
+    <strPhone3>Phone3</strPhone3>
+    <strSpanPopPhone3>Enter the phone3</strSpanPopPhone3>
+    <strExtensTel1>Phone extension-1</strExtensTel1>
+    <strSpanPopExtensTel1>Enter phone extension</strSpanPopExtensTel1>
+    <strExtensTel2>Phone extension-2</strExtensTel2>
+    <strSpanPopExtensTel2>Enter phone extension</strSpanPopExtensTel2>
+    <strExtensTel3>Phone extension-3</strExtensTel3>
+    <strSpanPopExtensTel3>Enter phone extension</strSpanPopExtensTel3>
+    
+    
+
+  </Branches>
+  <BranchAccounts>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+
+    <strscreenName>Branches bank accounts screen</strscreenName>
+    <strscreenDataName>Branches bank accounts data</strscreenDataName>
+
+   
+    <strDetailsofbankaccounts>Details of bank accounts</strDetailsofbankaccounts>
+    <strBankname>Bank name</strBankname>
+    <strAccounttype>Account type</strAccounttype>
+    <strAccountno>Account no.</strAccountno>
+    
+    <!---->
+    
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strFillInAccountno>Put branch account no.</strFillInAccountno>
+    <strBtnAddrow>Add Row</strBtnAddrow>
+    <strBtnUpdate>Update</strBtnUpdate>
+    <strBtnDelete>Update</strBtnDelete>
+    <strbtnSave>Save</strbtnSave>
+
+  </BranchAccounts>
+  
+  <Administrations>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Administration Screen</strscreenName>
+    <strscreenDataName>Administration Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+   
+
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+
+  </Administrations>
+  <Departments>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Department Screen</strscreenName>
+    <strscreenDataName>Department Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strAdministration>Administration</strAdministration>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    
+
+
+  </Departments>
+  <Projects>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Project Screen</strscreenName>
+    <strscreenDataName>Project Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+    
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+
+  </Projects>
+  <AddEmployees>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Add employee information screen</strscreenName>
+    <strscreenDataName>Add employee information data</strscreenDataName>
+    
+    <strEmployeeserialno>Employee serial no.</strEmployeeserialno>
+    <strEmployeeCode>Employee Code</strEmployeeCode>
+    <strArabicfirstname>Arabic first name</strArabicfirstname>
+    <strArabicfathername>Arabic father name</strArabicfathername>
+    <strArabicgrandfathername>Arabic grandfather name</strArabicgrandfathername>
+    <strArabicfamilynam>Arabic family nam</strArabicfamilynam>
+    <strEnglishfirstname>English first name</strEnglishfirstname>
+    <strEnglishfathername>English father name</strEnglishfathername>
+    <strEnglishgrandfathername>English grandfather name</strEnglishgrandfathername>
+    <strEnglishfamilynam>English family nam</strEnglishfamilynam>
+    <strBirthdate>Birth date</strBirthdate>
+    <strHiringdate>Hiring date</strHiringdate>
+    <strBirthplace>Birth place</strBirthplace>
+    <strMaritalstatus>Marital status</strMaritalstatus>
+    <strMilitarystatus>Military status</strMilitarystatus>
+    <strGender>Gender</strGender>
+    <strReligion>Religion</strReligion>
+    <strCountry>Country</strCountry>
+    <strCity>City</strCity>
+    <strNationality>Nationality</strNationality>
+    <strProject>Project</strProject>
+    <strContracttype>Contract type</strContracttype>
+    <strAdministration>Administration</strAdministration>
+    <strDepartment>Department</strDepartment>
+    <strShift>Shift</strShift>
+    <strClassificationofcontract>Classification of contract</strClassificationofcontract>
+    <strHasmanager>Has manager</strHasmanager>
+    <strManager>Manager</strManager>
+    <strIsmanager>Is manager?</strIsmanager>
+    <strIscommissioner>Is commissioner?</strIscommissioner>
+    <strNeedsamandate>Needs a mandate</strNeedsamandate>
+    <strCommissioner>Commissioner</strCommissioner>
+
+    <strEmployeephoto>Employee photo</strEmployeephoto>
+    <strEmployeedata>Employee data</strEmployeedata>
+    <strEmployeeNationality>Employee Nationality</strEmployeeNationality>
+    <strIdentityno>Identity no.</strIdentityno>
+    <strPassportno>Passport no.</strPassportno>
+    <strMedicalinsurance>Medical insurance</strMedicalinsurance>
+    <strHasmedicalinsurance>Has medical insurance?</strHasmedicalinsurance>
+    <strMedicalInsuranceno>Medical Insurance no.</strMedicalInsuranceno>
+    <strSocialinsuranceno>Social insurance no.</strSocialinsuranceno>
+    <strEmployeestatus>Employee status</strEmployeestatus>
+    <strPrivilege>Privilege</strPrivilege>
+    <strHasfingerprint>Has fingerprint</strHasfingerprint>
+    <strHasabsence>Has absence</strHasabsence>
+    <strHasovertime>Has overtime</strHasovertime>
+    <strHasdelay>Has delay</strHasdelay>
+    <strHaspermission>Has permission</strHaspermission>
+    <strNotes>Notes</strNotes>
+
+    <strContractstartdate>Contract start date</strContractstartdate>
+    <strContractenddate>Contract end date</strContractenddate>
+    <strDurationofcontract>Duration of contract (per month)</strDurationofcontract>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strJobgrade>Job grade</strJobgrade>
+    <strGrade>Grade</strGrade>
+    <strJob>Job</strJob>
+    <strJobtitle>Job title</strJobtitle>
+    <strContractitemsdetails>Contract items details</strContractitemsdetails>
+    <strEmploymentitem>Employment item</strEmploymentitem>
+    <strCalculationmethod>Calculation method</strCalculationmethod>
+    <strEmploymentitemvalue>Employment item value</strEmploymentitemvalue>
+    <strAnnualvacationvaluesarerelatedtojobgrade>Annual vacation values are related to job grade</strAnnualvacationvaluesarerelatedtojobgrade>
+    <strAnnualvacationdetails>Annual vacation details</strAnnualvacationdetails>
+    <strAnnualvacationperiod>Annual vacation period (per day)</strAnnualvacationperiod>
+    <strTickettype>Ticket type</strTickettype>
+    <strInternalworktraveltickettype>Internal work travel ticket type</strInternalworktraveltickettype>
+    <strExternalworktraveltickettype>External work travel ticket type</strExternalworktraveltickettype>
+
+    <strSaudilandlinephone>Saudi landline phone</strSaudilandlinephone>
+    <strSaudimobilephone1>Saudi mobile phone1</strSaudimobilephone1>
+    <strSaudimobilephone2>Saudi mobile phone2</strSaudimobilephone2>
+    <strForeignlandlinephone>Foreign landline phone</strForeignlandlinephone>
+    <strForeignmobilephone1>Foreign mobile phone1</strForeignmobilephone1>
+    <strForeignmobilephone2>Foreign mobile phone2</strForeignmobilephone2>
+    <strFax>Fax</strFax>
+    <strBusinesse-mail>Business e-mail</strBusinesse-mail>
+    <strPersonale-mail>Personal e-mail</strPersonale-mail>
+    <strSaudiaddress1>Saudi address1</strSaudiaddress1>
+    <strSaudiaddress2>Saudi address2</strSaudiaddress2>
+    <strForeignaddress1>Foreign address1</strForeignaddress1>
+    <strForeignaddress2>Foreign address2</strForeignaddress2>
+    <strBankname1>Bank name1</strBankname1>
+    <strBankname2>Bank name2</strBankname2>
+    <strAccountbankno1>Account bank no1</strAccountbankno1>
+    <strAccountbankno2>Account bank no2</strAccountbankno2>
+    <strIBANno1>IBAN no1</strIBANno1>
+    <strIBANno2>IBAN no2</strIBANno2>
+    <strBacktohome>Back to home</strBacktohome>
+    
+    
+     
+    <strgeneralTab>General Data</strgeneralTab>
+    <strIdTab>ID's Data</strIdTab>
+    <strContractTab>Contract Details</strContractTab>
+    <strContactTab>Contact Details</strContactTab>
+  
+    <strEmployeeserialnofollow>Enter serial no.</strEmployeeserialnofollow>
+    <strEmployeeCodefollow>Enter employee code</strEmployeeCodefollow>
+    <strArabicfirstnamefollow>Arabic first name</strArabicfirstnamefollow>
+    <strArabicfathernamefollow>Arabic father name</strArabicfathernamefollow>
+    <strArabicgrandfathernamefollow>Arabic grandfather name</strArabicgrandfathernamefollow>
+    <strArabicfamilynamfollow>Arabic family name</strArabicfamilynamfollow>
+    <strEnglishfirstnamefollow>English first name</strEnglishfirstnamefollow>
+    <strEnglishfathernamefollow>English father name</strEnglishfathernamefollow>
+    <strEnglishgrandfathernamefollow>English grandfather name</strEnglishgrandfathernamefollow>
+    <strEnglishfamilynamfollow>Enter english family name</strEnglishfamilynamfollow>
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strBirthdatefollow>Birth date</strBirthdatefollow>
+    <strHiringdatefollow>Hiring date</strHiringdatefollow>
+    <strSaudilandlinephonefollow>Saudi landline phone</strSaudilandlinephonefollow>
+    <strSaudimobilephone1follow>Saudi mobile phone1</strSaudimobilephone1follow>
+    <strSaudimobilephone2follow>Saudi mobile phone2</strSaudimobilephone2follow>
+    <strForeignlandlinephonefollow>Foreign landline phone</strForeignlandlinephonefollow>
+    <strForeignmobilephone1follow>Foreign mobile phone1</strForeignmobilephone1follow>
+    <strForeignmobilephone2follow>Foreign mobile phone2</strForeignmobilephone2follow>
+    <strFaxfollow>Fax no.</strFaxfollow>
+    <strBusinesse-mailfollow>Business e-mail</strBusinesse-mailfollow>
+    <strPersonale-mailfollow>Personal e-mail</strPersonale-mailfollow>
+    <strSaudiaddress1follow>Saudi address1</strSaudiaddress1follow>
+    <strSaudiaddress2follow>Saudi address2</strSaudiaddress2follow>
+    <strForeignaddress1follow>Foreign address1</strForeignaddress1follow>
+    <strForeignaddress2follow>Foreign address2</strForeignaddress2follow>
+    <strAccountbankno1follow>Bank name1</strAccountbankno1follow>
+    <strIBANno1follow>IBAN no1</strIBANno1follow>
+    <strIBANno1confirm>Confirm IBAN no1</strIBANno1confirm>
+    <strIBANno1confirmfollow>IBAN no1</strIBANno1confirmfollow>
+    <strAccountbankno2follow>Bank account no.2</strAccountbankno2follow>
+    <strIBANno2follow>Account bank no2</strIBANno2follow>
+    <strIBANno2confirm>Confirm IBAN no2</strIBANno2confirm>
+    <strIBANno2confirmfollow>Account bank no2</strIBANno2confirmfollow>
+    <strIdentitynofollow>Identity no.</strIdentitynofollow>
+    <strPassportnofollow>Passport no.</strPassportnofollow>
+    <strMedicalInsurancenofollow>Medical Insurance no.</strMedicalInsurancenofollow>
+    <strSocialinsurancenofollow>Social insurance no.</strSocialinsurancenofollow>
+    <strNotesfollow>Notes</strNotesfollow>
+    <strContractstartdatefollow>Contract start date</strContractstartdatefollow>
+    <strContractenddatefollow>Contract end date</strContractenddatefollow>
+    <strDurationofcontractfollow>Duration of contract (per month)</strDurationofcontractfollow>
+    <strEmploymentitemvaluefollow>Employment item value</strEmploymentitemvaluefollow>
+    <strAddrow>Add Row</strAddrow>
+    <strbtnUpdate>Update</strbtnUpdate>
+    <strbtnDel>Delete</strbtnDel>
+    <strAnnualvacationperiodfollow>Annual vacation period (per day)</strAnnualvacationperiodfollow>
+    <strbtnSave>save</strbtnSave>
+
+      
+  
+  
+
+  </AddEmployees>
+  <UpdateEmployees>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Update employee information screen</strscreenName>
+    <strscreenDataName>Update employee information data</strscreenDataName>
+
+    <strEmployeeserialno>Employee serial no.</strEmployeeserialno>
+    <strEmployeeCode>Employee code</strEmployeeCode>
+    <strArabicfirstname>Arabic first name</strArabicfirstname>
+    <strArabicfathername>Arabic father name</strArabicfathername>
+    <strArabicgrandfathername>Arabic grandfather name</strArabicgrandfathername>
+    <strArabicfamilynam>Arabic family name</strArabicfamilynam>
+    <strEnglishfirstname>English first name</strEnglishfirstname>
+    <strEnglishfathername>English father name</strEnglishfathername>
+    <strEnglishgrandfathername>English grandfather name</strEnglishgrandfathername>
+    <strEnglishfamilynam>English family name</strEnglishfamilynam>
+    <strBirthdate>Birth date</strBirthdate>
+    <strHiringdate>Hiring date</strHiringdate>
+    <strBirthplace>Birth place</strBirthplace>
+    <strMaritalstatus>Marital status</strMaritalstatus>
+    <strMilitarystatus>Military status</strMilitarystatus>
+    <strGender>Gender</strGender>
+    <strReligion>Religion</strReligion>
+    <strCountry>Country</strCountry>
+    <strCity>City</strCity>
+    <strNationality>Nationality</strNationality>
+    <strProject>Project</strProject>
+    <strContracttype>Contract type</strContracttype>
+    <strAdministration>Administration</strAdministration>
+    <strDepartment>Department</strDepartment>
+    <strShift>Shift</strShift>
+    <strClassificationofcontract>Classification of contract</strClassificationofcontract>
+    <strHasmanager>Has manager</strHasmanager>
+    <strManager>Manager</strManager>
+    <strIsmanager>Is manager?</strIsmanager>
+    <strIscommissioner>Is commissioner?</strIscommissioner>
+    <strNeedsamandate>Needs a mandate</strNeedsamandate>
+    <strCommissioner>Commissioner</strCommissioner>
+
+    <strEmployeephoto>Employee photo</strEmployeephoto>
+    <strEmployeedata>Employee data</strEmployeedata>
+    <strEmployeeNationality>Employee nationality</strEmployeeNationality>
+    <strIdentityno>Identity no.</strIdentityno>
+    <strPassportno>Passport no.</strPassportno>
+    <strMedicalinsurance>Medical insurance</strMedicalinsurance>
+    <strHasmedicalinsurance>Has medical insurance?</strHasmedicalinsurance>
+    <strMedicalInsuranceno>Medical insurance no.</strMedicalInsuranceno>
+    <strSocialinsuranceno>Social insurance no.</strSocialinsuranceno>
+    <strEmployeestatus>Employee status</strEmployeestatus>
+    <strPrivilege>Privilege</strPrivilege>
+    <strHasfingerprint>Has fingerprint</strHasfingerprint>
+    <strHasabsence>Has absence</strHasabsence>
+    <strHasovertime>Has overtime</strHasovertime>
+    <strHasdelay>Has delay</strHasdelay>
+    <strHaspermission>Has permission</strHaspermission>
+    <strNotes>Notes</strNotes>
+
+    <strContractstartdate>Contract start date</strContractstartdate>
+    <strContractenddate>Contract end date</strContractenddate>
+    <strDurationofcontract>Duration of contract (per month)</strDurationofcontract>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strJobgrade>Job grade</strJobgrade>
+    <strGrade>Grade</strGrade>
+    <strJob>Job</strJob>
+    <strJobtitle>Job title</strJobtitle>
+    <strContractitemsdetails>Contract items details</strContractitemsdetails>
+    <strEmploymentitem>Employment item</strEmploymentitem>
+    <strCalculationmethod>Calculation method</strCalculationmethod>
+    <strEmploymentitemvalue>Employment item value</strEmploymentitemvalue>
+    <strAnnualvacationvaluesarerelatedtojobgrade>Annual vacation values are related to job grade</strAnnualvacationvaluesarerelatedtojobgrade>
+    <strAnnualvacationdetails>Annual vacation details</strAnnualvacationdetails>
+    <strAnnualvacationperiod>Annual vacation period (per day)</strAnnualvacationperiod>
+    <strTickettype>Ticket type</strTickettype>
+    <strInternalworktraveltickettype>Internal work travel ticket type</strInternalworktraveltickettype>
+    <strExternalworktraveltickettype>External work travel ticket type</strExternalworktraveltickettype>
+
+    <strSaudilandlinephone>Saudi land-line phone</strSaudilandlinephone>
+    <strSaudimobilephone1>Saudi mobile phone1</strSaudimobilephone1>
+    <strSaudimobilephone2>Saudi mobile phone2</strSaudimobilephone2>
+    <strForeignlandlinephone>Foreign land-line phone</strForeignlandlinephone>
+    <strForeignmobilephone1>Foreign mobile phone1</strForeignmobilephone1>
+    <strForeignmobilephone2>Foreign mobile phone2</strForeignmobilephone2>
+    <strFax>Fax</strFax>
+    <strBusinesse-mail>Business e-mail</strBusinesse-mail>
+    <strPersonale-mail>Personal e-mail</strPersonale-mail>
+    <strSaudiaddress1>Saudi address1</strSaudiaddress1>
+    <strSaudiaddress2>Saudi address2</strSaudiaddress2>
+    <strForeignaddress1>Foreign address1</strForeignaddress1>
+    <strForeignaddress2>Foreign address2</strForeignaddress2>
+    <strBankname1>Bank name1</strBankname1>
+    <strBankname2>Bank name2</strBankname2>
+    <strAccountbankno1>Bank account no.1</strAccountbankno1>
+    <strAccountbankno2>Bank account no.2</strAccountbankno2>
+    <strIBANno1>IBAN no.1</strIBANno1>
+    <strIBANno2>IBAN no.2</strIBANno2>
+    <strBacktohome>Back to home</strBacktohome>
+    
+    
+     
+    <strgeneralTab>General Data</strgeneralTab>
+    <strIdTab>ID's Data</strIdTab>
+    <strContractTab>Contract Details</strContractTab>
+    <strContactTab>Contact Details</strContactTab>
+  
+    <strEmployeeserialnofollow>Employee serial no..</strEmployeeserialnofollow>
+    <strEmployeeCodefollow>Enter the employee code</strEmployeeCodefollow>
+    <strArabicfirstnamefollow>Arabic first name</strArabicfirstnamefollow>
+    <strArabicfathernamefollow>Arabic father name</strArabicfathernamefollow>
+    <strArabicgrandfathernamefollow>Arabic grandfather name</strArabicgrandfathernamefollow>
+    <strArabicfamilynamfollow>Arabic family name</strArabicfamilynamfollow>
+    <strEnglishfirstnamefollow>English first name</strEnglishfirstnamefollow>
+    <strEnglishfathernamefollow>English father name</strEnglishfathernamefollow>
+    <strEnglishgrandfathernamefollow>English grandfather name</strEnglishgrandfathernamefollow>
+    <strEnglishfamilynamfollow>Enter english family name</strEnglishfamilynamfollow>
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strBirthdatefollow>Birth date</strBirthdatefollow>
+    <strHiringdatefollow>Hiring date</strHiringdatefollow>
+    <strSaudilandlinephonefollow>Saudi landline phone</strSaudilandlinephonefollow>
+    <strSaudimobilephone1follow>Saudi mobile phone1</strSaudimobilephone1follow>
+    <strSaudimobilephone2follow>Saudi mobile phone2</strSaudimobilephone2follow>
+    <strForeignlandlinephonefollow>Foreign landline phone</strForeignlandlinephonefollow>
+    <strForeignmobilephone1follow>Foreign mobile phone1</strForeignmobilephone1follow>
+    <strForeignmobilephone2follow>Foreign mobile phone2</strForeignmobilephone2follow>
+    <strFaxfollow>Fax</strFaxfollow>
+    <strBusinesse-mailfollow>Business e-mail</strBusinesse-mailfollow>
+    <strPersonale-mailfollow>Personal e-mail</strPersonale-mailfollow>
+    <strSaudiaddress1follow>Saudi address1</strSaudiaddress1follow>
+    <strSaudiaddress2follow>Saudi address2</strSaudiaddress2follow>
+    <strForeignaddress1follow>Foreign address1</strForeignaddress1follow>
+    <strForeignaddress2follow>Foreign address2</strForeignaddress2follow>
+    <strAccountbankno1follow>Bank account no.1</strAccountbankno1follow>
+    <strIBANno1follow>IBAN no.1</strIBANno1follow>
+    <strIBANno1confirm>Confirm IBAN no.1</strIBANno1confirm>
+    <strIBANno1confirmfollow>Enter The IBAN no.1</strIBANno1confirmfollow>
+    <strAccountbankno2follow>Bank account no.2</strAccountbankno2follow>
+    <strIBANno2follow>IBAN no.2</strIBANno2follow>
+    <strIBANno2confirm>Confirm IBAN no.2</strIBANno2confirm>
+    <strIBANno2confirmfollow>IBAN no.2</strIBANno2confirmfollow>
+    <strIdentitynofollow>Identity no.</strIdentitynofollow>
+    <strPassportnofollow>Passport no.</strPassportnofollow>
+    <strMedicalInsurancenofollow>Medical Insurance no.</strMedicalInsurancenofollow>
+    <strSocialinsurancenofollow>Social insurance no.</strSocialinsurancenofollow>
+    <strNotesfollow>Notes</strNotesfollow>
+    <strContractstartdatefollow>Contract start date</strContractstartdatefollow>
+    <strContractenddatefollow>Contract end date</strContractenddatefollow>
+    <strDurationofcontractfollow>Duration of contract (per month)</strDurationofcontractfollow>
+    <strEmploymentitemvaluefollow>Employment item value</strEmploymentitemvaluefollow>
+    <strAddrow>Add Row</strAddrow>
+    <strbtnUpdate>Update</strbtnUpdate>
+    <strbtnDel>Delete</strbtnDel>
+    <strAnnualvacationperiodfollow>Annual vacation period (per day)</strAnnualvacationperiodfollow>
+    <strbtnSave>save</strbtnSave>
+
+  </UpdateEmployees>
+  <DeleteEmployees>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Add employee information screen</strscreenName>
+    <strscreenDataName>Add employee information data</strscreenDataName>
+
+   <strEmployeeserialno>Employee serial no.</strEmployeeserialno>
+    <strEmployeeCode>Employee code</strEmployeeCode>
+    <strArabicfirstname>Arabic first name</strArabicfirstname>
+    <strArabicfathername>Arabic father name</strArabicfathername>
+    <strArabicgrandfathername>Arabic grandfather name</strArabicgrandfathername>
+    <strArabicfamilynam>Arabic family name</strArabicfamilynam>
+    <strEnglishfirstname>English first name</strEnglishfirstname>
+    <strEnglishfathername>English father name</strEnglishfathername>
+    <strEnglishgrandfathername>English grandfather name</strEnglishgrandfathername>
+    <strEnglishfamilynam>English family nam</strEnglishfamilynam>
+    <strBirthdate>Birth date</strBirthdate>
+    <strHiringdate>Hiring date</strHiringdate>
+    <strBirthplace>Birth place</strBirthplace>
+    <strMaritalstatus>Marital status</strMaritalstatus>
+    <strMilitarystatus>Military status</strMilitarystatus>
+    <strGender>Gender</strGender>
+    <strReligion>Religion</strReligion>
+    <strCountry>Country</strCountry>
+    <strCity>City</strCity>
+    <strNationality>Nationality</strNationality>
+    <strProject>Project</strProject>
+    <strContracttype>Contract type</strContracttype>
+    <strAdministration>Administration</strAdministration>
+    <strDepartment>Department</strDepartment>
+    <strShift>Shift</strShift>
+    <strClassificationofcontract>Classification of contract</strClassificationofcontract>
+    <strHasmanager>Has manager</strHasmanager>
+    <strManager>Manager</strManager>
+    <strIsmanager>Is manager?</strIsmanager>
+    <strIscommissioner>Is commissioner?</strIscommissioner>
+    <strNeedsamandate>Needs a mandate</strNeedsamandate>
+    <strCommissioner>Commissioner</strCommissioner>
+
+    <strEmployeephoto>Employee photo</strEmployeephoto>
+    <strEmployeedata>Employee data</strEmployeedata>
+    <strEmployeeNationality>Employee Nationality</strEmployeeNationality>
+    <strIdentityno>Identity no.</strIdentityno>
+    <strPassportno>Passport no.</strPassportno>
+    <strMedicalinsurance>Medical insurance</strMedicalinsurance>
+    <strHasmedicalinsurance>Has medical insurance?</strHasmedicalinsurance>
+    <strMedicalInsuranceno>Medical Insurance no.</strMedicalInsuranceno>
+    <strSocialinsuranceno>Social insurance no.</strSocialinsuranceno>
+    <strEmployeestatus>Employee status</strEmployeestatus>
+    <strPrivilege>Privilege</strPrivilege>
+    <strHasfingerprint>Has fingerprint</strHasfingerprint>
+    <strHasabsence>Has absence</strHasabsence>
+    <strHasovertime>Has overtime</strHasovertime>
+    <strHasdelay>Has delay</strHasdelay>
+    <strHaspermission>Has permission</strHaspermission>
+    <strNotes>Notes</strNotes>
+
+    <strContractstartdate>Contract start date</strContractstartdate>
+    <strContractenddate>Contract end date</strContractenddate>
+    <strDurationofcontract>Duration of contract (per month)</strDurationofcontract>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strJobgrade>Job grade</strJobgrade>
+    <strGrade>Grade</strGrade>
+    <strJob>Job</strJob>
+    <strJobtitle>Job title</strJobtitle>
+    <strContractitemsdetails>Contract items details</strContractitemsdetails>
+    <strEmploymentitem>Employment item</strEmploymentitem>
+    <strCalculationmethod>Calculation method</strCalculationmethod>
+    <strEmploymentitemvalue>Employment item value</strEmploymentitemvalue>
+    <strAnnualvacationvaluesarerelatedtojobgrade>Annual vacation values are related to job grade</strAnnualvacationvaluesarerelatedtojobgrade>
+    <strAnnualvacationdetails>Annual vacation details</strAnnualvacationdetails>
+    <strAnnualvacationperiod>Annual vacation period (per day)</strAnnualvacationperiod>
+    <strTickettype>Ticket type</strTickettype>
+    <strInternalworktraveltickettype>Internal work travel ticket type</strInternalworktraveltickettype>
+    <strExternalworktraveltickettype>External work travel ticket type</strExternalworktraveltickettype>
+
+    <strSaudilandlinephone>Saudi land-line phone</strSaudilandlinephone>
+    <strSaudimobilephone1>Saudi mobile phone1</strSaudimobilephone1>
+    <strSaudimobilephone2>Saudi mobile phone2</strSaudimobilephone2>
+    <strForeignlandlinephone>Foreign land-line phone</strForeignlandlinephone>
+    <strForeignmobilephone1>Foreign mobile phone1</strForeignmobilephone1>
+    <strForeignmobilephone2>Foreign mobile phone2</strForeignmobilephone2>
+    <strFax>Fax</strFax>
+    <strBusinesse-mail>Business e-mail</strBusinesse-mail>
+    <strPersonale-mail>Personal e-mail</strPersonale-mail>
+    <strSaudiaddress1>Saudi address1</strSaudiaddress1>
+    <strSaudiaddress2>Saudi address2</strSaudiaddress2>
+    <strForeignaddress1>Foreign address1</strForeignaddress1>
+    <strForeignaddress2>Foreign address2</strForeignaddress2>
+    <strBankname1>Bank name1</strBankname1>
+    <strBankname2>Bank name2</strBankname2>
+    <strAccountbankno1>Account bank no1</strAccountbankno1>
+    <strAccountbankno2>Account bank no2</strAccountbankno2>
+    <strIBANno1>IBAN no1</strIBANno1>
+    <strIBANno2>IBAN no2</strIBANno2>
+    <strBacktohome>Back to home</strBacktohome>
+    
+    
+     
+    <strgeneralTab>General Data</strgeneralTab>
+    <strIdTab>ID's Data</strIdTab>
+    <strContractTab>Contract Details</strContractTab>
+    <strContactTab>Contact Details</strContactTab>
+  
+    <strEmployeeserialnofollow>Employee serial no.</strEmployeeserialnofollow>
+    <strEmployeeCodefollow>Employee code</strEmployeeCodefollow>
+    <strArabicfirstnamefollow>Arabic first name</strArabicfirstnamefollow>
+    <strArabicfathernamefollow>Arabic father name</strArabicfathernamefollow>
+    <strArabicgrandfathernamefollow>Arabic grandfather name</strArabicgrandfathernamefollow>
+    <strArabicfamilynamfollow>Arabic family name</strArabicfamilynamfollow>
+    <strEnglishfirstnamefollow>English first name</strEnglishfirstnamefollow>
+    <strEnglishfathernamefollow>English father name</strEnglishfathernamefollow>
+    <strEnglishgrandfathernamefollow>English grandfather name</strEnglishgrandfathernamefollow>
+    <strEnglishfamilynamfollow>English family name</strEnglishfamilynamfollow>
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strBirthdatefollow>Birth date</strBirthdatefollow>
+    <strHiringdatefollow>Hire date</strHiringdatefollow>
+    <strSaudilandlinephonefollow>Saudi land-line phone</strSaudilandlinephonefollow>
+    <strSaudimobilephone1follow>Saudi mobile phone1</strSaudimobilephone1follow>
+    <strSaudimobilephone2follow>Saudi mobile phone2</strSaudimobilephone2follow>
+    <strForeignlandlinephonefollow>Foreign land-line phone</strForeignlandlinephonefollow>
+    <strForeignmobilephone1follow>Foreign mobile phone1</strForeignmobilephone1follow>
+    <strForeignmobilephone2follow>Foreign mobile phone2</strForeignmobilephone2follow>
+    <strFaxfollow>Fax</strFaxfollow>
+    <strBusinesse-mailfollow>Business e-mail</strBusinesse-mailfollow>
+    <strPersonale-mailfollow>Personal e-mail</strPersonale-mailfollow>
+    <strSaudiaddress1follow>Saudi address1</strSaudiaddress1follow>
+    <strSaudiaddress2follow>Saudi address2</strSaudiaddress2follow>
+    <strForeignaddress1follow>Foreign address1</strForeignaddress1follow>
+    <strForeignaddress2follow>Foreign address2</strForeignaddress2follow>
+    <strAccountbankno1follow>Bank account no.1</strAccountbankno1follow>
+    <strIBANno1follow>IBAN no.1</strIBANno1follow>
+    <strIBANno1confirm>Confirm IBAN no.1</strIBANno1confirm>
+    <strIBANno1confirmfollow>IBAN no.1</strIBANno1confirmfollow>
+    <strAccountbankno2follow>Bank account no.2</strAccountbankno2follow>
+    <strIBANno2follow>IBAN no.2</strIBANno2follow>
+    <strIBANno2confirm>Confirm IBAN No 2</strIBANno2confirm>
+    <strIBANno2confirmfollow>Enter The IBAN no.2</strIBANno2confirmfollow>
+    <strIdentitynofollow>Identity no.</strIdentitynofollow>
+    <strPassportnofollow>Passport no.</strPassportnofollow>
+    <strMedicalInsurancenofollow>Medical Insurance no.</strMedicalInsurancenofollow>
+    <strSocialinsurancenofollow>Social insurance no.</strSocialinsurancenofollow>
+    <strNotesfollow>Notes</strNotesfollow>
+    <strContractstartdatefollow>Contract start date</strContractstartdatefollow>
+    <strContractenddatefollow>Contract end date</strContractenddatefollow>
+    <strDurationofcontractfollow>Duration of contract (per month)</strDurationofcontractfollow>
+    <strEmploymentitemvaluefollow>Employment item value</strEmploymentitemvaluefollow>
+    <strAddrow>Add Row</strAddrow>
+    <strbtnUpdate>Update</strbtnUpdate>
+    <strbtnDel>Delete</strbtnDel>
+    <strAnnualvacationperiodfollow>Put the Vaction Period</strAnnualvacationperiodfollow>
+    <strbtnSave>save</strbtnSave>
+
+
+  </DeleteEmployees>
+  <ShowEmployees>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Show employee information screen</strscreenName>
+    <strscreenDataName>Show employee information data</strscreenDataName>
+
+    
+
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strCode>Id</strCode>
+    <strCodeFollow>Put the Id for search</strCodeFollow>
+    <strName>Name</strName>
+    <strNameFollow>Put the name for search</strNameFollow>
+    <strNameEn>NameEn</strNameEn>
+    <strNameEnFollow>Put the english name for search</strNameEnFollow>
+
+    
+    
+
+  </ShowEmployees>
+  <SearchEmployees>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Add employee information screen</strscreenName>
+    <strscreenDataName>Add employee information data</strscreenDataName>
+
+   <strEmployeeserialno>Employee serial no.</strEmployeeserialno>
+    <strEmployeeCode>Employee Code</strEmployeeCode>
+    <strArabicfirstname>Arabic first name</strArabicfirstname>
+    <strArabicfathername>Arabic father name</strArabicfathername>
+    <strArabicgrandfathername>Arabic grandfather name</strArabicgrandfathername>
+    <strArabicfamilynam>Arabic family nam</strArabicfamilynam>
+    <strEnglishfirstname>English first name</strEnglishfirstname>
+    <strEnglishfathername>English father name</strEnglishfathername>
+    <strEnglishgrandfathername>English grandfather name</strEnglishgrandfathername>
+    <strEnglishfamilynam>English family nam</strEnglishfamilynam>
+    <strBirthdate>Birth date</strBirthdate>
+    <strHiringdate>Hiring date</strHiringdate>
+    <strBirthplace>Birth place</strBirthplace>
+    <strMaritalstatus>Marital status</strMaritalstatus>
+    <strMilitarystatus>Military status</strMilitarystatus>
+    <strGender>Gender</strGender>
+    <strReligion>Religion</strReligion>
+    <strCountry>Country</strCountry>
+    <strCity>City</strCity>
+    <strNationality>Nationality</strNationality>
+    <strProject>Project</strProject>
+    <strContracttype>Contract type</strContracttype>
+    <strAdministration>Administration</strAdministration>
+    <strDepartment>Department</strDepartment>
+    <strShift>Shift</strShift>
+    <strClassificationofcontract>Classification of contract</strClassificationofcontract>
+    <strHasmanager>Has manager</strHasmanager>
+    <strManager>Manager</strManager>
+    <strIsmanager>Is manager?</strIsmanager>
+    <strIscommissioner>Is commissioner?</strIscommissioner>
+    <strNeedsamandate>Needs a mandate</strNeedsamandate>
+    <strCommissioner>Commissioner</strCommissioner>
+
+    <strEmployeephoto>Employee photo</strEmployeephoto>
+    <strEmployeedata>Employee data</strEmployeedata>
+    <strEmployeeNationality>Employee Nationality</strEmployeeNationality>
+    <strIdentityno>Identity no.</strIdentityno>
+    <strPassportno>Passport no.</strPassportno>
+    <strMedicalinsurance>Medical insurance</strMedicalinsurance>
+    <strHasmedicalinsurance>Has medical insurance?</strHasmedicalinsurance>
+    <strMedicalInsuranceno>Medical Insurance no.</strMedicalInsuranceno>
+    <strSocialinsuranceno>Social insurance no.</strSocialinsuranceno>
+    <strEmployeestatus>Employee status</strEmployeestatus>
+    <strPrivilege>Privilege</strPrivilege>
+    <strHasfingerprint>Has fingerprint</strHasfingerprint>
+    <strHasabsence>Has absence</strHasabsence>
+    <strHasovertime>Has overtime</strHasovertime>
+    <strHasdelay>Has delay</strHasdelay>
+    <strHaspermission>Has permission</strHaspermission>
+    <strNotes>Notes</strNotes>
+
+    <strContractstartdate>Contract start date</strContractstartdate>
+    <strContractenddate>Contract end date</strContractenddate>
+    <strDurationofcontract>Duration of contract (per month)</strDurationofcontract>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strJobgrade>Job grade</strJobgrade>
+    <strGrade>Grade</strGrade>
+    <strJob>Job</strJob>
+    <strJobtitle>Job title</strJobtitle>
+    <strContractitemsdetails>Contract items details</strContractitemsdetails>
+    <strEmploymentitem>Employment item</strEmploymentitem>
+    <strCalculationmethod>Calculation method</strCalculationmethod>
+    <strEmploymentitemvalue>Employment item value</strEmploymentitemvalue>
+    <strAnnualvacationvaluesarerelatedtojobgrade>Annual vacation values are related to job grade</strAnnualvacationvaluesarerelatedtojobgrade>
+    <strAnnualvacationdetails>Annual vacation details</strAnnualvacationdetails>
+    <strAnnualvacationperiod>Annual vacation period (per day)</strAnnualvacationperiod>
+    <strTickettype>Ticket type</strTickettype>
+    <strInternalworktraveltickettype>Internal work travel ticket type</strInternalworktraveltickettype>
+    <strExternalworktraveltickettype>External work travel ticket type</strExternalworktraveltickettype>
+
+    <strSaudilandlinephone>Saudi land-line phone</strSaudilandlinephone>
+    <strSaudimobilephone1>Saudi mobile phone1</strSaudimobilephone1>
+    <strSaudimobilephone2>Saudi mobile phone2</strSaudimobilephone2>
+    <strForeignlandlinephone>Foreign land-line phone</strForeignlandlinephone>
+    <strForeignmobilephone1>Foreign mobile phone1</strForeignmobilephone1>
+    <strForeignmobilephone2>Foreign mobile phone2</strForeignmobilephone2>
+    <strFax>Fax</strFax>
+    <strBusinesse-mail>Business e-mail</strBusinesse-mail>
+    <strPersonale-mail>Personal e-mail</strPersonale-mail>
+    <strSaudiaddress1>Saudi address1</strSaudiaddress1>
+    <strSaudiaddress2>Saudi address2</strSaudiaddress2>
+    <strForeignaddress1>Foreign address1</strForeignaddress1>
+    <strForeignaddress2>Foreign address2</strForeignaddress2>
+    <strBankname1>Bank name1</strBankname1>
+    <strBankname2>Bank name2</strBankname2>
+    <strAccountbankno1>Account bank no1</strAccountbankno1>
+    <strAccountbankno2>Account bank no2</strAccountbankno2>
+    <strIBANno1>IBAN no1</strIBANno1>
+    <strIBANno2>IBAN no2</strIBANno2>
+    <strBacktohome>Back to home</strBacktohome>
+    
+    
+     
+    <strgeneralTab>General Data</strgeneralTab>
+    <strIdTab>ID's Data</strIdTab>
+    <strContractTab>Contract Details</strContractTab>
+    <strContactTab>Contact Details</strContactTab>
+  
+    <strEmployeeserialnofollow>Employee serial no.</strEmployeeserialnofollow>
+    <strEmployeeCodefollow>Employee code</strEmployeeCodefollow>
+    <strArabicfirstnamefollow>Arabic first name</strArabicfirstnamefollow>
+    <strArabicfathernamefollow>Arabic father name</strArabicfathernamefollow>
+    <strArabicgrandfathernamefollow>Arabic grandfather name</strArabicgrandfathernamefollow>
+    <strArabicfamilynamfollow>Arabic family name</strArabicfamilynamfollow>
+    <strEnglishfirstnamefollow>English first name</strEnglishfirstnamefollow>
+    <strEnglishfathernamefollow>English father name</strEnglishfathernamefollow>
+    <strEnglishgrandfathernamefollow>English grandfather name</strEnglishgrandfathernamefollow>
+    <strEnglishfamilynamfollow>English family name</strEnglishfamilynamfollow>
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strBirthdatefollow>Birth date</strBirthdatefollow>
+    <strHiringdatefollow>Hire date</strHiringdatefollow>
+    <strSaudilandlinephonefollow>Saudi land-line phone</strSaudilandlinephonefollow>
+    <strSaudimobilephone1follow>Saudi mobile phone1</strSaudimobilephone1follow>
+    <strSaudimobilephone2follow>Saudi mobile phone2</strSaudimobilephone2follow>
+    <strForeignlandlinephonefollow>Foreign land-line phone</strForeignlandlinephonefollow>
+    <strForeignmobilephone1follow>Foreign mobile phone1</strForeignmobilephone1follow>
+    <strForeignmobilephone2follow>Foreign mobile phone2</strForeignmobilephone2follow>
+    <strFaxfollow>Fax</strFaxfollow>
+    <strBusinesse-mailfollow>Business e-mail</strBusinesse-mailfollow>
+    <strPersonale-mailfollow>Personal e-mail</strPersonale-mailfollow>
+    <strSaudiaddress1follow>Saudi address1</strSaudiaddress1follow>
+    <strSaudiaddress2follow>Saudi address2</strSaudiaddress2follow>
+    <strForeignaddress1follow>Foreign address1</strForeignaddress1follow>
+    <strForeignaddress2follow>Foreign address2</strForeignaddress2follow>
+    <strAccountbankno1follow>Bank account no.1</strAccountbankno1follow>
+    <strIBANno1follow>IBAN no.1</strIBANno1follow>
+    <strIBANno1confirm>Confirm IBAN no.1</strIBANno1confirm>
+    <strIBANno1confirmfollow>Enter The IBAN No1</strIBANno1confirmfollow>
+    <strAccountbankno2follow>Bank account no.2</strAccountbankno2follow>
+    <strIBANno2follow>IBAN no.2</strIBANno2follow>
+    <strIBANno2confirm>Confirm IBAN no.2</strIBANno2confirm>
+    <strIBANno2confirmfollow>Enter The IBAN no.2</strIBANno2confirmfollow>
+    <strIdentitynofollow>Identity no.</strIdentitynofollow>
+    <strPassportnofollow>Passport no.</strPassportnofollow>
+    <strMedicalInsurancenofollow>Medical Insurance no.</strMedicalInsurancenofollow>
+    <strSocialinsurancenofollow>Social insurance no.</strSocialinsurancenofollow>
+    <strNotesfollow>Notes</strNotesfollow>
+    <strContractstartdatefollow>Contract start date</strContractstartdatefollow>
+    <strContractenddatefollow>Contract end date</strContractenddatefollow>
+    <strDurationofcontractfollow>Duration of contract (per month)</strDurationofcontractfollow>
+    <strEmploymentitemvaluefollow>Employment item value</strEmploymentitemvaluefollow>
+    <strAddrow>Add Row</strAddrow>
+    <strbtnUpdate>Update</strbtnUpdate>
+    <strbtnDel>Delete</strbtnDel>
+    <strAnnualvacationperiodfollow>Annual vacation period (per day)</strAnnualvacationperiodfollow>
+    <strbtnSave>save</strbtnSave>
+
+
+
+  </SearchEmployees>
+  <EmpSpouses>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Spouses screen</strscreenName>
+    <strscreenDataName>Spouses data</strscreenDataName>
+
+    <strArabicname>Arabic name</strArabicname>
+    <strEnglishname>English name</strEnglishname>
+    <strBirthdate>Birth date</strBirthdate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strMarriagedate>Marriage date</strMarriagedate>
+    <strNationality>Nationality</strNationality>
+    <strPleaseattachmarriagecontract>Please attach marriage contract</strPleaseattachmarriagecontract>
+    <strPassportno>Passport no.</strPassportno>
+    <strIssuedate>Issue date</strIssuedate>
+    <strEnddate>End date</strEnddate>
+    <strMedicalinsuranceno>Medical insurance no.</strMedicalinsuranceno>
+    <strNationalno>National no.</strNationalno>
+    <strNotes>Notes</strNotes>
+    <strAdd>Add</strAdd>
+    <strSave>Save</strSave>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+    <!---->
+    
+      <strCompany>Company</strCompany>
+      <strBranch>Branch</strBranch>
+      <strBranchEmployee>Employee</strBranchEmployee>
+      <strArabicnameFollow>Enter Arabic Name</strArabicnameFollow>
+      <strEnglishnameFollow>Enter English Name</strEnglishnameFollow>
+      <strOpenFile>OpenFile</strOpenFile>
+      <strPassportnoFollow>Enter Passport No</strPassportnoFollow>
+      <strMedicalinsurancenoFollow>Enter Insurance No</strMedicalinsurancenoFollow>
+      <strNationalnoFollow>Enter National No</strNationalnoFollow>
+      <strShowFile>Show File</strShowFile>
+    
+
+  </EmpSpouses>
+  <EmpSons>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Sons screen</strscreenName>
+    <strscreenDataName>Sons data</strscreenDataName>
+
+    <strArabicname>Arabic name</strArabicname>
+    <strEnglishname>English name</strEnglishname>
+    <strBirthdate>Birth date</strBirthdate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strNationality>Nationality</strNationality>
+    <strPleaseattachbirthcertificate>Please attach birth certificate</strPleaseattachbirthcertificate>
+    <strPleaseattachphoto>Please attach photo</strPleaseattachphoto>
+    <strGender>Gender</strGender>
+    <strMaritalstatus>Marital status</strMaritalstatus>
+    <strEducationlevel>Education level</strEducationlevel>
+    <strPassportno>Passport no.</strPassportno>
+    <strIssuedate>Issue date</strIssuedate>
+    <strEnddate>End date</strEnddate>
+    <strMedicalinsuranceno>Medical insurance no.</strMedicalinsuranceno>
+    <strNationalno>National no.</strNationalno>
+    <strNotes>Notes</strNotes>
+    <strAdd>Add</strAdd>
+    <strSave>Save</strSave>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+    
+
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strBranchEmployee>Employee</strBranchEmployee>
+    <strArabicnameFollow>Enter arabic name</strArabicnameFollow>
+    <strEnglishnameFollow>Enter english name</strEnglishnameFollow>
+    <strOpenFile>Open file</strOpenFile>
+    <strPassportnoFollow>Enter passport no.</strPassportnoFollow>
+    <strMedicalinsurancenoFollow>Enter Insurance no.</strMedicalinsurancenoFollow>
+    <strNationalnoFollow>Enter national no.</strNationalnoFollow>
+    <strShowFile>Show file</strShowFile>
+    
+    
+
+  </EmpSons>
+  
+  
+  <EmpCertifications>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Employee certifications screen</strscreenName>
+    <strscreenDataName>Employee certifications data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strFromdate>From date</strFromdate>
+    <strTodate>To date</strTodate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strCeritificationName>Certification Name</strCeritificationName>
+    <strCertificationno>Certification no.</strCertificationno>
+    <strSpecializationname>Specialization name</strSpecializationname>
+    <strPlaceofstudy>Place of study</strPlaceofstudy>
+    <strFinalgrade>Final grade</strFinalgrade>
+    <strPleaseattachcertification>Please attach certification</strPleaseattachcertification>
+    <strNotes>Notes</strNotes>
+    <strAdd>Add</strAdd>
+    <strSave>Save</strSave>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+    
+
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strShowFile>Show file</strShowFile>
+    <strCeritificationNameFollow>Enter certification name</strCeritificationNameFollow>
+    <strCertificationnoFollow>Enter certification no.</strCertificationnoFollow>
+    <strSpecializationnameFollow>Enter major name</strSpecializationnameFollow>
+    <strPlaceofstudyFollow>Enter place</strPlaceofstudyFollow>
+    <strOpenFile>Open file</strOpenFile>
+    <strNotesFollow>Enter notes</strNotesFollow>
+
+
+
+  </EmpCertifications>
+  <EmpExperiences>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Employee experiences screen</strscreenName>
+    <strscreenDataName>Employee experiences data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strFromdate>From date</strFromdate>
+    <strTodate>To date</strTodate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strExperiencescategory>Experience's category</strExperiencescategory>
+    <strExperience>Experience</strExperience>
+    <strExperiencename>Experience name</strExperiencename>
+    <strJobtitle>Job title</strJobtitle>
+    <strPlace>Place</strPlace>
+    <strReference>Reference</strReference>
+    <strSelf-study>Self-study</strSelf-study>
+    <strTrainning>Training</strTrainning>
+    <strPleaseattachexperiencecertificate>Please attach experience certificate</strPleaseattachexperiencecertificate>
+    <strNotes>Notes</strNotes>
+    <strAdd>Add</strAdd>
+    <strSave>Save</strSave>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+    
+	
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strShowFile>Show file</strShowFile>
+    <strExperiencenameFollow>Enter experience name</strExperiencenameFollow>
+    <strJobtitleFollow>Enter job title</strJobtitleFollow>
+    <strPlaceFollow>Enter place</strPlaceFollow>
+    <strNotesFollow>Enter notes</strNotesFollow>
+
+
+  </EmpExperiences>
+  <EmpQualifications>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Qualifications screen</strscreenName>
+    <strscreenDataName>Qualifications data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strFromdate>From date</strFromdate>
+    <strTodate>To date</strTodate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strCountry>Country</strCountry>
+    <strCity>City</strCity>
+    <strUniversity>University</strUniversity>
+    <strFaculty>Faculty</strFaculty>
+    <strQualification>Qualification</strQualification>
+    <strSpecialization>Specialization</strSpecialization>
+    <strFinalgrade>Final grade</strFinalgrade>
+    <strPleaseattachqualificationcertificate>Please attach qualification certificate</strPleaseattachqualificationcertificate>
+    <strNotes>Notes</strNotes>
+    <strAdd>Add</strAdd>
+    <strSave>Save</strSave>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+    
+
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strShowFile>Show file</strShowFile>
+    <strUniversityFollow>Enter university</strUniversityFollow>
+    <strFacultyFollow>Enter faculty</strFacultyFollow>
+    <strSpecializationFollow>Enter specialization</strSpecializationFollow>
+    <strOpenFile>Open file</strOpenFile>
+    
+
+  </EmpQualifications>
+  <BranchDocs>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Branch documents screen</strscreenName>
+    <strscreenDataName>Branch documents data</strscreenDataName>
+
+    <strCode>Code</strCode>
+    <strFillinthesearchfield>Fill in the search field</strFillinthesearchfield>
+    <strDocumenttype>Document type</strDocumenttype>
+
+    
+    <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strResponsNotify>Employee who will receive notification</strResponsNotify>
+    <strDocName>Document name</strDocName>
+    <strEndDate>End date</strEndDate>
+    <strShowfile>Show file</strShowfile>
+    <strSelect>Select</strSelect>
+    <strStartDay>(Start date) by day</strStartDay>
+    <strStartMonth>Start month</strStartMonth>
+    <strStartYear>Start year</strStartYear>
+    <strStartDayHijri>Start</strStartDayHijri>
+    <strStartMonthHijri>Start hijri month</strStartMonthHijri>
+    <strStartYearHijri>Start hijri year</strStartYearHijri>
+    <strEndDay>(End Date) by day</strEndDay>
+    <strEndMonth>End month</strEndMonth>
+    <strEndYear>End year</strEndYear>
+    <strEndDayHijri>(End date hijri) by day</strEndDayHijri>
+    <strEndMonthHijri>End hijri month</strEndMonthHijri>
+    <strEndYearHijri>End hijri year</strEndYearHijri>
+    <strFormatdd>Format DD</strFormatdd>
+    <strFormatMM>Format MM</strFormatMM>
+    <strFormatYYYY>Format YYYY</strFormatYYYY>
+    <strDateTypeNotify>Date type for notify</strDateTypeNotify>
+    <strNeedNotifyBefore>Need notify before</strNeedNotifyBefore>
+    <strNeedNotifyBefore>Enter need notify before</strNeedNotifyBefore>
+    <strPeriodType>Period type for notify</strPeriodType>
+    <strResponsNotify>Employee to notify</strResponsNotify>
+    <strNotifyMessage>Notification message</strNotifyMessage>
+    <strpopNotifyMessage>Enter notification message</strpopNotifyMessage>
+    <strNotifyMessageEn>English notification message</strNotifyMessageEn>
+    <strpopNotifyMessageEn>Enter english notification message</strpopNotifyMessageEn>
+    <strRegistrationNo>Registration no.</strRegistrationNo>
+    <strPopRegistrationNo>Enter Registration no.</strPopRegistrationNo>
+    <strIssuePlace>Issue place</strIssuePlace>
+    <strPopIssuePlace>Enter Issue place</strPopIssuePlace>
+    <strIssueRegion>Issue region</strIssueRegion>
+    <strPopIssueRegion>Enter Issue region</strPopIssueRegion>
+    <strAttachFile>Attach document</strAttachFile>
+    <strDownloadFile>Download file</strDownloadFile>
+    <strNotes>Notes</strNotes>
+    <strPopNotes>Enter notes</strPopNotes>
+    
+
+  </BranchDocs>
+  <EmpDocs>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Employee documents screen</strscreenName>
+    <strscreenDataName>Employee documents data</strscreenDataName>
+
+    <strEmployeewhowillrecievenotification>Employee who will receive notification</strEmployeewhowillrecievenotification>
+    <strRegistrationno>Registration no.</strRegistrationno>
+    <strFillinthesearchfield>Put the Registration No For Search</strFillinthesearchfield>
+    <strDocumenttype>Document type</strDocumenttype>
+    <strDocumentbelongto>Document belong to</strDocumentbelongto>
+    <strShow>Show</strShow>
+    <strAdd>Add</strAdd>
+    <strEdit>Edit</strEdit>
+    <strDelete>Delete</strDelete>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+    
+     <strCompany>Company</strCompany>
+    <strBranch>Branch</strBranch>
+    <strResponsNotify>Employee who will receive notification</strResponsNotify>
+    <strDocName>Document name</strDocName>
+    <strEndDate>End date</strEndDate>
+    <strShowfile>Show file</strShowfile>
+    <strSelect>Select</strSelect>
+    <strStartDay>(Start date) by day</strStartDay>
+    <strStartMonth>Start month</strStartMonth>
+    <strStartYear>Start year</strStartYear>
+    <strStartDayHijri>Start</strStartDayHijri>
+    <strStartMonthHijri>Start hijri month</strStartMonthHijri>
+    <strStartYearHijri>Start hijri year</strStartYearHijri>
+    <strEndDay>(End Date) by day</strEndDay>
+    <strEndMonth>End month</strEndMonth>
+    <strEndYear>End year</strEndYear>
+    <strEndDayHijri>(End date hijri) by day</strEndDayHijri>
+    <strEndMonthHijri>End hijri month</strEndMonthHijri>
+    <strEndYearHijri>End hijri year</strEndYearHijri>
+    <strFormatdd>Format DD</strFormatdd>
+    <strFormatMM>Format MM</strFormatMM>
+    <strFormatYYYY>Format YYYY</strFormatYYYY>
+    <strDateTypeNotify>Date type for notify</strDateTypeNotify>
+    <strNeedNotifyBefore>Need notify before</strNeedNotifyBefore>
+    <strNeedNotifyBefore>Enter need notify before</strNeedNotifyBefore>
+    <strPeriodType>Period type for notify</strPeriodType>
+    <strResponsNotify>Employee to notify</strResponsNotify>
+    <strNotifyMessage>Notification message</strNotifyMessage>
+    <strpopNotifyMessage>Enter notification message</strpopNotifyMessage>
+    <strNotifyMessageEn>English notification message</strNotifyMessageEn>
+    <strpopNotifyMessageEn>Enter english notification message</strpopNotifyMessageEn>
+    <strRegistrationNo>Registration no.</strRegistrationNo>
+    <strPopRegistrationNo>Enter Registration no.</strPopRegistrationNo>
+    <strIssuePlace>Issue place</strIssuePlace>
+    <strPopIssuePlace>Enter Issue place</strPopIssuePlace>
+    <strIssueRegion>Issue region</strIssueRegion>
+    <strPopIssueRegion>Enter Issue region</strPopIssueRegion>
+    <strAttachFile>Attach document</strAttachFile>
+    <strDownloadFile>Download file</strDownloadFile>
+    <strNotes>Notes</strNotes>
+    <strPopNotes>Enter notes</strPopNotes>
+    <DocOwner>Enter The Doc Owner Name</DocOwner>
+    
+  </EmpDocs>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <RequestTypes>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnSave>Save</strbtnSave>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Request Type Screen</strscreenName>
+    <strscreenDataName>Request Type Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strCountry>Country</strCountry>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+    
+    
+    
+    <!---->
+    <strRequsetGrp>Requst Group</strRequsetGrp>
+
+    <strAttach>Attach Is Necessary</strAttach>
+    <strVacVisible>Vaction Indivisible</strVacVisible>
+    <strSndOnlymang>Send Only To Manager</strSndOnlymang>
+    <strEffectOn>Effect On</strEffectOn>
+    <strHireitem>Hiring Item</strHireitem>
+
+
+  </RequestTypes>
+  <WorkFlows>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+
+  </WorkFlows>
+  <AssignWorkFlowRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Assign work-flow request screen</strscreenName>
+    <strscreenDataName>Assign work-flow request data</strscreenDataName>
+
+    <strAssignworkflowtorequest>Assign work-flow to request</strAssignworkflowtorequest>
+    <strWorkflow>Work-flow</strWorkflow>
+    <strPleaseassignworkflowtorequest>Please assign workflow to request</strPleaseassignworkflowtorequest>
+
+
+  </AssignWorkFlowRequest>
+  <EmpVactionSetting>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Vacation setting screen</strscreenName>
+    <strscreenDataName>Vacation setting data</strscreenDataName>
+
+    <strVacationrequesttype>Vacation request type</strVacationrequesttype>
+    <strRequesttypedetails>Request type details</strRequesttypedetails>
+    <strAllowedvalue>Allowed value</strAllowedvalue>
+    <strPuttheallowedvalue>Put the allowed value</strPuttheallowedvalue>
+    <strDiscounttype>Discount type</strDiscounttype>
+    <strValuetype>Value type</strValuetype>
+    <strDiscountvalue>Discount value (per day)</strDiscountvalue>
+    <strPutthediscountvalue>Put the discount value</strPutthediscountvalue>
+
+
+  </EmpVactionSetting>
+  <EmpPermissionSetting>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Permission setting screen</strscreenName>
+    <strscreenDataName>Permission setting data</strscreenDataName>
+
+    <strTotalallowedperiodforpermissioninmonth>Total allowed period for permission in month </strTotalallowedperiodforpermissioninmonth>
+    <strTheallowedperiodforpermissionindaytotal>The allowed period for permission in day total</strTheallowedperiodforpermissionindaytotal>
+    <strWillbeadiscountvalue>Will be a discount value (In Month)</strWillbeadiscountvalue>
+    <strDay>Day</strDay>
+    <strIncaseofemployeeexceedto>In case of employee exceed to (In Month)</strIncaseofemployeeexceedto>
+    <strHour>Hour</strHour>
+    <strAllowtoexceedmonthlyvalue>Allow to exceed monthly value</strAllowtoexceedmonthlyvalue>
+    <strAllow>Allow</strAllow>
+    <strAllowtoexceeddailyvalue>Allow to exceed daily value</strAllowtoexceeddailyvalue>
+    <strAccpettoapplydiscount>Accept to apply discount (in month)</strAccpettoapplydiscount>
+    <strAccept>Accept</strAccept>
+
+
+  </EmpPermissionSetting>
+  <EmpOverTimeSetting>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Overtime setting screen</strscreenName>
+    <strscreenDataName>Overtime setting data</strscreenDataName>
+
+    <strInworkingdaythehouriscalculatedby>In working day the hour is calculated by</strInworkingdaythehouriscalculatedby>
+    <strHour>Hour</strHour>
+    <strInvactiondaythehouriscalculatedby>In vacation day the hour is calculated by</strInvactiondaythehouriscalculatedby>
+    <strHour>Hour</strHour>
+
+
+  </EmpOverTimeSetting>
+  <EmpBorrowSetting>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Borrow setting screen</strscreenName>
+    <strscreenDataName>Borrow setting data</strscreenDataName>
+
+    <strTheemployeeisallowedtoborrowmonths>The employee is allowed to borrow (…) months</strTheemployeeisallowedtoborrowmonths>
+    <strIsemployeeallowedtoexceedmaximumvalue>Is employee allowed to exceed maximum value?</strIsemployeeallowedtoexceedmaximumvalue>
+    <strMonthlyPackageselectedItems>(Monthly Package / selected Items)</strMonthlyPackageselectedItems>
+    <strYesNo>Yes / No</strYesNo>
+    <strAllowed>Allowed</strAllowed>
+
+
+  </EmpBorrowSetting>
+  <EmpVactionRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Vacation request screen</strscreenName>
+    <strscreenDataName>Vacation request</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strAnnualvacationrequest>Annual vacation request</strAnnualvacationrequest>
+    <strResidenceaddress>Residence address</strResidenceaddress>
+    <strFromdate>From date</strFromdate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strEnddate>End date</strEnddate>
+    <strBackdate>Back date</strBackdate>
+    <strShowemployeevacationsbalanceandrules>Show employee vacations balance and rules</strShowemployeevacationsbalanceandrules>
+    <strAnnualvacationdays>Annual vacation days</strAnnualvacationdays>
+    <strDaysyougotbefore>Total days of previous vacations</strDaysyougotbefore>
+    <strRemainingvacationdays>Remaining vacation days</strRemainingvacationdays>
+    <strRequiredvacationdays>Required vacation days</strRequiredvacationdays>
+    <strRestvacationdays>Rest vacation days</strRestvacationdays>
+    <strNotesforemployee>Notes for employee :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strVacationreason>Vacation reason</strVacationreason>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpVactionRequest>
+  <ShowEmpVactionRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Vacation request, Query screen</strscreenName>
+    <strscreenDataName>Vacation request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strFromdate>From date</strFromdate>
+    <strEnddate>End date</strEnddate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+    <strShow>Show</strShow>
+    <strTravelticket>Travel ticket</strTravelticket>
+    <strFollow-up>Follow-up</strFollow-up>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </ShowEmpVactionRequest>
+  <BeginEmpVactionRecord>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+
+  </BeginEmpVactionRecord>
+  <EmpPermissionRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Permission request screen</strscreenName>
+    <strscreenDataName>Permission request data</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strPermissiondate>Permission date</strPermissiondate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strTimeformat>Time format: 24h ( HH / MM )</strTimeformat>
+    <strPermissionperiod>Permission period </strPermissionperiod>
+    <strNotesforemployee>Notes for employee :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strPermissionreason>Permission reason</strPermissionreason>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpPermissionRequest>
+  <ShowEmpPermissionRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Permission request, Query screen</strscreenName>
+    <strscreenDataName>Permission request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strPermissiondate>Permission date</strPermissiondate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+    <strShow>Show</strShow>
+    <strFollow-up>Follow-up</strFollow-up>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </ShowEmpPermissionRequest>
+  <EmpResignationRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Resignation request screen</strscreenName>
+    <strscreenDataName>Resignation request dataata</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strResignationdate>Resignation date</strResignationdate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strResignationreason>Resignation reason</strResignationreason>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpResignationRequest>
+  <ShowEmpResignationRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Resignation request, Query screen</strscreenName>
+    <strscreenDataName>Resignation request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strResignationdate>Resignation date</strResignationdate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+    <strShow>Show</strShow>
+    <strFollow-up>Follow-up</strFollow-up>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </ShowEmpResignationRequest>
+  <EmpBorrowRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Borrow request screen</strscreenName>
+    <strscreenDataName>Borrow request d ata</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strTotalborrowmount>Total borrow mount</strTotalborrowmount>
+    <strHowmanymonthstofinishborrow>How many months to finish borrow ?</strHowmanymonthstofinishborrow>
+    <strMonthlydeduction>Monthly deduction</strMonthlydeduction>
+    <strBorrowspayingdate>Borrow's='' paying='' date=''</strBorrowspayingdate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strDeductionstartdate>Deduction start date</strDeductionstartdate>
+    <strDeductionenddate>Deduction end date</strDeductionenddate>
+    <strNotesforemployee>Notes for employee :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strBorrowreason>Borrow reason</strBorrowreason>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpBorrowRequest>
+  <ShowEmpBorrowRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Borrow request, Query screen</strscreenName>
+    <strscreenDataName>Borrow request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strBorrowdate>Borrow date</strBorrowdate>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strBorrowamount>Borrow amount</strBorrowamount>
+    <strRequesttype>Request type</strRequesttype>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strShow>Show</strShow>
+    <strFollow-up>Follow-up</strFollow-up>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </ShowEmpBorrowRequest>
+  <EmpBorrowFollowUp>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Borrow request, Follow-up screen</strscreenName>
+    <strscreenDataName>Borrow request, Follow-up data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strFromdate>From date</strFromdate>
+    <strTodate>To date</strTodate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strBorrowrequestsFollow-up>Borrow requests Follow-up</strBorrowrequestsFollow-up>
+    <strDuesdate>Dues date</strDuesdate>
+    <strStartdate>Start date</strStartdate>
+    <strEnddate>End date</strEnddate>
+    <strMonthlydeduction>Monthly deduction</strMonthlydeduction>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpBorrowFollowUp>
+  <EmpBeginBalancBorrowRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Employee borrow screen, Start balance</strscreenName>
+    <strscreenDataName>Employee borrow, Start balance</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strRequesttype>Request type</strRequesttype>
+    <strTotalborrowamount>Total borrow amount</strTotalborrowamount>
+    <strHowmanymonthstofinishborrow>How many months to finish borrow ?</strHowmanymonthstofinishborrow>
+    <strMonthlydeduction>Monthly deduction</strMonthlydeduction>
+    <strBorrowspayingdate>Borrows paying date</strBorrowspayingdate>
+    <strDeductionstartdate>Deduction start date</strDeductionstartdate>
+    <strDeductionenddate>Deduction end date</strDeductionenddate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strRecievedamount>Recieved amount</strRecievedamount>
+    <strBorrowreason>Borrow reason</strBorrowreason>
+    <strNotes>Notes</strNotes>
+    <strStartbalance>Start balance</strStartbalance>
+    <strSavedata>Save data</strSavedata>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpBeginBalancBorrowRequest>
+  <EmpBorrowDelayRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Borrow delay request screen</strscreenName>
+    <strscreenDataName>Borrow delay request data</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strChooseborrow>Choose borrow</strChooseborrow>
+    <strBorrowMonth>Borrow Month</strBorrowMonth>
+    <strNotesforemployee>Notes for employee :</strNotesforemployee>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strReasonfordelayofdeduction>Reason for delay of deduction</strReasonfordelayofdeduction>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpBorrowDelayRequest>
+  <EmpOverTimeRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Overtime request screen</strscreenName>
+    <strscreenDataName>Overtime request data</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strTypeofovertimeday>Type of overtime day</strTypeofovertimeday>
+    <strDateofovertimeday>Date of overtime day</strDateofovertimeday>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strTimeformat>Time format: 24h ( HH / MM )</strTimeformat>
+    <strOvertimeperiod>Overtime period</strOvertimeperiod>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strOvertimereason>Overtime reason</strOvertimereason>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpOverTimeRequest>
+  <ShowEmpOverTimeRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Overtime request, Query screen</strscreenName>
+    <strscreenDataName>Overtime request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strDateofovertimeday>Date of overtime day</strDateofovertimeday>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+    <strShow>Show</strShow>
+    <strFollow-up>Follow-up</strFollow-up>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </ShowEmpOverTimeRequest>
+  <ShowEmpBorrowDelayRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+
+  </ShowEmpBorrowDelayRequest>
+  <EmpSecondmentRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Secondment request screen</strscreenName>
+    <strscreenDataName>Secondment request data</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strFromdate>From date</strFromdate>
+    <strTodate>To date</strTodate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strSecondmentType>Secondment Type</strSecondmentType>
+    <strExpectedamount>Expected amount</strExpectedamount>
+    <strCountry>Country</strCountry>
+    <strCity>City</strCity>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strSecondmentreason>Secondment reason</strSecondmentreason>
+    <strNotes>Notes</strNotes>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpSecondmentRequest>
+  <ShowEmpSecondmentRequest>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Employee secondment request Screen</strscreenName>
+    <strscreenDataName>Employee secondment request data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strFromdate>From date</strFromdate>
+    <strTodate>To date</strTodate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+    <strShow>Show</strShow>
+    <strTravelticket>Travel ticket</strTravelticket>
+    <strFollow-up>Follow-up</strFollow-up>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </ShowEmpSecondmentRequest>
+  <EmpAnnualLeavePlanRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Annual vacation plan request screen</strscreenName>
+    <strscreenDataName>Annual vacation plan request data</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strFromdate>From date</strFromdate>
+    <strTodate>To date</strTodate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strYearofplan>Year of plan</strYearofplan>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strAnnualvacationplanreason>Annual vacation plan reason</strAnnualvacationplanreason>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpAnnualLeavePlanRequest>
+  <ShowEmpAnnualLeavePlanRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Annual vacation plan, Query screen</strscreenName>
+    <strscreenDataName>Annual vacation plan, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strFromdate>From date</strFromdate>
+    <strTodate>To date</strTodate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+    <strShow>Show</strShow>
+    <strFollow-up>Follow-up</strFollow-up>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </ShowEmpAnnualLeavePlanRequest>
+  <EmpTravelTickectRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Travel ticket request screen</strscreenName>
+    <strscreenDataName>Travel ticket request data</strscreenDataName>
+
+    <strApplicant>Applicant</strApplicant>
+    <strEmployeewhorequest>Employee who request</strEmployeewhorequest>
+    <strRequesttype>Request type</strRequesttype>
+    <strTraveldate>Travel date</strTraveldate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strTravel>Travel ( am / pm )</strTravel>
+    <strReturndate>Return date</strReturndate>
+    <strCountry>Country</strCountry>
+    <strCity>City</strCity>
+    <strAirportcompany>Airport company</strAirportcompany>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strTravelticketreason>Travel ticket reason</strTravelticketreason>
+    <strNotes>Notes</strNotes>
+    <strSubmitrequest>Submit request</strSubmitrequest>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </EmpTravelTickectRequest>
+  <ShowEmpTravelTickectRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Travel ticket request, Query screen</strscreenName>
+    <strscreenDataName>Travel ticket request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strTraveldate>Travel date</strTraveldate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strReturndate>Return date</strReturndate>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+    <strShow>Show</strShow>
+    <strFollow-up>Follow-up</strFollow-up>
+    <strRequestdatadetails>Request data details</strRequestdatadetails>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </ShowEmpTravelTickectRequest>
+  <EmpRewardRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Reward request screen</strscreenName>
+    <strscreenDataName>Reward request data</strscreenDataName>
+
+    <strDirectmanagername>Direct manager name</strDirectmanagername>
+    <strEmployeename>Employee name</strEmployeename>
+    <strRequesttype>Request type</strRequesttype>
+    <strRewarddate>Reward date</strRewarddate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strReason>Reason</strReason>
+    <strRewardtype>Reward type</strRewardtype>
+    <strBouns>Bouns</strBouns>
+    <strMoral>Moral</strMoral>
+    <strValue>Value</strValue>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strNotes>Notes</strNotes>
+
+
+  </EmpRewardRequest>
+  <ShowEmpRewardRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Reward request, Query screen</strscreenName>
+    <strscreenDataName>Reward request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strRewarddate>Reward date</strRewarddate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+
+
+  </ShowEmpRewardRequest>
+  <EmpTransferEmployeeRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Transfer employee request screen</strscreenName>
+    <strscreenDataName>Transfer employee request data</strscreenDataName>
+
+    <strDirectManagername>Direct Manager name</strDirectManagername>
+    <strEmployeename>Employee name</strEmployeename>
+    <strRequesttype>Request type</strRequesttype>
+    <strCurrentadministration>Current administration</strCurrentadministration>
+    <strCurrentdepartment>Current department</strCurrentdepartment>
+    <strNewadministration>New administration</strNewadministration>
+    <strNewdepartment>New department</strNewdepartment>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strNotes>Notes</strNotes>
+
+
+  </EmpTransferEmployeeRequest>
+  <ShowEmpTransferEmployeeRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Transfer employee request, Query screen</strscreenName>
+    <strscreenDataName>Transfer employee request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+
+
+  </ShowEmpTransferEmployeeRequest>
+  <EmpDismissalRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+  </EmpDismissalRequest>
+  <EmpDisciplinaryProcedureRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Penalties and fines request screen</strscreenName>
+    <strscreenDataName>Penalties and fines data screen</strscreenDataName>
+
+    <strDirectmanagername>Direct manager name</strDirectmanagername>
+    <strEmployeename>Employee name</strEmployeename>
+    <strRequesttype>Request type</strRequesttype>
+    <strProceduretype>Procedure type</strProceduretype>
+    <strProcedureeffect>Procedure effect</strProcedureeffect>
+    <strDeductiondate>Deduction date</strDeductiondate>
+    <strDateformat>Date format ( DD / MM / YYYY )</strDateformat>
+    <strPercentage>Percentage (per day)</strPercentage>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strNotes>Notes</strNotes>
+
+
+  </EmpDisciplinaryProcedureRequest>
+  <ShowEmpDisciplinaryProcedureRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Penalties and fines request, Query screen</strscreenName>
+    <strscreenDataName>Penalties and fines request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+
+  </ShowEmpDisciplinaryProcedureRequest>
+  <ShowEmpDismissalRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Dismissal request, Query screen</strscreenName>
+    <strscreenDataName>Dismissal request, Query data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+
+
+  </ShowEmpDismissalRequest>
+  <EmpEmploymentRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Employment request screen</strscreenName>
+    <strscreenDataName>Employment request data</strscreenDataName>
+
+    <strDirectmanagername>Direct manager name</strDirectmanagername>
+    <strRequesttype>Request type</strRequesttype>
+    <strAdministration>Administration</strAdministration>
+    <strDepartment>Department</strDepartment>
+    <strExperience>Experience</strExperience>
+    <strQualification>Qualification</strQualification>
+    <strPleaseattachhelpdocuments>Please attach help documents :</strPleaseattachhelpdocuments>
+    <strWithinbudget>Within budget</strWithinbudget>
+    <strNotes>Notes</strNotes>
+
+  </EmpEmploymentRequest>
+  <ShowEmpEmploymentRequest>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Employment request, Query screen</strscreenName>
+    <strscreenDataName>Employment request, Data screen</strscreenDataName>
+
+    <strAdministration>Administration</strAdministration>
+    <strDepartment>Department</strDepartment>
+    <strRequeststatus>Request status</strRequeststatus>
+    <strRequesttype>Request type</strRequesttype>
+
+
+  </ShowEmpEmploymentRequest>
+  <Hiring_Items>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Close</strbtnClose>
+    <strbtnSave>Save</strbtnSave>
+
+    <strscreenName>Salary Items Screen</strscreenName>
+    <strscreenDataName>Salary Items Data</strscreenDataName>
+
+    <strId>Id</strId>
+    <strCode>Code</strCode>
+    <strName>Name</strName>
+    <strNameEn>NameEn</strNameEn>
+    <strCountry>Country</strCountry>
+    <strSelect>Choose</strSelect>
+    <strSpanCode>Put the Code For Search</strSpanCode>
+    <strSpanName>Put the Name For Search</strSpanName>
+    <strSpanNameEn>Put the NameEn For Search</strSpanNameEn>
+    <strSpanPopId>Enter The Id</strSpanPopId>
+    <strSpanPopCode>Enter The  Code</strSpanPopCode>
+    <strSpanPopName>Enter The  Name</strSpanPopName>
+    <strSpanPopNameEn>Enter The NameEn</strSpanPopNameEn>
+
+
+  </Hiring_Items>
+  
+  <PreparingHiringMonth>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Payroll preparation screen</strscreenName>
+    <strscreenDataName>Payroll preparation data</strscreenDataName>
+
+    <strMonth>Month</strMonth>
+    <strYear>Year</strYear>
+
+  </PreparingHiringMonth>
+  <HiringMonth_FollowUp>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Payroll follow-up screen</strscreenName>
+    <strscreenDataName>Payroll follow-up data</strscreenDataName>
+
+    <strEmployeename>Employee name</strEmployeename>
+    <strMonth>Month</strMonth>
+    <strYear>Year</strYear>
+    <strEmployeedues>Employee dues</strEmployeedues>
+    <strEmploymentitem>Employment item</strEmploymentitem>
+    <strEmploymentitemvalue>Employment item value</strEmploymentitemvalue>
+    <strActualvalue>Actual value</strActualvalue>
+    <strUpdate>Update</strUpdate>
+    <strEmployeededuction>Employee deduction</strEmployeededuction>
+
+
+  </HiringMonth_FollowUp>
+  <EtmadEmpHiringMonth>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+
+  </EtmadEmpHiringMonth>
+  <HiringEmpReceivableDues>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+
+  </HiringEmpReceivableDues>
+  <EtmadEmpReceivableDues>
+
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+
+
+    <strscreenDataName>App Setting Data</strscreenDataName>
+  </EtmadEmpReceivableDues>
+  <Roles>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App Setting Screen</strscreenName>
+    <strscreenDataName>App Setting Data</strscreenDataName>
+
+
+  </Roles>
+  <AppRolesMenuPriviledge>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>Users roles screen</strscreenName>
+    <strscreenDataName>Users roles data</strscreenDataName>
+
+    <strRoles>Roles</strRoles>
+    <strFirstlevelmenu>First level menu</strFirstlevelmenu>
+    <strSecondlevelmenu>Second level menu</strSecondlevelmenu>
+    <strThirdlevel>Third level ( screens )</strThirdlevel>
+    <strSave>Save</strSave>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </AppRolesMenuPriviledge>
+  <AppUsers>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App users screen</strscreenName>
+    <strscreenDataName>App users data</strscreenDataName>
+
+  </AppUsers>
+  <AppUsersMenuPriviledge>
+    <strbtnAdd>Add</strbtnAdd>
+    <strbtnEdit>Edit</strbtnEdit>
+    <strbtnDel>Delete</strbtnDel>
+    <strbtnSearch>Show</strbtnSearch>
+    <strbtnClose>Back to home screen</strbtnClose>
+
+    <strscreenName>App users menu privilege screen</strscreenName>
+    <strscreenDataName>App users menu privilege data</strscreenDataName>
+
+    <strSystemusers>System users</strSystemusers>
+    <strFirstlevelmenu>First level menu</strFirstlevelmenu>
+    <strSecondlevelmenu>Second level menu</strSecondlevelmenu>
+    <strThirdlevel>Third level ( screens )</strThirdlevel>
+    <strSave>Save</strSave>
+    <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+  </AppUsersMenuPriviledge>
+
+  <strCompany>Company</strCompany>
+  <strBranch>Branch</strBranch>
+  <strEmployeename>Employee name</strEmployeename>
+  <strUsername>User name</strUsername>
+  <strE-mail>E-mail</strE-mail>
+  <strShow>Show</strShow>
+  <strCreateuser>Create user</strCreateuser>
+  <strAssignuserroles>Assign user roles</strAssignuserroles>
+  <strResetpassword>Reset password</strResetpassword>
+  <strResendconfirmatione-mail>Resend confirmation e-mail</strResendconfirmatione-mail>
+  <strBacktohomescreen>Back to home screen</strBacktohomescreen>
+
+
+
+  <!--<EmployeeDataRptScr></EmployeeDataRptScr>
+  <EmployeeEndOfServiceScr></EmployeeEndOfServiceScr>
+  <EmployeeDependentsScr></EmployeeDependentsScr>
+  <EmployeeMonthDuesScr></EmployeeMonthDuesScr>
+  <EmployeeExperiencesScr></EmployeeExperiencesScr>
+  <EmployeeQualificationsScr></EmployeeQualificationsScr>
+  <EmployeeCertificatesScr></EmployeeCertificatesScr>
+  <EmployeeContractRptScr></EmployeeContractRptScr>
+  <EmployeeMainDataRptScr></EmployeeMainDataRptScr>
+  <EmployeeDocsRptScr></EmployeeDocsRptScr>
+  <TotEmpVacBalancRptScr></TotEmpVacBalancRptScr>
+  <EmpVacBalancDtlsRptScr></EmpVacBalancDtlsRptScr>
+  <EmpAnnualVacPlanScr></EmpAnnualVacPlanScr>
+  <TotBorrowEmpRptScr></TotBorrowEmpRptScr>
+  <BorrowEmpDtlsRptScr></BorrowEmpDtlsRptScr>
+  <EmployeeRequestRptScr></EmployeeRequestRptScr>
+  <EmployeeTotalMonthPayrollScr></EmployeeTotalMonthPayrollScr>
+  <EmployeeMonthPayrollScr></EmployeeMonthPayrollScr>-->
+
+</corporate>
+
+
