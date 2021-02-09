@@ -14889,12 +14889,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Rpts\TimeAttendance\TimeAttendenceForAllEmployeesRpt.rdlc" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BOL\BOL.csproj">
-      <Project>{12db5900-786b-4e41-bbb3-19d9fb962696}</Project>
-      <Name>BOL</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
