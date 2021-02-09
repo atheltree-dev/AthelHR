@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{12DB5900-786B-4E41-BBB3-19D9FB962696}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BOL</RootNamespace>
+    <AssemblyName>BOL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSetting\AppDuesAndDeduct_SettingDL.cs" />
+    <Compile Include="AppSetting\AppSettingDL.cs" />
+    <Compile Include="CustodyManagment\EmpCastodyDL.cs" />
+    <Compile Include="HrRecords\RecordManagement\OtherVcationsRecordDL.cs" />
+    <Compile Include="HrRecords\RecordManagement\RecordsConfirmationDL.cs" />
+    <Compile Include="HrRecords\RecordManagement\AbsenceRecordDL.cs" />
+    <Compile Include="HrRecords\RecordManagement\DelayRecordDL.cs" />
+    <Compile Include="HrRecords\RecordManagement\EmpOverTimeRecordDL.cs" />
+    <Compile Include="HrRecords\RecordManagement\PermissionRecordDL.cs" />
+    <Compile Include="HrRecords\RecordManagement\VcationRecordDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EditEmpBorrowRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAllowanceEditRulesDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAllowanceRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBeginVactionRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAccomdationFeeFollowUpDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpCalcAnnualVactionRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpCompensatoryVacationRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpJobMissionRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpTransferVactionSettlementDL.cs" />
+    <Compile Include="HR\Dashboard\DataCountDL.cs" />
+    <Compile Include="HR\Dashboard\HrEmployeesAdministrations.cs" />
+    <Compile Include="HR\Dashboard\HrEmployeesAgeRang.cs" />
+    <Compile Include="HR\Dashboard\HrEmployeesGender.cs" />
+    <Compile Include="HR\Dashboard\HrEmployeesInDepartment.cs" />
+    <Compile Include="HR\Dashboard\HrEmployeeStatus.cs" />
+    <Compile Include="HR\Registeration\EmployeeContractPeriodsDL.cs" />
+    <Compile Include="HR\Registeration\EmployeesNewDL.cs" />
+    <Compile Include="HR\Registeration\EmpsChartDL.cs" />
+    <Compile Include="HR\Registeration\OrgChartDL.cs" />
+    <Compile Include="HR\SalariesCharts\AdministrationSalaryRange.cs" />
+    <Compile Include="HR\SalariesCharts\DepartmentsRangeSalary.cs" />
+    <Compile Include="HR\SalariesCharts\SalariesSumDL.cs" />
+    <Compile Include="IntegrationGL\Registeration\AccuredSettingDL.cs" />
+    <Compile Include="IntegrationGL\Registeration\EntryFormattingDL.cs" />
+    <Compile Include="IntegrationGL\Registeration\GlAccruedSettingsDL.cs" />
+    <Compile Include="IntegrationGL\Registeration\GlAssignAccountDL.cs" />
+    <Compile Include="IntegrationGL\Registeration\HireItemAccountAssignDL.cs" />
+    <Compile Include="LoginDL.cs" />
+    <Compile Include="Login\LoginDL.cs" />
+    <Compile Include="MessageResultDL.cs" />
+    <Compile Include="HrServices\Notification\EmpDashBoardIndemnityDL.cs" />
+    <Compile Include="HrServices\Notification\EmpDashBoardDL.cs" />
+    <Compile Include="HrServices\Notification\EmpNotifyDL.cs" />
+    <Compile Include="HrServices\Registeration\AssignWorkFlowToRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBorrowFollowUpDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpDismissalRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpEmploymentExperinceRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpEmploymentQualifyRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpOverTimeRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAnnualLeavePlanRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpDisciplinaryProcedureRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpEmploymentDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBorrowDelayRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpTransferEmployeeRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpRewardRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpTravelTickectRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpSecondmentRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpResignationRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpPermissionRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpRequestNotifyDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBorrowRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpCalcVactionRequestDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpVactionRequestWorkFlowDL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpVactionRequestDL.cs" />
+    <Compile Include="HR\Registeration\AlternativeEmployeesTransDL.cs" />
+    <Compile Include="HR\Registeration\EmployeesDL.cs" />
+    <Compile Include="HR\Registeration\EmployeeUserDL.cs" />
+    <Compile Include="HR\Registeration\GradeDuesDL.cs" />
+    <Compile Include="Payroll\Definition\EmpAccruedOpenningBalanceDL.cs" />
+    <Compile Include="Payroll\PayrollManagement\HiringEmpReceivableDuesDL.cs" />
+    <Compile Include="Payroll\PayrollManagement\HiringMonthlyAccruedDuesDL .cs" />
+    <Compile Include="Payroll\PayrollManagement\HiringMonth_FollowUpDL.cs" />
+    <Compile Include="Payroll\PayrollManagement\MonthStatusDL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimeAttendance\EmpHaveProblemInFinalFPDL.cs" />
+    <Compile Include="TimeAttendance\EmpFinalFingerPrintDL.cs" />
+    <Compile Include="TimeAttendance\EmpDailyTimeSheetDL.cs" />
+    <Compile Include="TimeAttendance\EmpAttendanceDL.cs" />
+    <Compile Include="TimeAttendance\MonthlyEmpActualAttendanceDaysDL.cs" />
+    <Compile Include="TimeAttendance\Registration\ShiftsDL.cs" />
+    <Compile Include="UserManagement\AppUsersMenuPriviledgeDL.cs" />
+    <Compile Include="UserManagement\AppRolesMenuPriviledgeDL.cs" />
+    <Compile Include="UserManagement\AppUserMenuDL.cs" />
+    <Compile Include="UserManagement\AspNetUserDL.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
