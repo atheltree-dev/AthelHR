@@ -1,0 +1,937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BDE1F6E-A9CE-4D4D-BEFA-450F9973F106}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>75804cdc</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppDuesAndDeduct_Setting.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AppRolesMenuPriviledge.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AppSetting\AppDuesAndDeduct_SettingDAL.cs" />
+    <Compile Include="AppSetting\AppSettingDAL.cs" />
+    <Compile Include="AppSetting\Social_InsuranceDeductionPercntg_SAGDAL.cs" />
+    <Compile Include="AppUsersMenuPriviledge.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="App_ErrorLog.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="APP_Menus.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="App_Settings.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AR_Dict.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetRoles.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaims.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogins.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUsers.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AthelHRModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AthelHRModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AthelHRModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AthelHRModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AthelHRModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="CustodyManagment\CustodyTypesDAL.cs" />
+    <Compile Include="CustodyManagment\EmpCustodyDAL.cs" />
+    <Compile Include="CustomerCompanies.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmpRptDL.cs" />
+    <Compile Include="Fiscal_Periods.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GL_AccountPostingFormat.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GL_AccruedHireItemAccountAssign.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GL_ChartOfAcc.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Gl_FormatTrans_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GL_HireItemAccountAssign.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GL_Integration_Segements.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HrRecords\EmpMonthlyValueRecordDAL.cs" />
+    <Compile Include="HrRecords\RecordManagement\OtherVcationsRecordDAL.cs" />
+    <Compile Include="HrRecords\RecordManagement\RecordsConfirmationDAL.cs" />
+    <Compile Include="HrRecords\RecordManagement\AbsenceRecordDAL.cs" />
+    <Compile Include="HrRecords\RecordManagement\DelayRecordDAL.cs" />
+    <Compile Include="HrRecords\RecordManagement\EmpOverTimeRecordDAL.cs" />
+    <Compile Include="HrRecords\RecordManagement\PermissionRecordDAL.cs" />
+    <Compile Include="HrRecords\RecordManagement\VcationRecordDAL.cs" />
+    <Compile Include="HrServices\Notification\EmpVaildRequestDelayResultDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EditEmpBorrowRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAllowanceRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAllowanceRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBeginAnnualVacTransferdBalDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAccomdationFeeDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAccomdationFeeFollowupDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBorrowTransactionDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBeginEmpReceivableDuesDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBorrowDelayRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBorrowDelayRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpCompensatoryVacationRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpCompensatoryVacationRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpJobMissionRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpJobMissionRequestWorkFlowDAL.cs" />
+    <Compile Include="HR\Dashboard\EmployeeCountDAL.cs" />
+    <Compile Include="HR\Dashboard\SalariesChartsDAL.cs" />
+    <Compile Include="HR\Registeration\SubscriptionDAL.cs" />
+    <Compile Include="HR\Registeration\LocationsDAL.cs" />
+    <Compile Include="HR\Registeration\FirmsDAL.cs" />
+    <Compile Include="HR\Registeration\PermissionSubReasonsDAL.cs" />
+    <Compile Include="HR\Registeration\PermissionReasonsDAL.cs" />
+    <Compile Include="HR\Registeration\EmployeeContractPeriodsDAL.cs" />
+    <Compile Include="HR\Registeration\AlternativeEmployeesTransDAL.cs" />
+    <Compile Include="ComboDAL.cs" />
+    <Compile Include="ComboDL.cs" />
+    <Compile Include="CommonDB.cs" />
+    <Compile Include="HrServices\Notification\EmpDashBoardIndemnityDAL.cs" />
+    <Compile Include="HrServices\Notification\EmpDashBoardDAL.cs" />
+    <Compile Include="HrServices\Notification\EmpNotifyDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmploymentQualifyRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmploymentExperinceRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpDismissalRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpDismissalRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpEmploymentRequestAllTransDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpOverTimeRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpOverTimeRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAnnualLeavePlanRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpAnnualLeavePlanRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpDisciplinaryProcedureRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpDisciplinaryProcedureRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpEmploymentRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpTransferEmployeeRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpEmploymentWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpTransferEmployeeRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpRewardRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpRewardRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpTravelTickectRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpTravelTickectRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpSecondmentRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpResignationRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpPermissionRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpRequestNotifyDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBorrowRequestDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpSecondmentRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpResignationRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpBorrowRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpPermissionRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpVactionRequestWorkFlowDAL.cs" />
+    <Compile Include="HrServices\RequestManagement\EmpVactionRequestDAL.cs" />
+    <Compile Include="HR\Registeration\NationalitiesDAL.cs" />
+    <Compile Include="HR\Registeration\ProjectsDAL.cs" />
+    <Compile Include="HR\Registeration\DeductionReasonDAL.cs" />
+    <Compile Include="HR\Registeration\DismissalReasonDAL.cs" />
+    <Compile Include="HR\Registeration\DisciplinaryProceduresDAL.cs" />
+    <Compile Include="HR\Registeration\RewardReasonsDAL.cs" />
+    <Compile Include="HR\Registeration\EmpQualificationsDAL.cs" />
+    <Compile Include="HR\Registeration\EmpExperiencesDAL.cs" />
+    <Compile Include="HR\Registeration\EmpSonsDAL.cs" />
+    <Compile Include="HR\Registeration\EmpCertificationsDAL.cs" />
+    <Compile Include="HR\Registeration\EmpSpousesOldDAL.cs" />
+    <Compile Include="HR\Registeration\ExperiencesDAL.cs" />
+    <Compile Include="HR\Registeration\ExperienceCategoriesDAL.cs" />
+    <Compile Include="HR\Registeration\EmpSpousesDAL.cs" />
+    <Compile Include="HR\Registeration\QualificationsDAL.cs" />
+    <Compile Include="HR\Registeration\ReligionsDAL.cs" />
+    <Compile Include="HR\Registeration\GradesDAL.cs" />
+    <Compile Include="HR\Registeration\EmpDuesDAL.cs" />
+    <Compile Include="HR\Registeration\EmployeesAllTransactionDAL.cs" />
+    <Compile Include="HR\Registeration\EmpGradeDuesDAL.cs" />
+    <Compile Include="HR\Registeration\EmpDuesVactionTicketDAL.cs" />
+    <Compile Include="HR\Registeration\GradeVactionTicketDAL.cs" />
+    <Compile Include="HR\Registeration\GradeHiringItemFixedDAL.cs" />
+    <Compile Include="HR\Registeration\GradeHiringItemDAL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HR\Registeration\JobsDAL.cs" />
+    <Compile Include="HR\Registeration\GradeJobGroupsDAL.cs" />
+    <Compile Include="HR\Registeration\EmpDocDAL.cs" />
+    <Compile Include="HR\Registeration\BranchDocDAL.cs" />
+    <Compile Include="HR\Registeration\BranchesDAL.cs" />
+    <Compile Include="HR\Registeration\CompaniesDAL.cs" />
+    <Compile Include="HR\Registeration\BanksDAL.cs" />
+    <Compile Include="HR\Registeration\DocumentTypesDAL.cs" />
+    <Compile Include="HR\Registeration\CountriesDAL.cs" />
+    <Compile Include="HR\Registeration\DepartmentsDAL.cs" />
+    <Compile Include="HR\Registeration\CitiesDAL.cs" />
+    <Compile Include="HR\Registeration\AdministrationsDAL.cs" />
+    <Compile Include="HR\Registeration\EmployeesDAL.cs" />
+    <Compile Include="HrServices\Registeration\AssignWorkFlowRequestDAL.cs" />
+    <Compile Include="HrServices\Registeration\WorkFlowTransDAL.cs" />
+    <Compile Include="HrServices\Registeration\RequestTypesDAL.cs" />
+    <Compile Include="HR\Registeration\CurrenciesDAL.cs" />
+    <Compile Include="HR\Registeration\BranchAccountsDAL.cs" />
+    <Compile Include="Hr_Absence_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_AccruedHireitem_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Administrations.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_AlternativeEmployeesTrans.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_AppSettingTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Assets_Group.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_AssignWorkFlowToRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Banks.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_BeginEmpReceivableDues_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_BranchAccounts.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_BranchAccount_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_BranchDocuments.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Branches.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Branch_Docs_Dtls_History.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Branch_Docs_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Branch_Doc_Notification_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Cities.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Companies.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_CompaniesTree.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Countries.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Currencies.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Custodies.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_DailyTimeSheet.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_DayTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_DeductionReasons.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Departments.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_DisciplinaryProcedures.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_DismissalReasons.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_DocumentTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAbsenceRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAccomdationFees_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAccomdationFees_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAccomdationFees_OrgDtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAccomdationFees_OrgHdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAccomdationFees_Setting.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAccruedOpenningBalance.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAllowanceRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAllowanceRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAllowanceRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAnnualLeavePlanRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAnnualLeavePlanRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAnnualLeavePlanRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAttendance_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpAttendance_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBeginAnnualVacTransferdBal.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBorrowDelayRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBorrowDelayRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBorrowDelayRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBorrowRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBorrowRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBorrow_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBorrow_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpBorrow_Settings.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpCertifications.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpCompensatoryVacationRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpCompensatoryVacationRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpCompensatoryVacationRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpContractFinishNotifictions.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpContracts.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpCustodies.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpCustodies_History.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDelayRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDisciplinaryProcedureRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDisciplinaryProcedureRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDisciplinaryProcedureRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDismissalRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDismissalRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDismissalRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDues.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDuesVactionTicket.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDuesVactionTicketHistory.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpDues_History.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpEmploymentRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpEmploymentRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpEmploymentRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpExperiences.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpExtraRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpJobMissionRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpJobMissionRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpJobMissionRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmployeeContractPeriods.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmployeeContractPeriods_History.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmployeeContractsDetails.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Employees.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmployeesHistory.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmployeeStatus.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmploymentExperinceRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmploymentExperinceRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmploymentQualifyRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmploymentQualifyRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpOtherMonthlyValueRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpOverTimeOrder.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpOverTimeOrder_History.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpOverTimeRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpOverTimeRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpOverTimeRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpOverTime_Settings.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpPermissionOrder.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpPermissionOrder_History.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpPermissionRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpPermissionRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpPermissionRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpPermission_Settings.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpQualifications.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpRequestNotify.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpResignationRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpResignationRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpResignationRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpRewardRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpRewardRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpRewardRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpSecondmentRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpSecondmentRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpSecondmentRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpSecondment_Setting.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpSkills.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpSons.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpSpouses.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpTransferEmployeeRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpTransferEmployeeRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpTransferEmployeeRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpTravelTickectRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpTravelTickectRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpTravelTickectRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpVactionOrder.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpVactionOrder_History.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpVactionRecord.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpVactionRequest.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpVactionRequestWorkFlow.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_EmpWeekDaysDtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Emp_Assets.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Emp_Docs_Dtls_History.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Emp_Docs_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Emp_Doc_Notification_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Emp_HiringMonthStatus.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_ExperienceCategories.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Experiences.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_FinalFingerPrint.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_FingerPrint.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Firms.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_FPModeStatus.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_GradeHiringItem.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_GradeHiringItemFixed.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_GradeHiringItem_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_GradeHiringItem_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_GradeJobGroups.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Grades.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_GradeVactionTicket.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringEmpDuesRequestEffect.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringEmpReceivableDues_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringEmpReceivableDues_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringEmpSocialInsuranceEffect.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringMonthlyAccruedDues.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringMonthlyDuesPayment.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringMonth_ActuallDues_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringMonth_ActuallDues_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringMonth_DelayDues_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringMonth_DelayDues_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringMonth_FollowUp_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_HiringMonth_FollowUp_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Hiring_Items.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_InporgressAndApprovedRequests.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Jobs.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Locations.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_MahnaAllowanceRules.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_MilitaryStatuses.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_MonthlyEmpActualAttendanceDays.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Nationalities.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Notification_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Official_Vacations.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_OverTime_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_PermissionReasons.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_PermissionSubReasons.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Permission_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Projects.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Qualifications.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_QualificationTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Religions.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_RequestGroup_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_RequestStatus.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_RequestTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_RequestTypesDtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_RewardReasons.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_SecondmentTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_ShiftGroups.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Shifts.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Shifts_Details.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_ShiftWeekDaysDtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_SocialStatuses.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Social_InsuranceDeductionPercntg_SA.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Social_InsuranceTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_TicketTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_TimeAttendanceSetting.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Users.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_Vaction_Types.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_WeekPolicySystem.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_WeekPolicySystemDaysDtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Hr_WeekSysDays.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IntegrationGL\IntegrationManagement\MontlyPayrollPostingSettingDAL.cs" />
+    <Compile Include="IntegrationGL\Registeration\AccruedSettingDAL.cs" />
+    <Compile Include="IntegrationGL\Registeration\EntryFormattingDAL.cs" />
+    <Compile Include="IntegrationGL\Registeration\HireItemAccountAssignDAL.cs" />
+    <Compile Include="Login\LoginDAL.cs" />
+    <Compile Include="Menus.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Mhana_AllowanceTypes.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Mhana_AllowanceTypeSystem.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Payroll\Definition\EmpAccruedOpenningBalanceDAL.cs" />
+    <Compile Include="Payroll\PayrollManagement\HiringEmpReceivableDuesDAL.cs" />
+    <Compile Include="Payroll\PayrollManagement\HiringMonthlyAccruedDuesDAL.cs" />
+    <Compile Include="Payroll\PayrollManagement\HiringMonth_FollowUpDAL.cs" />
+    <Compile Include="Payroll\PayrollManagement\PreparingPayrollwithAccrualDAL.cs" />
+    <Compile Include="Payroll\Registeration\Hiring_ItemsDAL.cs" />
+    <Compile Include="Payroll\Registeration\Social_InsuranceDeductionPercntg_SADAL.cs" />
+    <Compile Include="Payroll\Registeration\Social_InsuranceTypesDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimeAttendance\EmpFinalFingerPrintDAL.cs" />
+    <Compile Include="TimeAttendance\EmpAttendancePreparingDAL.cs" />
+    <Compile Include="TimeAttendance\EmpDailyTimeSheetDAL.cs" />
+    <Compile Include="TimeAttendance\EmpAttendanceDAL.cs" />
+    <Compile Include="TimeAttendance\EmpMonthlyAttendanceSettingDAL.cs" />
+    <Compile Include="TimeAttendance\MonthlyEmpActualAttendanceDaysDAL.cs" />
+    <Compile Include="TimeAttendance\Registration\ShiftsDAL.cs" />
+    <Compile Include="TransLog.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TxtEmployeeData.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserManagement\AppUsersMenuPriviledgeDAL.cs" />
+    <Compile Include="UserManagement\UserMenuDAL.cs" />
+    <Compile Include="UserManagement\AppRolesMenuPriviledgeDAL.cs" />
+    <Compile Include="UserManagement\MenusDAL.cs" />
+    <Compile Include="UserManagement\RolesDAL.cs" />
+    <Compile Include="UserManagement\UsersDAL.cs" />
+    <Compile Include="WorkFlow_Dtls.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WorkFlow_Hdr.cs">
+      <DependentUpon>AthelHRModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="AthelHRModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AthelHRModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AthelHRModel.edmx.diagram">
+      <DependentUpon>AthelHRModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BOL\BOL.csproj">
+      <Project>{12db5900-786b-4e41-bbb3-19d9fb962696}</Project>
+      <Name>BOL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AthelHRModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AthelHRModel.edmx</DependentUpon>
+      <LastGenOutput>AthelHRModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="AthelHRModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AthelHRModel.edmx</DependentUpon>
+      <LastGenOutput>AthelHRModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
